@@ -450,7 +450,8 @@ class ForgetPWForm(forms.Form):
                 'placeholder': u"手机号",
                 'type': 'text',
                 'name': 'name',
-                'class': 'inputxt'
+                'class': 'inputxt',
+                #'ajaxurl': '/forgetpw/'
             }
         ),
     )

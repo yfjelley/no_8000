@@ -8,7 +8,7 @@
 .user_list li{ height:30px; line-height:30px;}
 .user_list li a{ font-size:14px; font-weight:bold; padding-left:20px; height:30px; line-height:30px; display:block;}
 .user_list li a.active,.user_list li a:hover{ background:#ffb2b2; color:#c95124;}
-.user_right{ width:846px;height:100%;}
+.user_right{ width:846px;height:100%;margin-bottom:35px;}
 .user_message{ padding:20px 40px;}
 .user_title{ font-size:18px; font-weight:bold; margin-bottom:20px;}
 .user_detail dt{ float:left;}

@@ -1,4 +1,4 @@
-﻿html,body{height: 100%; margin: 0; padding: 0;}
+html,body{height: 100%; margin: 0; padding: 0;}
 *{ margin:0; padding:0;color:#4c4c4c;}
 body { margin:0 auto; font-size:12px; font-family:"Microsoft YaHei","simsun","Helvetica Neue","Arial", "Helvetica", "sans-serif"; }
 ul,dl,dt,dd,h1,h2,h3,h4,h5,h6,form { padding:0; margin:0;}
@@ -58,9 +58,9 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .user_con{ width:1024px; margin:0 auto;}
 
 
-#container {min-height:65%;height: auto; position: relative;background:#EEEEF0;}
+#container {min-height: 100%;height: auto; position: relative;}
 /*底部*/
-#footer{ width:100%;position: absolute; clear:both;text-algin:center;}
+#footer{ width:100%;position: absolute;clear:both;text-algin:center;}
 .footer {width:100%; color:#333; text-align:center;font-size:14px;}
 .footer a.ico,.footer a.ico1{ margin-top:5px; display:inline-block; width:32px; height:32px;}
 .footer a:hover{ color:#ff0000;}
@@ -156,4 +156,3 @@ placeholder{
 .Validform_wrong{color: red;padding-left: 20px;white-space: nowrap; background:url(../images/error.png) no-repeat 0 center;}
 .Validform_right{color: #71b83d;padding-left: 20px; background:url(../images/right.png) no-repeat 0 center;}
 #Validform_msg{ display:none;}
-.user_conter{height:100%;}

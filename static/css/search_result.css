@@ -1,4 +1,4 @@
-.mt3{ margin-top:3px;}
+﻿.mt3{ margin-top:3px;}
 .search_content,.search_list,.search_term,.search_term div,.search_outside{ overflow:hidden;}
 .search_content{ width:800px; margin-left:23%;}
 .search_result_box{padding:0 20px; border-radius:5px;background:#FFFFFF;}
@@ -39,7 +39,7 @@
 .seach_cheek{ display:block; background:#c50512; color:#fff; text-align:center; line-height:30px; height:30px; font-size:14px; width:80px;}
 .seach_cheek:hover{ background:#d23c46; color:#fff;}
 .c_red{ font-size:14px; color:#ff0000; font-weight:bold;}
-.search_bd_no{ border:none; background:#FFFFFF;margin-bottom:245px;}
+.search_bd_no{ border:none; background:#FFFFFF;margin-bottom:30px;}
 #search_show{ display:none;}
 .search_reorder{ padding-top:10px;text-align:right; background:#FFFFFF;}
 .search_reorder a{ display:inline-block; padding:0 8px; margin-left:10px; height:24px; line-height:24px;}
