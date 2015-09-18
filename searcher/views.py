@@ -158,10 +158,8 @@ def login(request):
         code = request.REQUEST.get('log_code', None)
         if username is None:
             form = LoginForm(request.POST)
-            print(form)
             if form.is_valid():
                 cd = form.clean()
-                print(cd)
                 username = cd['username']
                 pwd = cd['password']
                 code = cd['vcode']
@@ -194,15 +192,12 @@ def forgetpw(request):
             cd = form.clean()
             username = cd['username']
             _code = request.session.get('sms_code')
-            print "_code",_code
             smscode = cd['smscode']
             user = User.objects.get(username=username)
             pw = user.userinformation.abcdefg
-            print type(pw), type(smscode), type(_code)
-            print user ,pw
+
 
             if pw is not None and _code == int(smscode):
-                print 'index iiff'
                 user = auth.authenticate(username=username, password=pw)
                 if user is not None and user.is_active:
                     auth.login(request, user)
@@ -285,13 +280,10 @@ def checkvcode(request):
 def checksmscode(request):
     if_smscode = request.POST.get('name', None)
     _code = request.session.get("sms_code")
-    print _code
-    print if_smscode
     if if_smscode:
         response = HttpResponse()
         response['Content-Type'] = "application/json"
         smscode = request.POST.get('param', None)
-        print smscode
         if _code  == int(smscode):
             response.write('{"info": "","status": "y"}')
             return response
@@ -300,9 +292,7 @@ def checksmscode(request):
             return response
 
 def register(request):
-    print request
     if request.method == 'POST':
-        print "xxxx"
         response = HttpResponse()
         response['Content-Type'] = "text/javascript"
         u_ajax = request.POST.get('name', None)
@@ -317,11 +307,9 @@ def register(request):
                 response.write('{"info": "用户可以使用","status": "y"}')
                 return response
         form = RegisterForm(request.POST)
-        print form.errors
-        print dir(form)
+
 
         if form.is_valid():
-            print "ddd"
             cd = form.cleaned_data
             username = cd['username']
             pwd1 = cd['password']
@@ -329,7 +317,6 @@ def register(request):
             #em = cd['email']
             # nickname = cd['nickname']
             smscode = cd['smscode']
-            print smscode
             code = cd['vcode']
             ca = Captcha(request)
             flag = 0
@@ -358,7 +345,6 @@ def register(request):
                 #直接定向到首页
                 return HttpResponseRedirect(reverse('searchindex'))
         else:
-            print "eeee"
             return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
     else:
         form = RegisterForm()
@@ -554,7 +540,6 @@ def myfavorite(request, tid):
 
 def platform(request):
     pfs = Platform.objects.all()
-    # print(pfs)
     return render_to_response("platform.html", {'platforms': pfs}, context_instance=RequestContext(request))
 
 
@@ -732,15 +717,12 @@ def phone_infoPage(request):
 
 import urllib2, urllib, hashlib, random
 def send_smscode(request):
-    print request
     phoneNum = request.POST.get('phoneNum', '')
-    print phoneNum
     m = hashlib.md5()
     m.update('cs20150727')
     random_code = random.randint(1000, 9999)
     request.session["sms_code"] = random_code
     content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
-    print content
     data = """
               <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">
               <E_Time></E_Time>
@@ -761,6 +743,4 @@ def send_smscode(request):
                                headers= {'Content-Type':'text/xml'},
                                data = data
                               )
-    print "send phone"
-    print opener.open(request).read()
     return HttpResponse()

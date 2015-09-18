@@ -95,7 +95,7 @@ input.login_butt{display:inline-block;border:0}
 .login_retrieve:hover{ background:#f2f2f2; color:#4c4c4c;}
 .get_pwd{ padding:10px 0;height:400px; background-color:#FFF;width:600px; z-index:999;position:relative;left:450px;top:50px;}
 .get_all{margin-top:40px;}
-#ul3{margin:30px 0;font-size:12px;}
+#ul3{margin:20px 0;font-size:12px;}
 #ul3{line-height:35px;}
 #ul3 label{margin-left:160px;}
 #ul5{margin-top:30px; margin-left:50px;}
@@ -104,7 +104,7 @@ input.login_butt{display:inline-block;border:0}
 #print_ucon .elul1 input[type="text"]{width:400px;height:40px;margin-left:50px;}
 #print_ucon .elul2 input[type="text"]{width:130px; height:40px;}
 #print_ucon .label1{margin-left:-1px;}
-#print_ucon .label2{margin-left:190px;}
+#print_ucon .label2{margin-left:220px;}
 #print_ucon{margin-left:40px;}
 #print_ucon{line-height:20px}
 #print_ucon .elul2 {margin-left:265px;}
