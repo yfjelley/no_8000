@@ -26,4 +26,9 @@ def conf_value(name):
     return getattr(conf, name, "")
 
 
+def phone_cut(name):
+    return ''.join([name[0:3],'****',name[-4:]]).strip()
+register.filter(phone_cut)
+
+
 

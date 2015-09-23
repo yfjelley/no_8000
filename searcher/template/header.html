@@ -239,7 +239,7 @@
     <ul id="top_r" class="top_name">
         <div id="logged">
             <a id="check_log" style="display: none">1</a>
-            <li><a href="#"><img src="{{ user.userinformation.photo_url }}"/></a>{{ user.username }}
+            <li><a href="#"><img src="{{ user.userinformation.photo_url }}"/></a>{{ user.username |phone_cut}}
                 <ul>
                     <li><a href="{% url 'userinformation' %}">我的资料</a></li>
                     <li><a href="{% url 'logout' %}" onClick="T_Logout()">退出</a></li>
