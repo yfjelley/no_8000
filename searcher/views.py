@@ -721,7 +721,7 @@ import urllib2, urllib, hashlib, random
 def send_smscode(request):
     phoneNum = request.POST.get('phoneNum', '')
     m = hashlib.md5()
-    m.update('cs20150727')
+    m.update('shcdjr2')
     random_code = random.randint(1000, 9999)
     request.session["sms_code"] = random_code
     content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
@@ -737,7 +737,7 @@ def send_smscode(request):
               </Task>
               </Item>
               </Group>
-           """ % ("cs20150727", m.hexdigest().upper(), int(phoneNum), content.decode("utf-8").encode("GBK"))
+           """ % ("shcdjr", m.hexdigest().upper(), int(phoneNum), content.decode("utf-8").encode("GBK"))
 
     cookies = urllib2.HTTPCookieProcessor()
     opener = urllib2.build_opener(cookies)
@@ -746,4 +746,5 @@ def send_smscode(request):
                                headers= {'Content-Type':'text/xml'},
                                data = data
                               )
+    print opener.open(request).read()
     return HttpResponse()
