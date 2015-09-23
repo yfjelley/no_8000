@@ -11,6 +11,8 @@
                     {% ifequal flag 4 %} class="active" {% endifequal %}>标的收藏管理</a></li>
             <li><a href="{% url 'myfavorite' 5 %}"
                     {% ifequal flag 5 %} class="active" {% endifequal %}>平台收藏管理</a></li>
+            <li><a href="{% url 'user_updatepwd' %}"
+                    {% ifequal flag 6 %} class="active" {% endifequal %}>个人修改密码</a></li>               
         </ul>
     </div>
 </div>

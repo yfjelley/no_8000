@@ -29,8 +29,11 @@ window.setTimeout("update(" + i + ")",i*1000);
 window.setTimeout("timer()",wait); 
 } 
 $("#rulesubmit").click(function(){
+  alert(1);
   var username = $("input[name=username]").val();
-  if(username){
+  var vcode = $("input[name=vcode]").val();
+  alert(vcode);
+  if(username && vcode){
   $.post("/send_smscode/", {"phoneNum":username}, function(){});
   getValidateCode();}
   else{alert("请输入手机号！");}

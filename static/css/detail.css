@@ -35,7 +35,7 @@ stt_img img{width:65px;height:65px; padding-bottom:20px;}
 
 /***********************************/
 .detail1{width:100%;height:100%;margin-left:165px;}
-.detail_border{width:545px; height:360px; background:#FFFFFF;float:left;margin-left:20px;margin-top:30px;margin-bottom:140px;}
+.detail_border{width:545px; height:360px; background:#FFFFFF;float:right;margin-right:40px;margin-top:50px;margin-bottom:80px;}
 .detail_hdimg{height:70px;}
 .detail_hdimg img{ width:200px; height:65px;margin-left:170px;padding-top:20px;}
 .bidname{margin-top:20px;}

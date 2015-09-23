@@ -714,6 +714,8 @@ def disclaimer(request):
 def phone_infoPage(request):
     return render_to_response('test_phone.html', context_instance=RequestContext(request))
 
+def user_updatepwd(request):
+    return render_to_response('user_updatepwd.html', context_instance=RequestContext(request))
 
 import urllib2, urllib, hashlib, random
 def send_smscode(request):
@@ -723,6 +725,7 @@ def send_smscode(request):
     random_code = random.randint(1000, 9999)
     request.session["sms_code"] = random_code
     content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
+    print content
     data = """
               <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">
               <E_Time></E_Time>

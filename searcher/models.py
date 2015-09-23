@@ -177,7 +177,7 @@ class UserInformation(models.Model):
     user = models.OneToOneField(User)
     photo_url = models.URLField(blank=True, null=True)
     nickname = models.CharField('昵称', max_length=30, blank=True, null=True)
-    realname = models.CharField('真实姓名', max_length=20, blank=True, null=True)
+    realname = models.CharField('昵 称', max_length=20, blank=True, null=True)
     gender = models.CharField('性别', max_length=1, choices=GENDER_CHOICES, null=True, default='S')  # M/F
     birthday = models.DateField('生日', blank=True, null=True)
     cellphone = models.CharField('手机号码', max_length=11, blank=True, null=True)

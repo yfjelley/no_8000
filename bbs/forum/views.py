@@ -322,7 +322,7 @@ def create_topic(request, node_id):
                                   context_instance=RequestContext(request))
     elif request.method == 'POST':
             if not request.user.is_authenticated():
-                        return error(request, '请登陆123', reverse('signin'))
+                        return error(request, '请登录123', reverse('signin'))
             t = topic()
             t.content = request.POST.get('content') or ''
             t.content = t.content.replace("<img>", "<img class = 'bbs_topic_img' src='")
