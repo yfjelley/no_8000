@@ -26,7 +26,7 @@
                             </div>
                             <div class="form-group">
                                 <label>{% trans 'author' %}</label>
-                                <input class="form-control" name="user" value="{{topic.user.username}}" disabled>
+                                <input class="form-control" name="user" value="{{topic.user.username|phont_cut}}" disabled>
                             </div>
                             <div class="form-group">
                                 <label>{% trans 'node' %}</label>
