@@ -1,5 +1,6 @@
 {% load i18n %}
 {% load humanize %}
+{% load settingsvalue %}
 {% load pagination_tags %}
    <div class="bbs_content bbs_post mt10">
    <div class="bbs_navigation_bar">
@@ -26,18 +27,18 @@
 		<div id="topic-{{t.id}}" >
           <dl class="bbs_note">
            {% ifequal user.id None %}
-            <dt><a href="{% url 'login' %}"><img title="{{t.user.username}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
+            <dt><a href="{% url 'login' %}"><img title="{{t.user.username|phone_cut}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
            {% else %}
-            <dt><a href="{% url 'user_info' t.user.id %}"><img title="{{t.user.username}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
+            <dt><a href="{% url 'user_info' t.user.id %}"><img title="{{t.user.username|phone_cut}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
            {% endifequal %}
            <dd>
                <h3><a href="{% url 'topic_view' t.id %}">{{t.title}}</a></h3>
                <p>
                    <a href="{% url 'node_view' t.node.id%}">{{t.node.title}}</a> •
                   {% ifequal user.id None %}
-                      <a href="{% url 'login' %}">{{t.user.profile.username}}</a> •
+                      <a href="{% url 'login' %}">{{t.user.profile.username|phone_cut}}</a> •
                   {% else %}
-                      <a href="{% url 'user_info' t.user.id %}">{{t.user.profile.username}}</a> •
+                      <a href="{% url 'user_info' t.user.id %}">{{t.user.profile.username|phone_cut}}</a> •
                   {% endifequal %}
                    {{t.click}}浏览 • {{t.time_created | naturaltime}}
                </p>
