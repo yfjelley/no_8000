@@ -25,11 +25,17 @@
 <script type="text/javascript">
 $(function(){
     $('#submit_password').click(function(){
-             var formdata = $("#formPW").serialize();
-             $.post("{% url 'safecenter' %}",
-                     formdata,
-                     function(data){ $('#safe_center').html(data.content_html);}
-                     );
+             var password = $("input[name=password]").val();
+             var password2 = $("input[name=password2]").val();
+             if(password.length >5){
+                 if(password == password2){
+                     var formdata = $("#formPW").serialize();
+                     $.post("{% url 'safecenter' %}",
+                             formdata,
+                             function(data){ $('#safe_center').html(data.content_html);}
+                             );
+                 }else{alert("两次输入的密码不一致！");};
+             }else{alert("密码至少6位");};
 	});
 });
 </script>
