@@ -24,7 +24,7 @@ from django.template.loader import get_template
 from django.core.files.storage import FileSystemStorage
 from ddbid.settings import EMAIL_HOST_USER, EMAIL_HOST_PASSWORD
 
-from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPWForm
+from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPWForm,ModfiyPWForm
 from searcher.inner_views import index_loading, data_filter, result_sort, get_pageset, get_user_filter, user_auth, \
     refresh_header
 from searcher.models import Bid, UserFavorite, Platform, UserInformation, DimensionChoice, UserFilter, UserReminder, \
@@ -715,7 +715,8 @@ def phone_infoPage(request):
     return render_to_response('test_phone.html', context_instance=RequestContext(request))
 
 def user_updatepwd(request):
-    return render_to_response('user_updatepwd.html', context_instance=RequestContext(request))
+    form = ModfiyPWForm()
+    return render_to_response('user_updatepwd.html',{'form':form}, context_instance=RequestContext(request))
 
 import urllib2, urllib, hashlib, random
 def send_smscode(request):
@@ -748,3 +749,175 @@ def send_smscode(request):
                               )
     print opener.open(request).read()
     return HttpResponse()
+
+def send_smscode_modify(request):
+    phoneNum = request.POST.get('phoneNum', '')
+    user = User.objects.filter(username=int(phoneNum))
+    print user
+    if not len(user):
+        print "ceshi"
+        m = hashlib.md5()
+        m.update('shcdjr2')
+        random_code = random.randint(1000, 9999)
+        request.session["sms_code"] = random_code
+        content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
+        print content
+        data = """
+                  <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">
+                  <E_Time></E_Time>
+                  <Item>
+                  <Task>
+                  <Recive_Phone_Number>%d</Recive_Phone_Number>
+                  <Content><![CDATA[%s]]></Content>
+                  <Search_ID>111</Search_ID>
+                  </Task>
+                  </Item>
+                  </Group>
+               """ % ("shcdjr", m.hexdigest().upper(), int(phoneNum), content.decode("utf-8").encode("GBK"))
+
+        cookies = urllib2.HTTPCookieProcessor()
+        opener = urllib2.build_opener(cookies)
+        request = urllib2.Request(
+                                   url = r'http://userinterface.vcomcn.com/Opration.aspx',
+                                   headers= {'Content-Type':'text/xml'},
+                                   data = data
+                                  )
+        print "send phone"
+        print opener.open(request).read()
+    else:
+        print "xxxxxxxxxxxxxxxxx"
+    return HttpResponse()
+
+def safecenter(request):
+    #print "safecenter:", request
+    if request.method =="POST":
+        form = ModfiyPWForm(request.POST)
+        if form.is_valid():
+            print "form is valid"
+            username = request.user.username
+            print username
+
+            user = User.objects.get(username=username)
+            pw = user.userinformation.abcdefg
+            print  pw,user
+
+            cd = form.cleaned_data
+            password = cd['password']
+            password2 = cd['password2']
+
+            if int(password) == int(password2) :
+                user = auth.authenticate(username=username, password=pw)
+                if user is not None and user.is_active:
+                    user.set_password(password)
+                    user.save()
+                    user.userinformation.abcdefg = password
+                    user.userinformation.save()
+                    t = get_template('success.html')
+                    content_html = t.render(
+                            RequestContext(request,{'form':form,'status':u'密码修改成功！'}))
+
+                    payload = {
+                            'content_html': content_html,
+                            'success': True,
+                        }
+                    return HttpResponse(json.dumps(payload), content_type="application/json")
+
+            else:
+                print "is not valid"
+                t = get_template('success.html')
+                content_html = t.render(
+                        RequestContext(request,{'form':form,'status':u'两次输入密码不一致'}))
+
+                payload = {
+                        'content_html': content_html,
+                        'success': True,
+                    }
+                return HttpResponse(json.dumps(payload), content_type="application/json")
+        else:
+            print "form error",form.errors
+            print "form is not valid kkkkkk"
+
+            print "xxxxxxxxxxxxxxxx"
+            t = get_template('success.html')
+            content_html = t.render(
+                    RequestContext(request,{'form':form,'status':u'输入非法！'}))
+
+            payload = {
+                    'content_html': content_html,
+                    'success': True,
+                }
+            return HttpResponse(json.dumps(payload), content_type="application/json")
+
+    else:
+        print "safecenter"
+        form = ModfiyPWForm()
+        t = get_template('safecenter.html')
+        content_html = t.render(
+                RequestContext(request,{'form':form}))
+
+        payload = {
+                'content_html': content_html,
+                'success': True,
+            }
+        return HttpResponse(json.dumps(payload), content_type="application/json")
+
+
+def change_phone_number(request):
+    if request.method == "POST":
+        form = ForgetPWForm(request.POST)
+        print dir(form)
+        print form.errors
+        print form
+        if form.is_valid():
+            cd = form.clean()
+            username = cd['username']
+            _code = request.session.get('sms_code')
+            smscode = cd['smscode']
+
+            print _code ,smscode
+
+            if  _code == int(smscode) :
+                user = auth.get_user(request)
+                user.username = username
+                user.save()
+                t = get_template('success.html')
+                content_html = t.render(
+                        RequestContext(request,{'form':form,'status':u'手机号修改成功！'}))
+
+                payload = {
+                        'content_html': content_html,
+                        'success': True,
+                    }
+                return HttpResponse(json.dumps(payload), content_type="application/json")
+            else:
+                t = get_template('success.html')
+                content_html = t.render(
+                        RequestContext(request,{'form':form,'status':u'验证码错误！'}))
+
+                payload = {
+                        'content_html': content_html,
+                        'success': True,
+                    }
+                return HttpResponse(json.dumps(payload), content_type="application/json")
+
+        else:
+            t = get_template('success.html')
+            content_html = t.render(
+                    RequestContext(request,{'form':form,'status':u'非法输入！'}))
+
+            payload = {
+                    'content_html': content_html,
+                    'success': True,
+                }
+            return HttpResponse(json.dumps(payload), content_type="application/json")
+    else:
+        form = ForgetPWForm()
+        t = get_template('changephone.html')
+        content_html = t.render(
+                RequestContext(request,{'form':form}))
+
+        payload = {
+                'content_html': content_html,
+                'success': True,
+            }
+        return HttpResponse(json.dumps(payload), content_type="application/json")

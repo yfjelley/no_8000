@@ -79,7 +79,7 @@ class LoginForm(forms.Form):
     def valiatetype(self, a):
         global msg
         if a == 2:
-            msg = u"用户不存在"
+            msg = u"登录失败！"
             self._errors["username"] = self.error_class([msg])
         elif a == 3:
             msg = u"用户被锁定"
@@ -481,5 +481,34 @@ class ForgetPWForm(forms.Form):
         if a == 10:
             msg = u"修改密码成功!"
             self._errors["username"] = self.error_class([msg])
+
+class ModfiyPWForm(forms.Form):
+     password = forms.CharField(
+        required=True,
+        label=u"密码",
+        error_messages={'required': u'请输入新密码'},
+        widget=forms.PasswordInput(
+            attrs={
+                'placeholder': u"密码",
+                'type': 'password',
+                #'name': 'userpassword',
+                'class': 'inputxt'
+            }
+        ),
+     )
+     password2 = forms.CharField(
+        required=True,
+        label=u"确认密码",
+        error_messages={'required': u'再次输入新密码'},
+        widget=forms.PasswordInput(
+            attrs={
+                'placeholder': u"确认密码",
+                'type': 'password',
+                #'name': 'userpassword2',
+                'class': 'inputxt'
+            }
+        ),
+     )
+
 
 

@@ -24,10 +24,15 @@
         }
     </script>
 	<script>
-		$(function(){			   	
-			$('#anquanzhongxin').find('li').click(function(){
-				var id =$(this).data('dd');			
-				$('#'+id).show().siblings().hide();
+		$(function(){
+            $.get("/safecenter/",function(data){ $('#safe_center').html(data.content_html);});
+		    $('#anquanzhongxin').find('li').click(function(){
+				var id =$(this).data('dd');
+				alert(id);
+				if (id =='xgmm' )
+				{$.get("/safecenter/",function(data){ $('#safe_center').html(data.content_html);});}
+				else
+				{$.get("/change_phone_number/",function(data){ $('#safe_center').html(data.content_html);});};
 			});
 		});
 	</script>
@@ -84,41 +89,11 @@
                             </ul>
                         </div>
                         <div style="margin-top:-45px;" class="prosonPage2">
-                        	<form class="registerform" action="" method="post" name="form1">
-                                <div id="xgmm">
-                                    <ul class="pwdpadding">
-                                        <li>
-                                            <label>新密码</label>
-                                            <label style="margin-left:15px;"><input type="password" /></label>
-                                        </li>
-                                        <li>
-                                            <label>确认密码</label>
-                                            <label style="margin-left:3px;"><input type="password" /></label>
-                                        </li>
-                                        <li style="margin-left:75px;">
-                                            <label><input type="button" class="resetpwd-btn" value="确认修改"/></label>
-                                        </li>
-                                    </ul>
+
+                                <div id="safe_center">
                                 </div>
-                                <div id="ghsj" class="displays">
-                                    <ul class="pwdpadding2">
-                                        <li class="new_call">
-                                            <label>新手机号</label>
-                                            <label><input type="text" /></label>
-                                        </li>
-                                        <li class="message_yz" style="float:left">
-                                            <label>短信验证</label>
-                                            <label><input type="text" /></label>                                            
-                                        </li>
-                                        <li class="send_code" style="float:left; margin-left:10px;">
-                                            <label><input id="rulesubmit" type="button" class="send-btn" value="发送验证码"/></label>                               
-                                        </li>
-                                        <li style="margin-left:70px; clear:both">
-                                            <label><input type="button" class="resetpwd-btn" value="确认修改" /></label>
-                                        </li>
-                                    </ul>																		
-                                </div>
-							</form>
+
+
                         </div>
 					</div>
 				</div>

@@ -31,6 +31,10 @@ urlpatterns = patterns('searcher.views',
     url(r'^phone_infoPage/$',  'phone_infoPage', name='phone_infoPage'),
     url(r'^send_smscode/$',  'send_smscode', name='send_smscode'),
     url(r'^checksmscode/$',  'checksmscode', name='checksmscode'),
+    url(r'^safecenter/$',  'safecenter', name='safecenter'),
+    url(r'^change_phone_number/$',  'change_phone_number', name='change_phone_number'),
+    url(r'^send_smscode_modify/$',  'send_smscode_modify', name='send_smscode_modify'),
+
 )
 
 urlpatterns += patterns('searcher.viewss',
