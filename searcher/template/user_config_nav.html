@@ -3,8 +3,8 @@
         <ul class="user_list">
             <li><a href="{% url 'userinformation' %}"
                     {% ifequal flag 1 %} class="active" {% endifequal %}>个人信息</a></li>
-            <li><a href="{% url 'do_reminder' %}"
-                    {% ifequal flag 2 %} class="active" {% endifequal %}>提醒设置</a></li>
+           <!-- <li><a href="{% url 'do_reminder' %}"
+                    {% ifequal flag 2 %} class="active" {% endifequal %}>提醒设置</a></li>-->
             <li><a href="{% url 'save_filter' %}"
                     {% ifequal flag 3 %} class="active" {% endifequal %}>快捷查询设置</a></li>
             <li><a href="{% url 'myfavorite' 4 %}"

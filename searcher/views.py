@@ -219,39 +219,6 @@ def forgetpw(request):
         form = ForgetPWForm()
         return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
 
-"""
-def forgetpw(request):
-    if request.method == 'POST':
-        form = ForgetPW(request.POST)
-        if form.is_valid():
-            cd = form.clean()
-            username = cd['username']
-            user = User.objects.get(username=username)
-            pw = user.userinformation.abcdefg
-            context = u'密码为' + str(pw)
-            try:
-                send_mail(
-                    subject=u'密码找回',
-                    message=context,
-                    from_email=EMAIL_HOST_USER,  # 发件邮箱
-                    recipient_list=[user.userinformation.email],
-                    fail_silently=False,
-                    auth_user=EMAIL_HOST_USER,  # SMTP服务器的认证用户名
-                    auth_password=EMAIL_HOST_PASSWORD,  # SMTP服务器的认证用户密码
-                    connection=None
-                )
-                message = u'邮件已发送'
-            except:
-                message = u'邮件发送失败'
-
-            return render_to_response('forget_password.html', {'message': message},
-                                      context_instance=RequestContext(request))
-        else:
-            return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
-    else:
-        form = ForgetPW()
-        return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
-"""
 
 def verifycode(request):
     figures = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -290,6 +257,38 @@ def checksmscode(request):
         else:
             response.write('{"info": "验证码错误","status": "n"}')
             return response
+
+def checksmscode(request):
+    if_smscode = request.POST.get('name', None)
+    _code = request.session.get("sms_code")
+    if if_smscode:
+        response = HttpResponse()
+        response['Content-Type'] = "application/json"
+        smscode = request.POST.get('param', None)
+        if _code  == int(smscode):
+            response.write('{"info": "","status": "y"}')
+            return response
+        else:
+            response.write('{"info": "验证码错误","status": "n"}')
+            return response
+
+def checkuser(request):
+        response = HttpResponse()
+        print "checkuser"
+        response['Content-Type'] = "text/javascript"
+        u_ajax = request.POST.get('name', None)
+        if u_ajax:
+            response['Content-Type'] = "application/json"
+            r_u = request.POST.get('param', None)
+            u = User.objects.filter(username=r_u)
+            print "xxxxxxxxxxx"
+            if u.exists():
+                response.write('{"info": "","status": "y"}')
+                return response
+            else:
+                print "ddddddddd"
+                response.write('{"info": "用户不存在","status": "n"}')  # 用户不存在
+                return response
 
 def register(request):
     if request.method == 'POST':

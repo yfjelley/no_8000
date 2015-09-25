@@ -301,7 +301,7 @@ def wxcheck(request):
             CreateTime = xml.find('CreateTime').text
             MsgType = xml.find('MsgType').text
             reply_xml = "return_str"
-
+            print "openid is :"%openid
             if MsgType == "event":
                Event = xml.find('Event').text
                if Event == "subscribe":
@@ -312,7 +312,7 @@ def wxcheck(request):
                    <MsgType><![CDATA[text]]></MsgType>
                    <Content><![CDATA[%s]]></Content>
                    </xml>""" % (FromUserName, ToUserName, CreateTime,
-                                "欢迎天天搜贷！为了您更好的使用我们的服务，请先绑定<a href='www.ddbid.com/wx_register?openid=%s'>创建</a>账号，谢谢！"%(FromUserName,FromUserName))
+                                "欢迎天天搜贷！为了您更好的使用我们的服务，请先绑定<a href='www.ddbid.com'>创建</a>账号，谢谢！"%(FromUserName,FromUserName))
 
                elif Event == "TEMPLATESENDJOBFINISH":
 

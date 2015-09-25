@@ -38,7 +38,8 @@ class LoginForm(forms.Form):
                 'placeholder': u"手机号",
                 'type': 'text',
                 'name': 'name',
-                'class': 'inputxt'
+                'class': 'inputxt',
+                'ajaxurl': '/checkuser/'
             }
         ),
     )
@@ -451,7 +452,7 @@ class ForgetPWForm(forms.Form):
                 'type': 'text',
                 'name': 'name',
                 'class': 'inputxt',
-                #'ajaxurl': '/forgetpw/'
+                'ajaxurl': '/checkuser/'
             }
         ),
     )

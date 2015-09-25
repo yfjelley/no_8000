@@ -3,20 +3,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>安全中心</title>
+    <script type="text/javascript" src="/static/js/timeplus.js"></script>
 <!--安全中心-->
     <form id="formPH" class="modifyPWform" action="" method="post" >
     <ul class="pwdpadding">
         <li>
             <label>新手机号</label>
-            <label style="margin-left:15px;">{{form.username}}</label>
+            <label style="margin-left:15px; line-height:50px;">{{form.username}}</label>
         </li>
-        <li  style="float:left; margin-left:20px;">
-                <label ><input type="button" id ="rulesubmit"  class="send-btn" value="发送验证码"/></label>
-        </li>
+       
         <li style="float:left">
-            <label>短信验证</label>
+            <label>短信验证&nbsp;&nbsp;</label>
             <label>{{form.smscode}}</label>
         </li>
+		<li  style="float:left; margin-left:20px;">
+               		                
+         <input type="button" id="rulesubmit" style="float:left;color:#FFFFFF; background-color:#4a3c70;border:1px solid #4a3c70; border-radius:3px;-webkit-border-radius:3px;z-index:1;width:94px;height:50px;margin-left:10px;" value="发送验证码" />
+          <label style="float:left"><div style="border:0px solid #000;width:90px;height:52px;"></div></label>
+        </li>
+		
+		 
+		
         <li style="margin-left:70px; clear:both">
             <label><input id ="submit_username" type="button" class="resetpwd-btn" value="确认修改"/></label>
         </li>

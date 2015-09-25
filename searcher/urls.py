@@ -27,6 +27,8 @@ urlpatterns = patterns('searcher.views',
     url(r'^contact_us/$',  'contact_us', name='contact_us'),
     url(r'^disclaimer/$',  'disclaimer', name='disclaimer'),
     url(r'^checkvcode/$',  'checkvcode', name='checkvcode'),
+
+     url(r'^checkuser/$',  'checkuser', name='checkuser'),
     url(r'^user_updatepwd/$',  'user_updatepwd', name='user_updatepwd'),
     url(r'^phone_infoPage/$',  'phone_infoPage', name='phone_infoPage'),
     url(r'^send_smscode/$',  'send_smscode', name='send_smscode'),
