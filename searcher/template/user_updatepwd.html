@@ -38,7 +38,7 @@
 	<style>
     *{list-style-type:none;}
     .ProCenter1{width:750px; height:150px;}
-    .ProCenter1 a{text-decoration:none; color:#000000; margin:0px 20px;}
+    .ProCenter1 a{text-decoration:none; color:#000000; margin:0px 20px;font-size:16px; font-weight:bold;}
     .ProCenter1 a:link,a:visited{ border-bottom-style:solid; border-color:transparent; border-width:3px;}
     .ProCenter1 a:hover{border-color:#e1604d;font-weight:bold; cursor:pointer}
     .ProCenter1{margin-top:40px;}
@@ -52,7 +52,7 @@
     .resetpwd-btn{border:1px solid #4a3c70;background:#4a3c70;width:120px;color:#FFFFFF;height:40px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px; margin-left:-20px;}
     .send-btn{color:#FFFFFF; background-color:#4a3c70;border:1px solid #4a3c70; border-radius:10px;-webkit-border-radius:3px;z-index:1;width:90px;height:30px;}
 	.send_code input[type="text"]{width:100px;height:30px;}
-	.user_pwd{padding:10px;}
+	.user_pwd{padding-left:20px;}
 	.user_box{ border:2px solid #ddd; border-radius:5px;overflow:hidden;}
     </style>
 </head>
@@ -75,17 +75,17 @@
                                 </li>
                                 <li style="margin-top:30px; margin-left:-20px" data-dd="xgmm" style="float:left">
                                     <a href="javascript:void(0)" id="removee">修改密码</a>
-									<div id="xgmnm" style="padding-left:10px;width:55px;height:1px; background:#CC3333;"></div>
+									
                                 </li>
                                 <li style="float:left; margin-top:-20px; margin-left:75px;">
-                                   <div style="width:1px;height:30px;background-color:#D5D5D5;overflow:hidden;"></div>
+                                   <div style="width:1px;height:25px;margin-left:10px;background-color:#D5D5D5;overflow:hidden;"></div>
                                 </li>
-                                <li style="margin-top:-18px; margin-left:90px" data-dd="ghsj" style="float:left">
-                                    <a href="javascript:void(0)" id="addd"> 更换手机</a>
-									<div id="ghssj" style="padding-left:10px;width:55px;height:1px; background:#CC3333; display:none;"></div>
+                                <li id="addd" style="margin-top:-22px; margin-left:90px" data-dd="ghsj" style="float:left">
+                                    <a href="javascript:void(0)"> 更换手机</a>
+									
                                 </li>
                                 <li style="margin-top:20px; margin-left:-5px;">
-                                <div style="width:600px; height:1px; background-color:#D5D5D5;overflow:hidden;"></div>
+                                <div style="width:835px; height:1px; background-color:#D5D5D5;overflow:hidden;"></div>
                                 </li>			
                             </ul>
                         </div>
@@ -147,11 +147,11 @@
             }
         ]);		   
 	});
-	  $(".addd").click(function (e) {
+	  $("#addd").find("a").click(function(){
          alert("222222222222")
-	   document.getElementById("xgmnm").style.display="none";//隐藏  
+	   document.getElementById("#xgmnm").style.display="none";//隐藏  
   
-       document.getElementById("ghssj").style.display="";//显示 
+       document.getElementById("#ghssj").style.display="";//显示 
 	}
 </script>
 {% include "footer.html" %}           

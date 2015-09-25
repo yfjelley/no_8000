@@ -2,23 +2,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+.new_call input[type="text"]{height:30px;width:135px;}
+.resetpwd-btn{margin-left:1px;}
+</style>
 <title>安全中心</title>
     <script type="text/javascript" src="/static/js/timeplus.js"></script>
 <!--安全中心-->
     <form id="formPH" class="modifyPWform" action="" method="post" >
     <ul class="pwdpadding">
         <li>
-            <label>新手机号</label>
-            <label style="margin-left:15px; line-height:50px;">{{form.username}}</label>
+            <label style="font-size:14px;font-weight:bold;">新手机号</label>
+            <label class="new_call" style="margin-left:15px; ">{{form.username}}</label>
         </li>
        
         <li style="float:left">
-            <label>短信验证&nbsp;&nbsp;</label>
-            <label>{{form.smscode}}</label>
+            <label style="font-size:14px;font-weight:bold;">短信验证码</label>
+            <label class="new_call" style="margin-left:4px;">{{form.smscode}}</label>
         </li>
 		<li  style="float:left; margin-left:20px;">
                		                
-         <input type="button" id="rulesubmit" style="float:left;color:#FFFFFF; background-color:#4a3c70;border:1px solid #4a3c70; border-radius:3px;-webkit-border-radius:3px;z-index:1;width:94px;height:50px;margin-left:10px;" value="发送验证码" />
+         <input type="button" id="rulesubmit" style="float:left;color:#FFFFFF; background-color:#4a3c70;border:1px solid #4a3c70; border-radius:3px;-webkit-border-radius:3px;z-index:1;width:94px;height:30px;margin-left:10px;" value="发送验证码" />
           <label style="float:left"><div style="border:0px solid #000;width:90px;height:52px;"></div></label>
         </li>
 		
