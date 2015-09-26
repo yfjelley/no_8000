@@ -28,8 +28,16 @@ window.setTimeout("update(" + i + ")",i*1000);
 } 
 window.setTimeout("timer()",wait); 
 } 
+
 $("#rulesubmit").click(function(){
-getValidateCode();
+      var username = $("input[name=username]").val();
+      if($('#id_username').hasClass('inputxt Validform_error') || !username){
+        alert("请输入手机号！");
+      }
+      else{
+         $.post("/send_smscode_modify/", {"phoneNum":username}, function(){});
+        getValidateCode();
+      }
 });
 })();
 /*注意，我这里在测试的时候改成里匿名函数，其实不必这样做也可以实现 

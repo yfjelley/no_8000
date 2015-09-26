@@ -24,7 +24,7 @@ from django.template.loader import get_template
 from django.core.files.storage import FileSystemStorage
 from ddbid.settings import EMAIL_HOST_USER, EMAIL_HOST_PASSWORD
 
-from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPWForm,ModfiyPWForm
+from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPWForm,ModfiyPWForm,ModfiyPForm
 from searcher.inner_views import index_loading, data_filter, result_sort, get_pageset, get_user_filter, user_auth, \
     refresh_header
 from searcher.models import Bid, UserFavorite, Platform, UserInformation, DimensionChoice, UserFilter, UserReminder, \
@@ -258,19 +258,6 @@ def checksmscode(request):
             response.write('{"info": "验证码错误","status": "n"}')
             return response
 
-def checksmscode(request):
-    if_smscode = request.POST.get('name', None)
-    _code = request.session.get("sms_code")
-    if if_smscode:
-        response = HttpResponse()
-        response['Content-Type'] = "application/json"
-        smscode = request.POST.get('param', None)
-        if _code  == int(smscode):
-            response.write('{"info": "","status": "y"}')
-            return response
-        else:
-            response.write('{"info": "验证码错误","status": "n"}')
-            return response
 
 def checkuser(request):
         response = HttpResponse()
@@ -288,6 +275,24 @@ def checkuser(request):
             else:
                 print "ddddddddd"
                 response.write('{"info": "用户不存在","status": "n"}')  # 用户不存在
+                return response
+
+def checkuser_phone(request):
+        response = HttpResponse()
+
+        response['Content-Type'] = "text/javascript"
+        u_ajax = request.POST.get('name', None)
+        if u_ajax:
+            response['Content-Type'] = "application/json"
+            r_u = request.POST.get('param', None)
+            u = User.objects.filter(username=r_u)
+            print "xxxxxxxxxxx"
+            if u.exists():
+                response.write('{"info": "用户已存在","status": "n"}')  # 用户已存在
+                return response
+            else:
+                print "ddddddddd"
+                response.write('{"info": "","status": "y"}')
                 return response
 
 def register(request):
@@ -863,10 +868,9 @@ def safecenter(request):
 
 def change_phone_number(request):
     if request.method == "POST":
-        form = ForgetPWForm(request.POST)
+        form = ModfiyPForm(request.POST)
         print dir(form)
         print form.errors
-        print form
         if form.is_valid():
             cd = form.clean()
             username = cd['username']
@@ -910,7 +914,7 @@ def change_phone_number(request):
                 }
             return HttpResponse(json.dumps(payload), content_type="application/json")
     else:
-        form = ForgetPWForm()
+        form = ModfiyPForm()
         t = get_template('changephone.html')
         content_html = t.render(
                 RequestContext(request,{'form':form}))
