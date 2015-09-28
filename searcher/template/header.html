@@ -15,7 +15,7 @@
 <ul class="nav">
     <li style="margin-top:10px;"><img src="/static/images/logo_red.png" width="250" height="50"/></li>
     <li><a href="{% url 'searchindex' %}">首页</a></li>
-    <!--<li><a href="{% url 'do_reminder' %}" class="needlogin">提醒</a></li>-->
+    <li><a href="{% url 'do_reminder' %}" class="needlogin">提醒</a></li>
     <li><a href="{% url 'myfavorite' 4 %}" class="needlogin">收藏</a></li>
     <li><a href="{% url 'bbsindex' %}">社区</a></li>
 </ul>
@@ -24,49 +24,9 @@
     <ul id="top_r">
         <li><a class="#" href="{% url 'login' %}">登录</a>
 
-            <!--<form action="{% url 'login' %}" class="registerform">
-                <ul class="login" id="login-li">
-                    <li class="user">
-                        <input id="log_un" name="log_un" type="text" placeholder="用户名" class="inputxt"/>
-                    </li>
-                    <li class="pwd">
-                        <input id="log_pwd" name="log_pwd" type="password" placeholder="密码" class="inputxt"/>
-                    </li>
-                    <li class="yzm">
-                        <input id="log_code" name="log_code" type="text" placeholder="验证码" class="inputxt"
-                               ajaxurl="/checkvcode/"/>
-                        <a href="#"><img class="code_pic"
-                                         onclick="this.setAttribute('src',{% url 'verifycode' %} + '?nocache='+Math.random());"
-                                         src="{% url 'verifycode' %}"/></a>
-                    </li>
-                    <li><a href="#" id="btn_login" class="btn_login">登录</a></li>
-                    <li><a href="{% url 'forgetpw' %}" class="forget fl">忘记密码</a>
-                        <a href="{% url 'register' %}" class="reg fr" target="_Blank">立即注册</a></li>
-                    <li class="quick">快捷注册：</li>
-                    <li><a href="#" id="qqLoginBtn" class="qq" onClick="QQ_Login()" style="background: {% static 'images/qq.png' %}"></a>
-                        <a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx5705d3f981443fb8&redirect_uri=http%3A%2F%2Fddbid.com%2Fwx_is_first&response_type=code&scope=snsapi_login&state=STATE#wechat_redirect" class="wx"></a>
-                        <a href="#" id="wb_connect_btn" onClick="WB_Login()" class="web"></a>
-                    </li>
-                </ul>
-            </form>-->
         </li>
         <li>/</li>
         <li><a class="register_li" href="{% url 'register' %}">注册</a>
-            {#            <form action="" class="registerform1">#}
-            {#                <ul class="login reg" id="reg-li">#}
-            {#                    <li><input name="reg_un" type="text" placeholder="用户名" class="inputxt"/></li>#}
-            {#                    <li><input name="reg_pwd" type="password" placeholder="密码" class="inputxt"/></li>#}
-            {#                    <li><input name="reg_pwd2" type="password" placeholder="再输一次密码" class="inputxt"/></li>#}
-            {#                    <li><input name="reg_email" type="text" placeholder="邮箱" class="inputxt"/></li>#}
-            {#                    <li class="yzm">#}
-            {#                        <input name="reg_code" type="text" placeholder="验证码" class="inputxt"/>#}
-            {#                        <a href="#"><img class="code_pic"#}
-            {#                                         onclick="this.setAttribute('src',{% url 'verifycode' %} + '?nocache='+Math.random());"#}
-            {#                                         src="{% url 'verifycode' %}"/></a>#}
-            {#                    </li>#}
-            {#                    <li><a href="#" id="btn_reg" class="btn_login">注册</a></li>#}
-            {#                </ul>#}
-            {#            </form>#}
         </li>
     </ul>
     <script type="text/javascript">
@@ -239,12 +199,21 @@
     <ul id="top_r" class="top_name">
         <div id="logged">
             <a id="check_log" style="display: none">1</a>
-            <li><a href="#"><img src="{{ user.userinformation.photo_url }}"/></a>{{ user.username |phone_cut}}
-                <ul>
-                    <li><a href="{% url 'userinformation' %}">我的资料</a></li>
-                    <li><a href="{% url 'logout' %}" onClick="T_Logout()">退出</a></li>
-                </ul>
-            </li>
+            {% if user.userinformation.realname %}
+                <li><a href="#"><img src="{{ user.userinformation.photo_url }}"/></a>{{ user.userinformation.realname}}
+                    <ul>
+                        <li><a href="{% url 'userinformation' %}">我的资料</a></li>
+                        <li><a href="{% url 'logout' %}" onClick="T_Logout()">退出</a></li>
+                    </ul>
+                </li>
+            {% else %}
+                <li><a href="#"><img src="{{ user.userinformation.photo_url }}"/></a>{{ user.username |phone_cut}}
+                    <ul>
+                        <li><a href="{% url 'userinformation' %}">我的资料</a></li>
+                        <li><a href="{% url 'logout' %}" onClick="T_Logout()">退出</a></li>
+                    </ul>
+                </li>
+            {% endif %}
         </div>
     </ul>
     <script type="text/javascript">

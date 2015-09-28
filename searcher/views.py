@@ -580,15 +580,18 @@ def userinformation(request):
                 u_i = form1.save(commit=False)
                 if url:
                     u_i.photo_url = url
+
             except ObjectDoesNotExist:
                 u_i = form.save(commit=False)
                 u_i.user = user
                 u_i.photo_url = url
             u_i.save()
+            return render_to_response("user_information.html", {'form': form,"msg":u"保存成功",'user':user})
         else:
-            return render_to_response("user_information.html", {'form': form, 'flag': flag},
+            return render_to_response("user_information.html", {'form': form, "msg":u"保存失败",'flag': flag},
                                       context_instance=RequestContext(request))
-        return HttpResponseRedirect(reverse('userinformation'))
+        #return HttpResponseRedirect(reverse('userinformation'))
+        return render_to_response("user_information.html", {'form': form,"msg":u"保存成功"})
     else:
         try:
             form = UserInformationForm(instance=user.userinformation)

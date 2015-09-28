@@ -54,7 +54,7 @@
 
                   {% else %}
                       {% if t.user.userinformation.realname %}
-                        <a href="{% url 'user_info' t.user.id %}">{{t.user.userinformation.realname}}</a> •
+                        <a href="{% url 'user_info' t.user.id %}">{{t.user.realname}}</a> •
                       {% else %}
                         <a href="{% url 'user_info' t.user.id %}">{{t.user.username|phone_cut}}</a> •
                       {% endif %}

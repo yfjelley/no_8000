@@ -7,6 +7,7 @@
     <title>用户信息</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet"
           type="text/css"/>
     <script>
@@ -26,8 +27,18 @@
 
     <p class="help-block text-muted">png,jpg and gif only</p>
 
-    <div>{{ form.as_p }}</div>
+    <div>{{ form.as_p }}44444444</div>
     <input type="submit" value="提交">
 </form>
 </body>
+<script type="text/javascript">
+ $(document).ready(function () {
+   alert(1);
+   {% if msg %}
+      alert("{{msg}}")
+   {% endif %}
+
+    });
+
+</script>
 </html>

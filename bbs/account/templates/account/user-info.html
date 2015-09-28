@@ -7,8 +7,16 @@
 {% block left %}
 <div class="bbs_content bbs_post mt10">
     <div class="bbs_navigation_bar" style="padding-left: 10px;font-size: 16px">
-            <img class="avatar-large" src="{{user1.userinformation.photo_url}}" title="{{user1.username|phone_cut}}"/>
-            <p class="list-post-title"><strong>{{user1.profile.username|phone_cut}}</strong></p>
+        {% if user1.userinformation.realname %}
+            <img class="avatar-large" src="{{user1.userinformation.photo_url}}" title="{{user1.userinformation.realname}}"/>
+        {% else %}
+           <img class="avatar-large" src="{{user1.userinformation.photo_url}}" title="{{user1.username|phone_cut}}"/>
+        {% endif %}
+        {% if user1.profile.userinformation.realname %}
+            <p class="list-post-title"><strong>{{user1.profile.userinformation.realname}}</strong></p>
+        {% else %}
+           <p class="list-post-title"><strong>{{user1.profile.username|phone_cut}}</strong></p>
+        {% endif %}
             <p class="list-meta">#{{user1.id}} 注册日期 {{user1.date_joined|date:"Y-m-j  H:i:s"}}</p>
             {% if user.profile.website %}
             <p class="list-meta"><a target="_blank" href="{{user1.profile.website}}">{{user1.profile.website}}</a></p>
