@@ -68,7 +68,7 @@
 .bbs_ideas_left p{ color:#999; font-size:12px; height:24px; line-height:24px;}
 .bbs_ideas_right,.bbs_ideas_right a,.bbs_ideas_right a img{ width:48px; height:48px; display:inline-block;}
 .bbs_ideas_right{ margin-right:20px;}
-.bbs_article{ padding:20px 15px 0 15px; line-height:24px; margin-bottom:20px; font-size:16px;color:#000;}
+.bbs_article { padding: 20px 10px 0px;line-height: 24px;margin-bottom: 20px;font-size: 16px;color: #000;width: 775px;background: #FFF;}
 .bbs_article p{ line-height:24px; margin-bottom:20px; font-size:16px;color:#000;}
 .bbs_bottom{ background:#f2f2f2; height:30px;border-radius:5px; -moz-border-radius: 5px;-webkit-border-radius:5px;  padding:0 10px; line-height:30px;}
 .jiathis_style{ padding-top:7px;}
