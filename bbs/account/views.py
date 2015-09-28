@@ -118,8 +118,12 @@ def user_info(request, user_id):
         collected = user_collect.objects.get(user_id=request.user.id, collected_user_id=user_id).deleted
     else:
         collected = True
-    name =u.profile.username()
-    profile_name = ''.join([name[0:3],'****',name[-4:]]).strip()
+
+    if u.userinformation.realname:
+        profile_name = u.userinformation.realname
+    else:
+        name =u.profile.username()
+        profile_name = ''.join([name[0:3],'****',name[-4:]]).strip()
     return render_to_response('account/user-info.html', {'title': _('user info'),
                                                          'user1': u, 'conf': conf,
                                                          'topics': u.profile.latest_activity()['topic'],

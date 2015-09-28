@@ -12,8 +12,8 @@
         {% else %}
            <img class="avatar-large" src="{{user1.userinformation.photo_url}}" title="{{user1.username|phone_cut}}"/>
         {% endif %}
-        {% if user1.profile.userinformation.realname %}
-            <p class="list-post-title"><strong>{{user1.profile.userinformation.realname}}</strong></p>
+        {% if user1.userinformation.realname %}
+            <p class="list-post-title"><strong>{{user1.userinformation.realname}}</strong></p>
         {% else %}
            <p class="list-post-title"><strong>{{user1.profile.username|phone_cut}}</strong></p>
         {% endif %}
