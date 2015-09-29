@@ -1,14 +1,15 @@
 {% load i18n %}
 {% load humanize %}
-{% load settingsvalue %}
 {% load pagination_tags %}
    <div class="bbs_content bbs_post mt10">
    <div class="bbs_navigation_bar">
     {% if post_list_title %}
 		    <div style="font-size: 16px;font-weight:bold;padding-left:10px">{{post_list_title}}
+                    <a href="{% url 'create_topic' 2 %}" style="padding-right: 10px;float: right;color:#c50512" >发帖</a>
             </div>
     {% else %}
           <div style="font-size: 16px;font-weight:bold;padding-left:10px "><a href="{% url 'bbsindex' %}">{% trans 'home' %}</a><span>-{{node.title}}</span>
+          <a href="{% url 'create_topic' node.id %}" style="padding-right: 10px;float: right;color:#c50512">发帖</a>
         </div>
 		{% endif %}
     {% if not topics %}
@@ -21,40 +22,24 @@
    </div>
 
    </div>
-		{% autopaginate topics 18 %}
+		{% autopaginate topics 10 %}
       <div class="bbs_con mt10">
 		{% for t in topics %}
 		<div id="topic-{{t.id}}" >
           <dl class="bbs_note">
            {% ifequal user.id None %}
-              {% if t.user.userinformation.realname %}
-              <dt><a href="{% url 'login' %}"><img title="{{t.user.userinformation.realname}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
-              {% else %}
-              <dt><a href="{% url 'login' %}"><img title="{{t.user.username|phone_cut}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
-              {% endif %}
+            <dt><a href="{% url 'login' %}"><img title="{{t.user.username}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
            {% else %}
-              {% if t.user.userinformation.realname %}
-              <dt><a href="{% url 'user_info' t.user.id %}"><img title="{{t.user.userinformation.realname}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
-              {% else %}
-              <dt><a href="{% url 'user_info' t.user.id %}"><img title="{{t.user.username|phone_cut}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
-              {% endif %}
+            <dt><a href="{% url 'user_info' t.user.id %}"><img title="{{t.user.username}}"src="{{t.user.userinformation.photo_url}}" width="42" height="42"></a></dt>
            {% endifequal %}
            <dd>
                <h3><a href="{% url 'topic_view' t.id %}">{{t.title}}</a></h3>
                <p>
                    <a href="{% url 'node_view' t.node.id%}">{{t.node.title}}</a> •
                   {% ifequal user.id None %}
-                    {% if t.user.userinformation.realname %}
-                      <a href="{% url 'login' %}">{{t.user.userinformation.realname}}</a> •
-                   {% else %}
-                      <a href="{% url 'login' %}">{{t.user.profile.username|phone_cut}}</a> •
-                   {% endif %}
+                      <a href="{% url 'login' %}">{{t.user.username}}</a> •
                   {% else %}
-                      {% if t.user.userinformation.realname %}
-                      <a href="{% url 'user_info' t.user.id %}">{{t.user.userinformation.realname}}</a> •
-                      {% else %}
-                       <a href="{% url 'user_info' t.user.id %}">{{t.user.profile.username|phone_cut}}</a> •
-                      {% endif %}
+                      <a href="{% url 'user_info' t.user.id %}">{{t.user.username}}</a> •
                   {% endifequal %}
                    {{t.click}}浏览 • {{t.time_created | naturaltime}}
                </p>
