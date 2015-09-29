@@ -152,6 +152,7 @@ def contact(request):
 
 
 def login(request):
+    print "this is test"
     if request.method == 'POST':
         username = request.REQUEST.get('log_un', None)
         pwd = request.REQUEST.get('log_pwd', None)
