@@ -29,8 +29,172 @@ function hide()
 </head>
 <body>
 <style type="text/css">
+.footerer{
+	background:#372C3A;
+	padding:2em 0;
+}
+@media (max-width: 920px)
+.footerer {
+    padding: 3em 0 1em;
+}
+.containerer{
+	padding:0 10px;
+}
+.box_2 h4 {
+  margin-bottom: 0.5em;
+}
+.box_2 h4{
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom:1.5em;
+  margin-left:2em;
+}
+.clearfix:before,.clearfix:after,.containerer:before,.containerer:after,footer:before{
+    display: table;
+    content: " ";
+
+}
+.address p {
+  color: #999;
+  font-size: 0.85em;
+  line-height: 1.8em;
+  margin: 0 0 16px;
+  font-style: normal;
+}
+.address dd {
+  color: #fff;
+  font-size: 0.85em;
+  line-height: 2.2em;
+  font-weight: 300;
+  margin-left: 2em;
+}
+.address dd span, .address dd a{
+  color:#A4AEC0;
+}
+.list_2 li a {
+  font-size: 14px;
+  color: #A3B1B6;
+}
+ul.list_2{
+	padding:0;
+	margin:0;
+	list-style:none;
+	float:left;
+}
+ul.list_2 li a{
+	color:#A4AEC0;
+	font-size:0.85em;
+	line-height:2.3em;
+	margin-left:2em;
+}
+ul.list_2 li a:hover{
+	text-decoration:none;
+	color:#ff8261;
+}
+@media (max-width: 920px)
+.col-md-3.box_2, .box_1 {
+    margin-bottom: 2em;
+}
+.col-md-3{
+    position: relative;
+    min-height: 1px;
+	float:left;
+	margin-left: 12%;
+}
+ul{ -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.clearfix:after, .containerer:after {
+    clear: both;
+}
+
+element.style {
+}
 </style>
-<div id="footer">
+
+<div class="footerer">
+	<div class="containerer">
+		<div class="col-md-3 box_2">
+			<h4>合作伙伴</h4>
+			<ul class="list_2">
+				<li><a href="#">天使客</a></li>
+				<li><a href="#">京东众筹</a></li>
+				<li><a href="#">众筹之家	</a></li>
+				
+			</ul>
+			<ul class="list_2">
+				<li><a href="#">天使街</a></li>
+				<li><a href="#">大家投</a></li>
+				
+			</ul>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="col-md-3 box_2">
+			<h4>友情链接</h4>
+			<ul class="list_2">
+				<li><a href="#">股权众筹</a></li>
+				<li><a href="#">新金融</a></li>
+				<li><a href="#">证券之星</a></li>
+				
+			</ul>
+			<ul class="list_2">
+				<li><a href="#">众筹工坊</a></li>
+				<li><a href="#">POP理财</a></li>
+				<li><a href="#">中申网</a></li>
+				
+			</ul>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="col-md-3 box_2">
+			<h4>联系我们</h4>
+			<address class="address">
+              <dl>
+                 <dt></dt>
+                 <dd>咨询热线:<span>400-709-1818 </span></dd>
+                 <dd>公司邮箱:<a href="service@ddbid.com">service@ddbid.com</a></dd>
+                 <dd>公司地址: <span> 上海市闵行区沪闵路7866号莲花广场2号楼908室</span></dd>
+              </dl>
+           </address>
+		</div>
+		<div class="col-md-3 box_2">
+			<li>
+				<img src="/static/images/ddbid_8cm.jpg" width="100px;" height="100px;" />
+			</li>
+			<li class="fuldy">
+				<label style="color:#FFFFFF;">订阅号</label>
+			</li>
+		</div>
+	</div>
+	
+</div>
+ <div class="footer_bottom">
+	  <span class="cdjf">&nbsp;&nbsp;上海辞达金融信息服务有限公司&nbsp;沪ICP备14053786</span>
+	   <div style="padding-top:5px; position:absolute;left:52%;">
+	 
+        <a href="#" class="ico1 fr" onMouseOver="show()" onMouseOut="hide()"></a>
+        <a href="http://www.weibo.com" class="ico fr" target="_blank"></a>
+		 
+        <a href="{% url 'about_us' %}" class="fl">关于我们</a>
+        <a href="{% url 'contact_us' %}" class="fl">加入我们</a>
+		<a href="{% url 'about_us' %}" class="fl">服务条款</a>
+        <a href="{% url 'contact_us' %}" class="fl">帮助中心</a>
+		<a href="{% url 'about_us' %}" class="fl">意见反馈</a>
+        <p id="code" style="display:none;">
+            <img src="/static/images/qrcode_2.jpg"/>
+        </p>
+		</div>
+	 </div>
+
+<!--<div id="footer">
 	   <div class="footer_top">
 	   <ul class="ful">
 		<ul class="ful1">
@@ -49,7 +213,7 @@ function hide()
 					<div style="border-top:1px solid #e1604d;height:1px;width:180px;margin-top:-2px;margin-left:270px;"></div>
 				</label>
 				<label>
-					<div style="border-top:1px solid #e1604d;height:1px;width:330px;margin-top:-2px;margin-left:480px;"></div>
+					<div style="border-top:1px solid #e1604d;height:1px;width:100px;margin-top:-2px;margin-left:480px;"></div>
 				</label>
 			</li>
 		</ul>		
@@ -132,7 +296,7 @@ function hide()
 	</ul>
 	</div>
 	  <div class="footer_bottom">
-	  <span class="cdjf">&nbsp;&nbsp;上海辞达金融信息服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;沪ICP备14053786</span>
+	  <span class="cdjf">&nbsp;&nbsp;上海辞达金融信息服务有限公司&nbsp;沪ICP备14053786</span>
 	   <div style="padding-top:5px; position:absolute;left:52%;">
 	 
         <a href="#" class="ico1 fr" onMouseOver="show()" onMouseOut="hide()"></a>
@@ -148,5 +312,5 @@ function hide()
         </p>
 		</div>
     </div>
-</div>
+</div>-->
 </body>

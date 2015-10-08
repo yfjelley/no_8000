@@ -13,12 +13,10 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'ddbid.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
     url(r'^admin/', include(admin.site.urls)),
     url(r'^bbs/', include('bbs.forum.urls')),
     url(r'^user/', include('bbs.account.urls')),
     url(r'^', include('searcher.urls')),
-    url(r'^m/', include('m.urls')),
     url(r'^api/forum/', include(bbs.forum.urls.api_urlpatterns)),
     url(r'^panel/', include('bbs.panel.urls', namespace='panel', app_name='panel')),
     url(r'^emoji/', include('emoji.urls')),

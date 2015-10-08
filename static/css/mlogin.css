@@ -11,7 +11,7 @@ header {
     background-color: #555555;
 }
 .nav_img img{
-    margin: -0.02rem 0 -0.1rem -0.8rem;
+    margin: -0.02rem 0 -0.1rem -0.6rem;
     width: 2.85rem;
     height: 0.6rem;
     float: left;
@@ -19,8 +19,8 @@ header {
 
 .seacher_inp input[type="text"] {
     height: 0.3rem;
-    margin: -0.35rem 0 -0.45rem 1.3rem;
-    width: 3.2rem;
+    margin: -0.35rem 0 -0.45rem 1.5rem;
+    width: 2.8rem;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     border-radius: 2%;
@@ -29,17 +29,21 @@ header {
 
 .nav_btnimg img{
     width: 0.28rem;
-    height: 0.31rem;
-    margin: -0.35rem 0 -0.45rem 4.51rem;
+    height: 0.35rem;
+    margin: -0.34rem 0 -0.45rem 4.35rem;
     float: left;
 }
 
 /*content style*/
+.Validform_error{background-color: #ffe7e7;}
+.Validform_checktip{color: #999;font-size: 0.12rem; height: 0.2rem;line-height: 0.2rem;overflow: hidden; margin-left:0.23rem;}
+.Validform_wrong{color: red;padding-left: 0.25rem;white-space: nowrap; background:url(../images/error.png) no-repeat 0 center;}
+.Validform_right{color: #71b83d;padding-left: 0.2rem; background:url(../images/right.png) no-repeat 0 center;}
 .log_content{
     width: 5rem;
     height: 8.25rem;
-    font-size: 0.32rem;
-    background-color: #cccccc;
+    background-color:#999999;
+	z-index: -1;
 }
 .log_message{
 	position:absolute;
@@ -54,46 +58,69 @@ header {
     height: 0.3rem;
 }
 .log_text{
+	font-size: 0.32rem;
 	margin-left:1.2rem;
 }
 .call_text{
+	font-size: 0.2rem;
 	float:left;
-	margin:0.3rem 0 0 -0.6rem;
+	margin:0.25rem 0 0 -0.2rem;
 }
 .call_inp input[type="text"]{
 	float:left;
-	margin:0.3rem 0 0 1.37rem;
+	margin:0.22rem 0 0 0.3rem;
 }
-
+.call_inp span{
+	position:absolute;
+	left:2.5rem;
+	top:0.82rem;
+	font-size: 0.1rem;
+	z-index: 999;
+}
 .pwd_text{
+	font-size: 0.2rem;
 	float:left;
-	margin:0.3rem 0 0 -0.6rem;
+	margin:0.25rem 0 0 -0.2rem;
 }
 .pwd_inp input[type="password"]{
 	float:left;
-	margin:0.3rem 0 0 1.37rem;
+	margin:0.22rem 0 0 0.3rem;
 }
-
+.pwd_inp span{
+	position:absolute;
+	left:2.5rem;
+	top:1.42rem;
+	font-size: 0.1rem;
+	z-index: 999;
+}
 .pic_code{
+	font-size: 0.2rem;
 	float:left;
-	margin:0.3rem 0 0 -0.6rem;
+	margin:0.25rem 0 0 -0.4rem;
 }
 .pic_inp input[type="text"]{
 	width:1rem;
 	float:left;
-	margin:0.3rem 0 0 0.4rem;
+	margin:0.22rem 0 0 0.3rem;
 }
-.pic_number input{
+.pic_inp span{
+	position:absolute;
+	left:2.5rem;
+	top:2rem;
+	font-size: 0.1rem;
+	z-index: 999;
+}
+.pic_number img{
 	width:0.9rem;
 	float:left;
 	height: 0.3rem;
-	margin:-0.32rem 0 0 1.5rem;
+	margin:0.22rem 0 0 0.05rem;
 }
 .confirm_sub input[type="submit"]{
 	width:4.5rem;
 	height:0.6rem;
 	background-color:rgb(240,52,89);
-	margin:0.5rem 0 0 -0.7rem;
+	margin:0.5rem 0 0 -0.8rem;
 	font-size: 0.25rem;
     color:#ffffff;
 }
@@ -101,14 +128,18 @@ header {
 	font-size: 0.21rem;
 	margin:0.3rem 0 0 -0.4rem;
 }
+.footer_text a{
+	text-decoration: none;
+}
 .footer_text .fgetpwd_text{
 	margin-left:-0.3rem;
 }
-
-.footer_text .sign_name{
-	margin-left:0.4rem;
+.footer_text .fgetpwd_text a{
+	color:#000000;
 }
-
-.sign_name b{
+.footer_text .sign_name{
+	margin-left:1.3rem;
+}
+.footer_text .sign_name a{
 	color:rgb(240,52,89);
 }

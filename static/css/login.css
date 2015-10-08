@@ -1,4 +1,4 @@
-
+﻿
 .login_header{ padding:10px 0; height:70px; line-height:70px; background:url(../images/logo_bg.png) no-repeat 250px center;}
 .login_header a,.login_header a img{ width:224px; height:70px; display:block;}
 .login_header a{ float:left; margin-right:10px;}
@@ -26,7 +26,7 @@
 #call_code input[type="text"]{width:400px;height:40px;}
 #call_code span{position:absolute;left:502px;top:140px;}
 /*登录*/
-#login_header li{ float:left; position:relative; margin:0 5px;left:500px;}
+#login_header li{ float:left; position:relative; margin:0 5px;left:713px;}
 #login_header li a{color:#ccc;font-size:14px;}
 #login_header li a:hover{ color:#ff0000;}
 

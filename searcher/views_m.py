@@ -127,31 +127,8 @@ def contact(request):
     return render_to_response('contact_form.html', {'form': form}, context_instance=RequestContext(request))
 
 
-# def login(request):
-# if request.method == 'GET':
-# form = LoginForm()
-# return render_to_response('login.html', {'form': form, },
-# context_instance=RequestContext(request))
-# else:
-# form = LoginForm(request.POST)
-# if form.is_valid():
-#             username = request.POST.get('username', '')
-#             password = request.POST.get('password', '')
-#             user = auth.authenticate(username=username, password=password)
-#             if user is not None and user.is_active:
-#                 auth.login(request, user)
-#                 return HttpResponse('1')
-#
-#             else:
-#                 return render_to_response('login.html',
-#                                           {'form': form, 'password_is_wrong': True},
-#                                           context_instance=RequestContext(request))
-#         else:
-#             return render_to_response('login.html', {'form': form, },
-#                                       context_instance=RequestContext(request))
-
-
 def login(request):
+    print "this is test"
     if request.method == 'POST':
         username = request.REQUEST.get('log_un', None)
         pwd = request.REQUEST.get('log_pwd', None)
@@ -172,21 +149,21 @@ def login(request):
                         return HttpResponseRedirect(reverse('searchindex'))
                 else:
                     form.valiatetype(i)
-                    return render_to_response('login.html', {'form': form, },
+                    return render_to_response('login_m.html', {'form': form, },
                                               context_instance=RequestContext(request))
             else:
-                return render_to_response('login.html', {'form': form, },
+                return render_to_response('login_m.html', {'form': form, },
                                           context_instance=RequestContext(request))
 
         return refresh_header(request, user_auth(request, username, pwd, code))
     else:
         form = LoginForm()
         next = request.GET.get('next', None)
-        return render_to_response('login.html', {'form': form, 'next': next},
+        return render_to_response('login_m.html', {'form': form, 'next': next},
                                   context_instance=RequestContext(request))
 
 def forgetpw(request):
-    print "this views forgetpw"
+    print "forgetpw xxxxxxx"
     if request.method == 'POST':
         form = ForgetPWForm(request.POST)
         if form.is_valid():
@@ -203,7 +180,7 @@ def forgetpw(request):
                 if user is not None and user.is_active:
                     auth.login(request, user)
                     #return HttpResponse(u'登录成功')
-                    return HttpResponseRedirect(reverse('searchindex'))
+                    return HttpResponseRedirect(reverse('searchindex_m'))
                 else:
                     return HttpResponse(u'输入错误')
                     #return render_to_response('forgetpwd.html',{"form":form},
@@ -211,14 +188,14 @@ def forgetpw(request):
 
             else:
                 form.valiatetype(2)
-                return render_to_response('forget_password.html',{"form":form},
+                return render_to_response('forget_password_m.html',{"form":form},
                                       context_instance=RequestContext(request))
 
         else:
-            return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
+            return render_to_response('forget_password_m.html', {'form': form}, context_instance=RequestContext(request))
     else:
         form = ForgetPWForm()
-        return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
+        return render_to_response('forget_password_m.html', {'form': form}, context_instance=RequestContext(request))
 
 
 def verifycode(request):
@@ -337,7 +314,7 @@ def register(request):
                 form.valiatetype(4)
                 flag = 1
             if flag == 1:
-                return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
+                return render_to_response("reg_m.html", {'form': form}, context_instance=RequestContext(request))
             elif pwd1 == pwd2 and f:
                 new_user = User.objects.create_user(username=username, password=pwd1)
                 new_user.save()
@@ -350,10 +327,10 @@ def register(request):
                 #直接定向到首页
                 return HttpResponseRedirect(reverse('searchindex'))
         else:
-            return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
+            return render_to_response("reg_m.html", {'form': form}, context_instance=RequestContext(request))
     else:
         form = RegisterForm()
-        return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
+        return render_to_response("reg_m.html", {'form': form}, context_instance=RequestContext(request))
 
 
 @login_required

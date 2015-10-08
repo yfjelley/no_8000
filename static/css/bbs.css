@@ -1,6 +1,6 @@
 ﻿.bbs{ width:1024px; margin:0 auto;}
 .bbs_left,.bbs_title,.bbs_note,.bbs_box,.bbs_hd,.bbs_bd,.bbs_hot_news,.bbs_href_list,.bbs_ideas,.bbs_article,.bbs_con_box,.bbs_reply_list{ overflow:hidden;}
-.bbs_left{ width:786px;margin-bottom:200px;}
+.bbs_left{ width:786px;margin-bottom:30px;}
 .bbs_con{ border:2px solid #ddd;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px; background:#fff;}
 .bbs_title{ height:60px; position:relative;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px;background:#fff;}
 .bbs_posting{ position:absolute; right:20px; width:60px; height:30px; display:block; line-height:30px; text-align:center; background:#c50512; color:#fff; font-size:14px; font-weight:bold; z-index:99;}
@@ -136,7 +136,6 @@
 .bbs_reply_img{max-height:520px;max-width:400px; width:expression(this.width > 400 && this.height < this.width ? 400: true);height:expression(this.height > 520 ? 520: true);}
 .emoji{width:25px;height: 25px;}
 .bbs_emoji img{padding-top: 5px;}
-#footer{top:1025px;}
 bbs_navigation_bar a{background:#715C83;width:110px;height:30px;}
 
 /******************社区************************/

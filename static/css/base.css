@@ -19,17 +19,15 @@ table {border-collapse:collapse;border-spacing:0;}
 .clearfix:after{ clear:both; content:" "; display:block; font-size:0; height:0; visibility:hidden;}
 b,i{ font-style:normal; font-weight:normal;}
 /*头部*/
-#header,#footer{ width:100%;}
+#header,#footer{ width:100%;margin:0px;padding:0px;background:#372c3A;}
 #header{height:60px; line-height:60px;}
-#header{background:#372c3A;}
-.top,.middle{ width:85%; margin:0 auto; }
-.top{ position:relative; background:#372c3A;}
-.nav{ float:left;padding-left:7%;}
-
+.top{ padding:0px;}
+.logo img{width: %;height: 30%;margin-left: 30%;margin-top: 5%;}
+.nav{padding-left:7%;}
 .nav li{ float:left;}
 .nav li a{ margin:0 10px; color:#ccc; font-size:16px;}
 .nav li a:hover{color:#ff0000;}
-.top_right{ float:right; color:#ccc; margin-right:7%;}
+.top_right{ float:right; color:#ccc;padding-right: 7%}
 #top_r li{ float:left; position:relative; margin:0 5px;}
 #top_r li a{color:#ccc;font-size:14px;}
 #top_r li a:hover{ color:#ff0000;}
@@ -58,10 +56,10 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .user_con{ width:1024px; margin:0 auto;}
 
 
-#container {height: auto; min-height:100%; margin: 0; padding: 0;background:#EEEEF0;}
-#containerr {height: auto; min-height:70%; margin: 0; padding: 0;background:#EEEEF0;}
+#container {min-height:65%;height: auto; position: relative;background:#EEEEF0;}
 /*底部*/
-
+#footer{ width:100%;position: absolute; clear:both;text-algin:center;}
+.footer {width:100%; color:#333; text-align:center;font-size:14px;}
 .footer a.ico,.footer a.ico1{ margin-top:5px; display:inline-block; width:32px; height:32px;}
 .footer a:hover{ color:#ff0000;}
 .footer a.ico{ background:url(../images/web.png) no-repeat 0 0;}
@@ -76,7 +74,7 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .bbs_hunt{ float:left; padding:15px 0 0 20px; display:none;}
 .bbs_hunt input{ width:440px; height:20px; line-height:20px; font-size:16px; color:#666; padding:10px 5px; float:left; border:1px solid #ddd;}
 
-#footer{ width:100%;clear:both;text-algin:center;position: relative; z-index: 10;}
+
 .footer_top{width:100%;background-color:#372C3A;height:180px;clear:both;overflow:hidden;}
 .footer_top ul{ text-align:center;}
 .footer_top a{ margin:0 10px; color:#fff; font-size:14px; }
