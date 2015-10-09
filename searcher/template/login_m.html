@@ -31,7 +31,11 @@
                 <label><img src="/static/images/logo_red.png"></label>
             </li>
             <li class="seacher_inp">
-                <label><input type="text"> </label>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    {{ form.searchWord }}
+                    <input type="submit" class="btn_search" value="">
+                </form>
             </li>
             <li class="nav_btnimg">
                 <label><img src="/static/images/topseacher.png"></label>
