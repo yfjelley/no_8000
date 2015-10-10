@@ -13,7 +13,8 @@
 <body>
 <div id="container">
 <div class="zynr">
-{% include "header.html" %}
+    <div id="head_m"></div>
+
 {% if params %}
     <script>
         $(document).ready(function () {
@@ -38,9 +39,6 @@
     </div>
     <div class=" search_content mt10">
         <div id="search_norm" class="search_result_box">
-           
-
-
         </div>
         <div class="bbs_advert mt10">
             <a href="#"><img src="/static/images/advert.png"/></a>
@@ -49,11 +47,11 @@
             <div class="search_hd">
                 <h2>标的搜索结果</h2>
             </div>
-            <div class="search_reorder mt10" style="padding-bottom: 0px;">
+            <div style="padding-bottom: 0px;">
                     <a href="javascript:void(0)" sorttype="1">收益<i></i></a>
                     <a href="javascript:void(0)" sorttype="2">投资期限<i></i></a>
             </div>
-        {% include "search_result_single.html" %}
+        {% include "search_result_single_m.html" %}
         </div>
 
         
@@ -99,7 +97,7 @@
             $(this).addClass("order_jx");
         }
         var page = $('.currentpage').text();
-        alert(page);
+
         checkparam(page);
     });
 
@@ -156,11 +154,10 @@
             sortorder = 2;
             sorttype = bbb[0];
         }
-       alert(sortorder);
-        alert(sorttype);
 
 
-        $.get("{% url 'searchindex' %}",
+
+        $.get("{% url 'search_result_m' %}",
                 {
                     params: a,
                     amount: amount,
@@ -173,5 +170,10 @@
                 }
         );
     }
+</script>
+<script type="text/javascript">
+    $(function(){
+        $.get("/m/search/",function(data){ $('#head_m').html(data.content_html);});
+    });
 </script>
 </html>

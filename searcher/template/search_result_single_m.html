@@ -36,23 +36,13 @@
         <a>无符合查询条件的纪录</a>
     {% endif %}
     <div class="pages">
-        <a href="javascript:void(0)" class="before"
-           onclick="takepage(1)">《</a>
-        {% if results.has_previous %}
-            <a href="javascript:void(0)"
-               onclick="takepage({{ results.previous_page_number }})">〈</a>
-        {% endif %}
-        {% for page in page_set %}
-            <a href="javascript:void(0)" {% ifequal page results.number %}
-               class="currentpage" {% endifequal %}
-               onclick="takepage({{ page }})">{{ page }} </a>
-        {% endfor %}
         {% if results.has_next %}
             <a href="javascript:void(0)"
-               onclick="takepage({{ results.next_page_number }})">〉</a>
+               onclick="takepage({{ results.next_page_number }})">下一页</a>
+        {% else %}
+            <a href="javascript:void(0)"
+               onclick="takepage({{ results.previous_page_number }})">上一页</a>
         {% endif %}
-        <a href="javascript:void(0)" class="after"
-           onclick="takepage({{ last_page }})">》</a>
     </div>
 </div>
 </body>

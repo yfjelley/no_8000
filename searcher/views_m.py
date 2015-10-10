@@ -25,7 +25,7 @@ from django.core.files.storage import FileSystemStorage
 from ddbid.settings import EMAIL_HOST_USER, EMAIL_HOST_PASSWORD
 
 from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPWForm,ModfiyPWForm,ModfiyPForm
-from searcher.inner_views import index_loading, data_filter, result_sort, get_pageset, get_user_filter, user_auth, \
+from searcher.inner_views import index_loading, index_loading_m,data_filter, result_sort, get_pageset, get_user_filter, user_auth, \
     refresh_header
 from searcher.models import Bid, UserFavorite, Platform, UserInformation, DimensionChoice, UserFilter, UserReminder, \
     WeekHotSpot, BidHis, ReminderUnit
@@ -42,11 +42,6 @@ storage = FileSystemStorage(
 
 
 def index(request):
-    hotspots = WeekHotSpot.objects.filter(status=1).order_by('?')
-    if hotspots.exists():
-        hs = random.sample(hotspots, 4)
-    else:
-        hs = []
     if request.method == 'POST':
         # print(request.POST.get('params', None))
         form = SearchForm(request.POST)
@@ -54,17 +49,17 @@ def index(request):
             cd = form.cleaned_data
             amount = cd['searchWord']
         else:
-            return render_to_response('index.html', {'form': form, 'hs': hs}, context_instance=RequestContext(request))
+            return render_to_response('index.html', {'form': form}, context_instance=RequestContext(request))
 
         try:
             page = int(request.GET.get('page', '1'))
         except ValueError:
             page = 1
         index_parts = index_loading(amount, None, page)
-        return render_to_response('search_result.html',
+        return render_to_response('search_result_m.html',
                                   {'results': index_parts.get('results'), 'dimensions': index_parts.get('dimensions'),
                                    'c_results': index_parts.get('c_result'), 'last_page': index_parts.get('last_page'),
-                                   'page_set': index_parts.get('page_set'), 'form': form},
+                                   'page_set': index_parts.get('page_set')},
                                   context_instance=RequestContext(request))
     elif request.GET.get('params[]', None) is not None:
         params = ','.join(request.GET.getlist('params[]'))
@@ -91,7 +86,7 @@ def index(request):
             results = ppp.page(ppp.num_pages)
         last_page = ppp.page_range[len(ppp.page_range) - 1]
         page_set = get_pageset(last_page, page)
-        t = get_template('search_result_single.html')
+        t = get_template('search_result_single_m.html')
         content_html = t.render(
             RequestContext(request, {'results': results, 'last_page': last_page, 'page_set': page_set}))
         payload = {
@@ -907,7 +902,6 @@ def change_phone_number(request):
         return HttpResponse(json.dumps(payload), content_type="application/json")
 
 def search_result(request):
-    print request
     if request.method == 'POST':
         form = SearchForm(request.POST)
         if form.is_valid():
@@ -918,26 +912,56 @@ def search_result(request):
 
         try:
             page = int(request.GET.get('page', '1'))
+
         except ValueError:
             page = 1
-        index_parts = index_loading(amount, None, page)
-        print index_parts
-
-        #return render_to_response('searchResult_m.html', context_instance=RequestContext(request))
-
+        print 'page is',page
+        index_parts = index_loading_m(amount, None, page)
         return render_to_response('search_result_m.html',
                                   {'results': index_parts.get('results'), 'dimensions': index_parts.get('dimensions'),
                                    'c_results': index_parts.get('c_result'), 'last_page': index_parts.get('last_page'),
                                    'page_set': index_parts.get('page_set'), 'form': form},
                                   context_instance=RequestContext(request))
+    elif request.GET.get('params[]', None) is not None:
+        params = ','.join(request.GET.getlist('params[]'))
+        a = params.split(',')
+        sorttype = request.REQUEST.get('sorttype', None)
+        sortorder = request.REQUEST.get('sortorder', None)
+        amount = request.REQUEST.get('amount', None)
+        if amount:
+            results = Bid.objects.filter(amount__gte=amount).order_by("random_rank")
+        else:
+            results = Bid.objects.all().order_by("random_rank")
+        filters = DimensionChoice.objects.filter(id__in=a)
+        results = data_filter(results, filters)
+        if sorttype is not None and sortorder is not None:
+            results = result_sort(results, sorttype, sortorder)
+        ppp = Paginator(results, 3)
+        try:
+            page = int(request.GET.get('page', '1'))
+        except ValueError:
+            page = 1
+        try:
+            results = ppp.page(page)
+        except (EmptyPage, InvalidPage):
+            results = ppp.page(ppp.num_pages)
+        last_page = ppp.page_range[len(ppp.page_range) - 1]
+        page_set = get_pageset(last_page, page)
+        t = get_template('search_result_single_m.html')
+        content_html = t.render(
+            RequestContext(request, {'results': results, 'last_page': last_page, 'page_set': page_set}))
+        payload = {
+            'content_html': content_html,
+            'success': True
+        }
+        return HttpResponse(json.dumps(payload), content_type="application/json")
     else:
         try:
             page = int(request.GET.get('page', '1'))
         except ValueError:
             page = 1
-        index_parts = index_loading(0, None, page)
-        print index_parts
-
+        index_parts = index_loading_m(0, None, page)
+        print 'page isxxxxxxxxxxxxx',page
         #return render_to_response('searchResult_m.html', context_instance=RequestContext(request))
 
         return render_to_response('search_result_m.html',
