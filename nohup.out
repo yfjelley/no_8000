@@ -11285,3 +11285,826 @@ UnicodeDecodeError: 'utf8' codec can't decode byte 0xc0 in position 5: invalid s
 [09/Oct/2015 11:08:04] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
 [09/Oct/2015 11:08:04] "GET /static/images/search.png HTTP/1.1" 304 0
 [09/Oct/2015 11:08:04] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET / HTTP/1.1" 200 17906
+[09/Oct/2015 11:09:52] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:09:52] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET / HTTP/1.1" 200 17906
+[09/Oct/2015 11:10:43] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:10:43] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:11:07] "GET /logout/ HTTP/1.1" 302 0
+[09/Oct/2015 11:11:07] "GET / HTTP/1.1" 200 21414
+[09/Oct/2015 11:11:12] "POST / HTTP/1.1" 200 47750
+[09/Oct/2015 11:11:13] "GET /static/images/logo/hlct.png HTTP/1.1" 200 47806
+[09/Oct/2015 11:11:13] "GET /static/images/star_chenck.png HTTP/1.1" 200 3714
+[09/Oct/2015 11:11:13] "GET /static/images/logo/nwd.jpg HTTP/1.1" 200 18457
+[09/Oct/2015 11:11:16] "GET / HTTP/1.1" 200 21435
+[09/Oct/2015 11:11:20] "POST / HTTP/1.1" 200 47749
+[09/Oct/2015 11:11:20] "GET /static/images/logo/hlct.png HTTP/1.1" 200 47806
+[09/Oct/2015 11:11:22] "GET /login/ HTTP/1.1" 200 13809
+[09/Oct/2015 11:11:23] "GET /getverifycode/ HTTP/1.1" 200 2130
+[09/Oct/2015 11:11:32] "POST /checkvcode/ HTTP/1.1" 200 26
+[09/Oct/2015 11:11:32] "POST /checkuser/ HTTP/1.1" 200 26
+[09/Oct/2015 11:11:33] "POST /login/ HTTP/1.1" 302 0
+[09/Oct/2015 11:11:33] "GET / HTTP/1.1" 200 17918
+[09/Oct/2015 11:11:35] "GET / HTTP/1.1" 200 17926
+[09/Oct/2015 11:11:39] "GET / HTTP/1.1" 200 17894
+[09/Oct/2015 11:11:39] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:11:39] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:12:56] "GET /m/login/ HTTP/1.1" 200 6997
+[09/Oct/2015 11:12:56] "GET /static/js/public.js HTTP/1.1" 304 0
+[09/Oct/2015 11:12:57] "GET /getverifycode/ HTTP/1.1" 200 2139
+[09/Oct/2015 11:14:42] "GET /m/register/ HTTP/1.1" 200 8242
+[09/Oct/2015 11:14:42] "GET /static/css/mreg.css HTTP/1.1" 200 4029
+[09/Oct/2015 11:14:42] "GET /getverifycode/ HTTP/1.1" 200 2138
+[09/Oct/2015 11:15:49] "GET /m/login/ HTTP/1.1" 200 6997
+[09/Oct/2015 11:15:49] "GET /getverifycode/ HTTP/1.1" 200 1839
+[09/Oct/2015 11:15:51] "GET /m/login/ HTTP/1.1" 200 6997
+[09/Oct/2015 11:15:51] "GET /getverifycode/ HTTP/1.1" 200 2108
+[09/Oct/2015 11:16:10] "GET /m/register/ HTTP/1.1" 200 8242
+[09/Oct/2015 11:16:10] "GET /getverifycode/ HTTP/1.1" 200 2127
+[09/Oct/2015 11:22:50] "GET / HTTP/1.1" 200 17926
+[09/Oct/2015 11:22:50] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:22:50] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:22:50] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:22:51] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:23:38] "GET / HTTP/1.1" 200 17894
+[09/Oct/2015 11:24:52] "GET / HTTP/1.1" 200 17929
+[09/Oct/2015 11:24:52] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/css/base.css HTTP/1.1" 200 8074
+[09/Oct/2015 11:24:52] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:24:52] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:26:55] "GET / HTTP/1.1" 200 17929
+[09/Oct/2015 11:26:55] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:26:55] "GET /static/css/base.css HTTP/1.1" 200 8075
+[09/Oct/2015 11:26:55] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:26:56] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:29:18] "GET / HTTP/1.1" 200 17929
+[09/Oct/2015 11:29:18] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:29:18] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:29:18] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:29:19] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET / HTTP/1.1" 200 17877
+[09/Oct/2015 11:30:54] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/css/base.css HTTP/1.1" 200 8074
+[09/Oct/2015 11:30:54] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:30:54] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:33:15] "GET / HTTP/1.1" 200 17921
+[09/Oct/2015 11:33:15] "GET /static/css/base.css HTTP/1.1" 200 8085
+[09/Oct/2015 11:33:15] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:33:15] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:33:16] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET / HTTP/1.1" 200 17926
+[09/Oct/2015 11:34:21] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:34:21] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:35:11] "GET / HTTP/1.1" 200 17922
+[09/Oct/2015 11:35:11] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:35:11] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:35:11] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:35:11] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:35:11] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:35:12] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:35:12] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:35:12] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:35:12] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:35:12] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:35:12] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET / HTTP/1.1" 200 17905
+[09/Oct/2015 11:38:20] "GET /static/css/base.css HTTP/1.1" 200 8084
+[09/Oct/2015 11:38:20] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:38:20] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET / HTTP/1.1" 200 17938
+[09/Oct/2015 11:39:26] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/css/base.css HTTP/1.1" 200 8084
+[09/Oct/2015 11:39:26] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:39:26] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:40:59] "GET / HTTP/1.1" 200 17914
+[09/Oct/2015 11:41:00] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/css/base.css HTTP/1.1" 200 8084
+[09/Oct/2015 11:41:00] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:41:00] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET / HTTP/1.1" 200 17897
+[09/Oct/2015 11:42:47] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/css/base.css HTTP/1.1" 200 8083
+[09/Oct/2015 11:42:47] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:42:47] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET / HTTP/1.1" 200 17930
+[09/Oct/2015 11:43:43] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/upload/default.png HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/search.png HTTP/1.1" 304 0
+[09/Oct/2015 11:43:43] "GET /static/images/ico.png HTTP/1.1" 304 0
+[09/Oct/2015 11:47:11] "GET /publish/ HTTP/1.1" 404 11914
+[09/Oct/2015 11:47:18] "GET / HTTP/1.1" 200 14777
+[09/Oct/2015 11:47:18] "GET /static/css/base.css HTTP/1.1" 304 0
+--------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 40704)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 44384)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 49967)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 39393)
+----------------------------------------
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+ddddddddd
+checkuser
+xxxxxxxxxxx
+0
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+forgetpw xxxxxxx
+this is test
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+checkuser
+xxxxxxxxxxx
+forgetpw xxxxxxx
+safecenter
+safecenter
+safecenter
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+safecenter
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+safecenter
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+forgetpw xxxxxxx
+this is test
+this is test
+this is test
+this is test
+this is test
+forgetpw xxxxxxx
+this is test
+safecenter
+this is test
+safecenter
+this is test
+safecenter
+this is test
+this is test
+safecenter
+safecenter
+safecenter
+safecenter
+this is test
+safecenter
+this is test
+safecenter
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+0
+0
+0
+this is test
+this is test
+this is test
+forgetpw xxxxxxx
+this is test
+this is test
+forgetpw xxxxxxx
+this is test
+forgetpw xxxxxxx
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.24', 35440)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.24', 36836)
+----------------------------------------
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+0
+0
+0
+0
+this is test
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+this is test
+this is test
+this is test
+[09/Oct/2015 13:17:44] "GET /m/login/ HTTP/1.1" 200 6997
+[09/Oct/2015 13:17:44] "GET /static/js/public.js HTTP/1.1" 304 0
+[09/Oct/2015 13:17:44] "GET /static/css/mlogin.css HTTP/1.1" 304 0
+[09/Oct/2015 13:17:45] "GET /getverifycode/ HTTP/1.1" 200 2137
+[09/Oct/2015 13:17:49] "POST /checkuser/ HTTP/1.1" 200 26
+[09/Oct/2015 13:17:54] "POST /checkvcode/ HTTP/1.1" 200 41
+[09/Oct/2015 13:19:48] "GET / HTTP/1.1" 200 14998
+[09/Oct/2015 13:19:48] "GET /static/css/base.css HTTP/1.1" 200 8083
+[09/Oct/2015 13:19:48] "GET /static/css/main.css HTTP/1.1" 200 1572
+[09/Oct/2015 13:19:48] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[09/Oct/2015 13:19:54] "GET /about_us/ HTTP/1.1" 200 18132
+[09/Oct/2015 13:19:54] "GET /static/js/yz.js HTTP/1.1" 304 0
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 200 2706
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 200 288
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_04.gif HTTP/1.1" 200 477
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 200 82
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 200 157
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 200 65
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 200 44
+[09/Oct/2015 13:19:54] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 200 46
+[09/Oct/2015 13:20:04] "GET /disclaimer/ HTTP/1.1" 200 16970
+[09/Oct/2015 13:20:06] "GET /disclaimer/ HTTP/1.1" 200 16970
+[09/Oct/2015 13:20:07] "GET /contact_us/ HTTP/1.1" 200 17766
+[09/Oct/2015 13:20:11] "GET /contact_us/ HTTP/1.1" 200 17766
+[09/Oct/2015 13:20:11] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/js/yz.js HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_04.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/upload/photo2.png HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 13:20:11] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[09/Oct/2015 13:20:14] "GET / HTTP/1.1" 200 14982
+[09/Oct/2015 13:20:14] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[09/Oct/2015 13:20:18] "GET /about_us/ HTTP/1.1" 200 18132
+[09/Oct/2015 13:20:20] "GET /disclaimer/ HTTP/1.1" 200 16970
+[09/Oct/2015 13:20:22] "GET /disclaimer/ HTTP/1.1" 200 16970
+[09/Oct/2015 13:20:26] "GET /disclaimer/ HTTP/1.1" 200 16970
+[09/Oct/2015 13:20:31] "GET /contact_us/ HTTP/1.1" 200 17766
+[09/Oct/2015 13:20:32] "GET /about_us/ HTTP/1.1" 200 18132
+[09/Oct/2015 13:20:38] "GET / HTTP/1.1" 200 14994
+[09/Oct/2015 13:21:17] "GET /userinformation/ HTTP/1.1" 200 18338
+[09/Oct/2015 13:21:18] "GET /static/css/user.css HTTP/1.1" 200 6951
+[09/Oct/2015 13:21:18] "GET /static/css/jquery-ui.css HTTP/1.1" 200 31339
+[09/Oct/2015 13:21:18] "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 200719
+[09/Oct/2015 13:21:19] "GET /static/css/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 404 1732
+[09/Oct/2015 13:21:25] "GET /myfavorite/5/ HTTP/1.1" 200 15098
+[09/Oct/2015 13:30:58] "GET /m/login/ HTTP/1.1" 200 6571
+[09/Oct/2015 13:30:58] "GET /search/ HTTP/1.1" 404 11911
+[09/Oct/2015 13:30:58] "GET /getverifycode/ HTTP/1.1" 200 2137
+[09/Oct/2015 13:31:04] "GET /m/login/ HTTP/1.1" 200 6571
+[09/Oct/2015 13:31:04] "GET /search/ HTTP/1.1" 404 11911
+[09/Oct/2015 13:31:05] "GET /getverifycode/ HTTP/1.1" 200 1592
+[09/Oct/2015 13:32:14] "GET /m/login/ HTTP/1.1" 200 6589
+[09/Oct/2015 13:32:14] "GET /getverifycode/ HTTP/1.1" 200 2131
+[09/Oct/2015 13:32:17] "GET /search/ HTTP/1.1" 404 11911
+[09/Oct/2015 13:32:19] "GET /m/login/ HTTP/1.1" 200 6589
+[09/Oct/2015 13:32:19] "GET /getverifycode/ HTTP/1.1" 200 2132
+[09/Oct/2015 13:32:20] "GET /search/ HTTP/1.1" 404 11911
+[09/Oct/2015 13:33:09] "GET /m/login/ HTTP/1.1" 200 6589
+[09/Oct/2015 13:33:10] "GET /getverifycode/ HTTP/1.1" 200 2152
+[09/Oct/2015 13:33:12] "GET /search/ HTTP/1.1" 404 11911
+[09/Oct/2015 13:34:05] "GET /m/login/ HTTP/1.1" 500 145347
+[09/Oct/2015 13:35:43] "GET /m/login/ HTTP/1.1" 500 168464
+[09/Oct/2015 13:35:48] "GET /m/login/ HTTP/1.1" 500 168464
+[09/Oct/2015 13:37:19] "GET /m/login/ HTTP/1.1" 200 6591
+[09/Oct/2015 13:37:19] "GET /static/js/public.js HTTP/1.1" 304 0
+[09/Oct/2015 13:37:19] "GET /getverifycode/ HTTP/1.1" 200 2135
+[09/Oct/2015 13:37:21] "GET /m/search/ HTTP/1.1" 404 11917
+[09/Oct/2015 13:37:29] "GET /m/search/ HTTP/1.1" 404 11917
+[09/Oct/2015 13:37:35] "GET /m/search/ HTTP/1.1" 404 11917
+[09/Oct/2015 13:37:45] "GET /m/search HTTP/1.1" 404 11914
+[09/Oct/2015 13:38:10] "GET /m/search HTTP/1.1" 404 11914
+[09/Oct/2015 13:39:07] "GET /m/search HTTP/1.1" 404 11914
+[09/Oct/2015 13:39:48] "GET /m/search HTTP/1.1" 404 11914
+[09/Oct/2015 13:39:50] "GET /m/search HTTP/1.1" 404 11914
+[09/Oct/2015 13:43:03] "GET / HTTP/1.1" 200 14769
+[09/Oct/2015 13:43:03] "GET /static/css/base.css HTTP/1.1" 200 8083
+[09/Oct/2015 13:43:03] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 13:43:14] "GET /m/search HTTP/1.1" 200 1950
+[09/Oct/2015 13:43:20] "GET /m/login HTTP/1.1" 301 0
+[09/Oct/2015 13:43:20] "GET /m/login/ HTTP/1.1" 200 6591
+[09/Oct/2015 13:43:20] "GET /getverifycode/ HTTP/1.1" 200 2126
+[09/Oct/2015 13:43:20] "GET /m/login/ HTTP/1.1" 200 6591
+[09/Oct/2015 13:43:21] "GET /getverifycode/ HTTP/1.1" 200 2132
+[09/Oct/2015 13:43:21] "GET /m/login/ HTTP/1.1" 200 6591
+[09/Oct/2015 13:43:21] "GET /getverifycode/ HTTP/1.1" 200 2134
+[09/Oct/2015 13:43:23] "GET /m/search/ HTTP/1.1" 404 12086
+[09/Oct/2015 13:43:34] "GET /m/login/ HTTP/1.1" 200 6591
+[09/Oct/2015 13:43:34] "GET /getverifycode/ HTTP/1.1" 200 2138
+[09/Oct/2015 13:43:36] "GET /m/search/ HTTP/1.1" 404 12086
+[09/Oct/2015 13:43:50] "GET /m/search/ HTTP/1.1" 404 12086
+[09/Oct/2015 13:43:54] "GET /m/search HTTP/1.1" 200 1950
+Validating models...
+
+0 errors found
+October 09, 2015 - 13:42:56
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+this is test
+this is test
+this is test
+this is test
+[09/Oct/2015 13:44:23] "GET /m/search HTTP/1.1" 200 1950
+[09/Oct/2015 13:44:29] "GET /m/login HTTP/1.1" 301 0
+[09/Oct/2015 13:44:29] "GET /m/login/ HTTP/1.1" 200 6590
+[09/Oct/2015 13:44:30] "GET /getverifycode/ HTTP/1.1" 200 2121
+[09/Oct/2015 13:44:30] "GET /m/login/ HTTP/1.1" 200 6590
+[09/Oct/2015 13:44:31] "GET /getverifycode/ HTTP/1.1" 200 2134
+[09/Oct/2015 13:44:31] "GET /m/login/ HTTP/1.1" 200 6590
+[09/Oct/2015 13:44:31] "GET /m/login/ HTTP/1.1" 200 6590
+[09/Oct/2015 13:44:31] "GET /getverifycode/ HTTP/1.1" 200 2137
+[09/Oct/2015 13:44:31] "GET /getverifycode/ HTTP/1.1" 200 2127
+[09/Oct/2015 13:44:33] "GET /m/search/ HTTP/1.1" 404 12085
+[09/Oct/2015 13:44:45] "GET /m/login/ HTTP/1.1" 200 6590
+[09/Oct/2015 13:44:46] "GET /getverifycode/ HTTP/1.1" 200 2147
+[09/Oct/2015 13:44:48] "GET /m/search/ HTTP/1.1" 404 12085
+[09/Oct/2015 18:29:35] "GET /m/login/ HTTP/1.1" 200 7113
+[09/Oct/2015 18:29:35] "GET /static/js/public.js HTTP/1.1" 304 0
+[09/Oct/2015 18:29:35] "GET /getverifycode/ HTTP/1.1" 200 2085
+[09/Oct/2015 18:29:36] "GET /m/search/ HTTP/1.1" 200 1712
+[09/Oct/2015 18:30:30] "GET /activearea/ HTTP/1.1" 200 20439
+[09/Oct/2015 18:30:30] "GET /static/css/main.css HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/css/base.css HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/js/yz.js HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[09/Oct/2015 18:30:30] "GET /static/images/contact_about/nr_04.gif HTTP/1.1" 304 0
+[09/Oct/2015 18:30:31] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[09/Oct/2015 18:30:31] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[09/Oct/2015 18:30:31] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[09/Oct/2015 18:30:31] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[09/Oct/2015 18:30:31] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[09/Oct/2015 18:30:31] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[09/Oct/2015 22:42:55] code 400, message Bad request syntax ('JDWP-Handshake')
+[09/Oct/2015 22:42:55] "JDWP-Handshake" 400 -
+[09/Oct/2015 23:20:19] "GET / HTTP/1.1" 200 18282
+[09/Oct/2015 23:20:19] "GET /static/css/base.css HTTP/1.1" 200 8170
+[09/Oct/2015 23:20:19] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[09/Oct/2015 23:20:19] "GET /static/css/main.css HTTP/1.1" 200 1572
+[09/Oct/2015 23:20:19] "GET /static/images/logo.jpg HTTP/1.1" 200 13030
+[09/Oct/2015 23:20:19] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[09/Oct/2015 23:20:19] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[09/Oct/2015 23:20:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[09/Oct/2015 23:20:21] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[09/Oct/2015 23:20:21] "GET /static/images/logo.jpg HTTP/1.1" 200 13030
+[09/Oct/2015 23:20:22] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[10/Oct/2015 09:27:01] "GET / HTTP/1.1" 200 18260
+[10/Oct/2015 09:27:01] "GET /static/css/base.css HTTP/1.1" 200 8170
+[10/Oct/2015 09:27:01] "GET /static/css/main.css HTTP/1.1" 304 0
+[10/Oct/2015 09:27:01] "GET /static/images/logo.jpg HTTP/1.1" 304 0
+[10/Oct/2015 09:27:07] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:27:08] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:27:08] "GET /static/js/public.js HTTP/1.1" 304 0
+[10/Oct/2015 09:27:08] "GET /static/css/mlogin.css HTTP/1.1" 304 0
+[10/Oct/2015 09:27:08] "GET /getverifycode/ HTTP/1.1" 200 2066
+[10/Oct/2015 09:27:08] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:27:09] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:27:09] "GET /getverifycode/ HTTP/1.1" 200 2022
+[10/Oct/2015 09:27:09] "GET /getverifycode/ HTTP/1.1" 200 2126
+[10/Oct/2015 09:27:12] "GET /m/search/ HTTP/1.1" 200 1712
+[10/Oct/2015 09:27:19] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:27:32] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:30:15] "GET / HTTP/1.1" 200 18260
+[10/Oct/2015 09:30:15] "GET /static/css/base.css HTTP/1.1" 200 8170
+[10/Oct/2015 09:30:15] "GET /static/css/main.css HTTP/1.1" 304 0
+[10/Oct/2015 09:30:15] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[10/Oct/2015 09:32:30] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:32:30] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:33:01] "GET /m/register HTTP/1.1" 301 0
+[10/Oct/2015 09:33:01] "GET /m/register/ HTTP/1.1" 200 8242
+[10/Oct/2015 09:33:34] "GET /m/register HTTP/1.1" 301 0
+[10/Oct/2015 09:33:34] "GET /m/register HTTP/1.1" 301 0
+[10/Oct/2015 09:33:34] "GET /m/register/ HTTP/1.0" 200 8242
+[10/Oct/2015 09:33:34] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:33:35] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:33:35] "GET /m/login/ HTTP/1.0" 200 7113
+[10/Oct/2015 09:33:35] "GET /m/register/ HTTP/1.1" 200 8242
+[10/Oct/2015 09:33:35] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:33:35] "GET /static/js/sendtime.js HTTP/1.1" 200 1721
+[10/Oct/2015 09:33:35] "GET /static/js/public.js HTTP/1.1" 200 670
+[10/Oct/2015 09:33:35] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:33:35] "GET /m/register/js/placeholder.min.js HTTP/1.1" 404 12512
+[10/Oct/2015 09:33:35] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[10/Oct/2015 09:33:35] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:33:36] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[10/Oct/2015 09:33:36] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[10/Oct/2015 09:33:36] "GET /m/login/js/placeholder.min.js HTTP/1.1" 404 12503
+[10/Oct/2015 09:33:36] "GET /static/js/public.js HTTP/1.1" 200 670
+[10/Oct/2015 09:34:53] "POST /m/login/ HTTP/1.1" 200 7494
+[10/Oct/2015 09:34:53] "GET /getverifycode/ HTTP/1.1" 200 2128
+[10/Oct/2015 09:34:54] "GET /m/register HTTP/1.1" 301 0
+[10/Oct/2015 09:34:54] "GET /m/register/ HTTP/1.1" 200 8242
+[10/Oct/2015 09:34:54] "GET /m/register/ HTTP/1.1" 200 8242
+[10/Oct/2015 09:34:57] "GET /m/search/ HTTP/1.1" 200 1530
+[10/Oct/2015 09:35:51] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:35:51] "GET /getverifycode/ HTTP/1.1" 200 2137
+[10/Oct/2015 09:35:52] "GET /m/search/ HTTP/1.1" 200 1664
+[10/Oct/2015 09:35:58] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:36:02] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:36:59] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:37:03] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:37:03] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[10/Oct/2015 09:37:03] "GET /static/css/login_m.css HTTP/1.1" 304 0
+[10/Oct/2015 09:37:03] "GET /static/js/jquery-1.7.1.js HTTP/1.1" 304 0
+[10/Oct/2015 09:37:10] "GET /m/search/ HTTP/1.1" 200 1664
+[10/Oct/2015 09:37:15] "GET /m/search HTTP/1.1" 301 0
+[10/Oct/2015 09:37:17] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:37:17] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:37:17] "GET /getverifycode/ HTTP/1.1" 200 2129
+[10/Oct/2015 09:37:17] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:37:18] "GET /getverifycode/ HTTP/1.1" 200 2134
+[10/Oct/2015 09:37:18] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:37:18] "GET /getverifycode/ HTTP/1.1" 200 2141
+[10/Oct/2015 09:37:20] "GET /m/search/ HTTP/1.1" 200 1664
+[10/Oct/2015 09:37:26] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:37:36] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:37:38] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:37:52] "GET /m/search/ HTTP/1.1" 200 1664
+[10/Oct/2015 09:37:58] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:38:01] "GET /m/search/ HTTP/1.1" 200 1664
+[10/Oct/2015 09:38:04] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:38:07] "GET /m/search/ HTTP/1.1" 200 1664
+[10/Oct/2015 09:38:11] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:38:49] "GET /m/search/ HTTP/1.1" 200 1650
+[10/Oct/2015 09:38:59] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:39:01] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:39:04] "GET /m/search/ HTTP/1.1" 200 1650
+[10/Oct/2015 09:39:09] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:39:10] "GET /static/js/public.js HTTP/1.1" 200 670
+[10/Oct/2015 09:39:10] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[10/Oct/2015 09:39:10] "GET /m/login/js/placeholder.min.js HTTP/1.1" 404 12503
+[10/Oct/2015 09:39:11] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[10/Oct/2015 09:39:12] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:39:31] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:40:08] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:40:09] "GET /getverifycode/ HTTP/1.1" 200 2148
+[10/Oct/2015 09:40:10] "GET /m/search/ HTTP/1.1" 200 1658
+[10/Oct/2015 09:40:16] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:40:19] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:40:38] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:40:38] "GET /getverifycode/ HTTP/1.1" 200 2128
+[10/Oct/2015 09:40:40] "GET /m/search/ HTTP/1.1" 200 1665
+[10/Oct/2015 09:40:53] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:40:56] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:41:00] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:41:02] "GET /m/login/ HTTP/1.1" 200 7113
+[10/Oct/2015 09:41:02] "GET /getverifycode/ HTTP/1.1" 200 2114
+[10/Oct/2015 09:41:04] "GET /m/search/ HTTP/1.1" 200 1665
+[10/Oct/2015 09:41:07] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:41:50] "GET /m/search/ HTTP/1.1" 200 1065
+[10/Oct/2015 09:42:02] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:43:05] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:43:08] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:43:08] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:43:08] "GET /getverifycode/ HTTP/1.1" 200 2143
+[10/Oct/2015 09:43:14] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:43:16] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:43:34] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:43:37] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:44:26] "GET /static/js/public.js HTTP/1.1" 200 670
+[10/Oct/2015 09:44:26] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:44:26] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[10/Oct/2015 09:44:26] "GET /static/js/sendtime.js HTTP/1.1" 200 1721
+[10/Oct/2015 09:44:26] "GET /m/register/js/placeholder.min.js HTTP/1.1" 404 12512
+[10/Oct/2015 09:44:27] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[10/Oct/2015 09:44:27] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:44:30] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:44:30] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:44:30] "GET /getverifycode/ HTTP/1.1" 200 2087
+[10/Oct/2015 09:44:33] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:44:36] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:44:41] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:44:41] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:44:44] "GET /m/search/ HTTP/1.1" 200 1669
+[10/Oct/2015 09:45:34] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:45:34] "GET /m/search/ HTTP/1.1" 200 1659
+[10/Oct/2015 09:45:34] "GET /getverifycode/ HTTP/1.1" 200 2125
+[10/Oct/2015 09:45:38] "POST /m/login/ HTTP/1.1" 200 6954
+[10/Oct/2015 09:45:38] "GET /getverifycode/ HTTP/1.1" 200 2146
+[10/Oct/2015 09:45:41] "GET /m/search/ HTTP/1.1" 200 1659
+[10/Oct/2015 09:45:43] "POST /m/login/ HTTP/1.1" 200 6954
+[10/Oct/2015 09:45:44] "GET /getverifycode/ HTTP/1.1" 200 2134
+[10/Oct/2015 09:45:47] "GET /m/search/ HTTP/1.1" 200 1659
+[10/Oct/2015 09:45:52] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:45:55] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:46:37] "GET /m/login HTTP/1.1" 301 0
+[10/Oct/2015 09:46:37] "GET /static/js/public.js HTTP/1.1" 200 670
+[10/Oct/2015 09:46:37] "GET /static/js/sendtime.js HTTP/1.1" 200 1721
+[10/Oct/2015 09:46:37] "GET /m/register/js/placeholder.min.js HTTP/1.1" 404 12512
+[10/Oct/2015 09:46:37] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[10/Oct/2015 09:46:37] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:46:38] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[10/Oct/2015 09:47:00] "GET /static/js/public.js HTTP/1.1" 200 670
+[10/Oct/2015 09:47:00] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[10/Oct/2015 09:47:00] "GET /m/login/js/placeholder.min.js HTTP/1.1" 404 12503
+[10/Oct/2015 09:47:00] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[10/Oct/2015 09:47:20] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:47:20] "GET /m/search/ HTTP/1.1" 200 1670
+[10/Oct/2015 09:47:21] "GET /getverifycode/ HTTP/1.1" 200 2132
+[10/Oct/2015 09:47:22] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:47:23] "GET /m/search/ HTTP/1.1" 200 1670
+[10/Oct/2015 09:47:27] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:47:29] "GET /m/search/ HTTP/1.1" 200 1670
+[10/Oct/2015 09:47:32] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:47:34] "GET /m/search/ HTTP/1.1" 200 1670
+[10/Oct/2015 09:47:40] "POST /checkvcode/ HTTP/1.1" 200 26
+[10/Oct/2015 09:47:40] "POST /checkuser/ HTTP/1.1" 200 26
+[10/Oct/2015 09:47:41] "POST /login/ HTTP/1.1" 302 0
+[10/Oct/2015 09:47:41] "GET / HTTP/1.1" 200 14770
+[10/Oct/2015 09:48:23] "GET /m/login/ HTTP/1.1" 200 6573
+[10/Oct/2015 09:48:23] "GET /m/search/ HTTP/1.1" 200 1667
+[10/Oct/2015 09:48:24] "GET /getverifycode/ HTTP/1.1" 200 2111
+[10/Oct/2015 09:48:27] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:48:33] "GET /m/search/ HTTP/1.1" 200 1667
+[10/Oct/2015 09:48:36] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:48:37] "GET /m/search/ HTTP/1.1" 200 1667
+[10/Oct/2015 09:48:41] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:48:43] "GET /m/search/ HTTP/1.1" 200 1667
+[10/Oct/2015 09:48:46] "POST /m/search/ HTTP/1.1" 200 13257
+[10/Oct/2015 09:48:48] "GET /m/search/ HTTP/1.1" 200 1667
+[10/Oct/2015 09:48:57] "POST /m/search/ HTTP/1.1" 200 13257
+Validating models...
+
+0 errors found
+October 09, 2015 - 18:29:22
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+this is test
+search is form
+this is test
+this is test
+this is test
+search is form
+why ******
+why ******
+this is test
+this is test
+this is test
+this is test
+this is test
+search is form
+this is test
+search is form
+why ******
+why ******
+why ******
+why ******
+search is form
+this is test
+this is test
+this is test
+search is form
+why ******
+why ******
+why ******
+search is form
+why ******
+search is form
+why ******
+search is form
+why ******
+search is form
+why ******
+why ******
+search is form
+why ******
+why ******
+why ******
+this is test
+search is form
+why ******
+why ******
+this is test
+search is form
+why ******
+why ******
+why ******
+this is test
+search is form
+why ******
+search is form
+why ******
+search is form
+this is test
+search is form
+why ******
+search is form
+why ******
+search is form
+this is test
+this is test
+search is form
+why ******
+search is form
+why ******
+why ******
+search is form
+this is test
+search is form
+this is test
+search is form
+this is test
+search is form
+why ******
+why ******
+this is test
+this is test
+search is form
+why ******
+search is form
+why ******
+search is form
+why ******
+search is form
+checkuser
+xxxxxxxxxxx
+this is test
+search is form
+why ******
+search is form
+why ******
+search is form
+why ******
+search is form
+why ******
+search is form
+why ******

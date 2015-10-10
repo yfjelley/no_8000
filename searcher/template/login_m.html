@@ -25,25 +25,7 @@
 
 <body>
 <header>
-    <div>
-        <ul>
-            <li class="nav_img">
-                <label><img src="/static/images/logo_red.png"></label>
-            </li>
-            <li class="seacher_inp">
-                <form action="" method="post">
-                    {% csrf_token %}
-                    {{ form.searchWord }}
-                    <input type="submit" class="btn_search" value="">
-                </form>
-            </li>
-            <li class="nav_btnimg">
-                <label><img src="/static/images/topseacher.png"></label>
-            </li>
-            <li style="clear: both;">
-            </li>
-        </ul>
-    </div>
+    <div id="head_m"></div>
 </header>
 <article>
     <section>
@@ -166,6 +148,11 @@
                                 ]);
 
                             })
+</script>
+<script type="text/javascript">
+    $(function(){
+        $.get("/m/search/",function(data){ $('#head_m').html(data.content_html);});
+    });
 </script>
 </body>
 </html>

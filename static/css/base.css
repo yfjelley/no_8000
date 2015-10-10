@@ -78,8 +78,8 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .footer_top{width:100%;background-color:#372C3A;height:180px;clear:both;overflow:hidden;}
 .footer_top ul{ text-align:center;}
 .footer_top a{ margin:0 10px; color:#fff; font-size:14px; }
-.cdjf{position:absolute;left:20%;padding-top:5px;}
-.footer_bottom a{color:#000000;width:100px;}
+.cdjf{padding-left:10%;padding-top:5px;float:left;}
+.footer_bottom a{color:#000000;width:15%;}
 .footer_bottom { background:#EEEEF0; height:30px;margin-bottom:0px;}
 .footer_top ul{padding-left:10%;}
 .ful{margin-top:15px; margin-left:-50px;}
@@ -111,8 +111,8 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .ful11 li{float:left;padding:0px 20px; color:#FFFFFF}
 .ful12{position:absolute;left:70%; line-height:20px; margin-top:1.5%;}
 .fuldy{margin-left:10%;color:#FFFFFF;}
-
-
+.hdzq{display:block;color:#666666;}
+.hdzq:hover{color:#FF0000; text-decoration:inherit;}
 .bbs_hunt input:hover{border:1px solid #c50512;}
 
 /*placeholder样式*/
