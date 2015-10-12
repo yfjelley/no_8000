@@ -147,12 +147,13 @@ header {
 .footer_content{
     margin:0.2rem 0 0 0.3rem;
     background-color:white;
-    height: 0.8rem;
+    height: 1.2rem;
     width: 4.5rem;
     -webkit-border-radius: 0.04rem;
     -moz-border-radius: 0.04rem;
     border-radius: 0.04rem;
 }
+
 #detail_a{padding-left:0.2rem;padding-bottom:0.2rem;}
 #detail_a dd{ display:inline-block; float:left; position:relative;padding-top:0.15rem;padding-left:0.15rem;}
 #detail_a dd a {display:block;cursor:pointer;}

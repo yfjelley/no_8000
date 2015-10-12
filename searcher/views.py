@@ -655,7 +655,13 @@ def bid_detail(request, objectid):
     try:
         b = Bid.objects.get(id=objectid)
     except ObjectDoesNotExist:
-        b = BidHis.objects.get(id=objectid)
+        try:
+            b = BidHis.objects.get(id=objectid)
+        except:
+            return HttpResponse(u'1')
+            #return render_to_response("bid_detail_error.html",
+            #                 {"msg":u"该标的被撤销，无法显示，敬请谅解！"},
+            #                  context_instance=RequestContext(request))
     now_date = datetime.datetime.now()
     yes_time_1 = now_date + datetime.timedelta(days=-1)
     connection = MySQLdb.connect(host="ddbid2015.mysql.rds.aliyuncs.com", user="django", passwd="ddbid_django1243", db="ddbid_db")
@@ -736,7 +742,7 @@ def send_smscode(request):
     m.update('shcdjr2')
     random_code = random.randint(1000, 9999)
     request.session["sms_code"] = random_code
-    content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
+    content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会!"%random_code
     print content
     data = """
               <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">
@@ -771,7 +777,7 @@ def send_smscode_modify(request):
         m.update('shcdjr2')
         random_code = random.randint(1000, 9999)
         request.session["sms_code"] = random_code
-        content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
+        content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会!"%random_code
         print content
         data = """
                   <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">

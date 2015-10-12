@@ -664,7 +664,12 @@ def bid_detail_m(request, objectid):
     try:
         b = Bid.objects.get(id=objectid)
     except ObjectDoesNotExist:
-        b = BidHis.objects.get(id=objectid)
+        try:
+            b = BidHis.objects.get(id=objectid)
+        except:
+            return HttpResponse(u'1')
+
+
     now_date = datetime.datetime.now()
     yes_time_1 = now_date + datetime.timedelta(days=-1)
     connection = MySQLdb.connect(host="ddbid2015.mysql.rds.aliyuncs.com", user="django", passwd="ddbid_django1243", db="ddbid_db")

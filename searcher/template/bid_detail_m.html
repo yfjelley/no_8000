@@ -7,6 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/static/css/bid_detail_m.css">
+    <link rel="stylesheet" href="/static/css/header_m.css">
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/highcharts.js"></script>
     <script src="/static/js/chart.js"></script>
@@ -27,6 +28,14 @@
 <body>
 <article>
     <section>
+        {% include "header_m.html" %}
+        <div>
+            <form>
+                <input type="hidden" value="{{ json_money }}" id="json_money">
+                <input type="hidden" value="{{ json_mount }}" id="json_mount">
+                <input type="hidden" value="{{ json_day }}" id="json_day">
+            </form>
+        </div>
     <div class="detail_content">
 	 <div class="detail_img">
 	    <img class="dd" src="{{ bid.platform.logo }}"/>
@@ -37,20 +46,20 @@
                     {{ bid.name }}
                 </li>
                 <li>
-                    <div style="width: 4.2rem;height:  0.005rem;background:red;margin:0.13rem 0 0 0.1rem"></div>
+                    <div style="width: 4.2rem;height:  0.02rem;background:#eeeef0;margin:0.13rem 0 0 0.1rem"></div>
                 </li>
                 <li class="detail_money">
                     <label>标的金额</label>
                 </li>
                 <li class="detail_line">
-                    <div style="width: 0.01rem;height: 0.6rem;background:red;margin:0.1rem 0 0 0.1rem">
+                    <div style="width: 0.023rem;height: 0.6rem;background:#eeeef0;margin:0.1rem 0 0 0.1rem">
                     </div>
                 </li>
                 <li class="detail_parities">
                     <label>年利率</label>
                 </li>
                 <li class="detail_line">
-                    <div style="width: 0.01rem;height: 0.6rem;background:red;margin:0.1rem 0 0 0.1rem">
+                    <div style="width: 0.023rem;height: 0.6rem;background:#eeeef0;margin:0.1rem 0 0 0.1rem">
                     </div>
                 </li>
                 <li class="detail_time">
@@ -68,7 +77,7 @@
                 </li>
                 <li style="clear: both;"></li>
                 <li>
-                    <div style="width: 4.2rem;height:  0.005rem;background:red;margin:0.13rem 0 0 0.1rem"></div>
+                    <div style="width: 4.2rem;height:  0.02rem;background:#eeeef0;margin:0.13rem 0 0 0.1rem"></div>
                 </li>
             </ul>
             <ul class="detail_list">
@@ -120,7 +129,7 @@
                 </dd>
                 <dd><a href="{{ bid.link }}"><img src="/static/images/touzi.png" alt=""/></a></dd>
             </dl>
-        </div>
+
 
 <script type="application/javascript">
     $(document).ready(function () {
@@ -185,6 +194,7 @@
     });
 
 </script>
+        </div>
         </div>
     </section>
 </article>

@@ -27,7 +27,7 @@ header {
     float: left;
 }
 
-.nav_btnimg input{
+.nav_btnimg input[type="submit"]{
     width: 0.28rem;
     height: 0.31rem;
     margin: -0.35rem 0 -0.45rem 4.51rem;

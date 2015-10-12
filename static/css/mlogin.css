@@ -20,17 +20,17 @@ header {
 .seacher_inp input[type="text"] {
     height: 0.3rem;
     margin: -0.35rem 0 -0.45rem 1.5rem;
-    width: 2.8rem;
+    width: 2.75rem;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     border-radius: 2%;
     float: left;
 }
 
-.nav_btnimg img{
-    width: 0.28rem;
-    height: 0.35rem;
-    margin: -0.34rem 0 -0.45rem 4.35rem;
+.nav_btnimg input[type="submit"]{
+    width: 0.5rem;
+    height: 0.31rem;
+    margin: -0.35rem 0 -0.45rem 4.214rem;
     float: left;
 }
 

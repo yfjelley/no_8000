@@ -20,14 +20,14 @@ header {
 .seacher_inp input[type="text"] {
     height: 0.3rem;
     margin: -0.35rem 0 -0.45rem 1.3rem;
-    width: 3.2rem;
+    width: 3rem;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     border-radius: 2%;
     float: left;
 }
 
-.nav_btnimg input[type=submit]{
+.nav_btnimg input[type="submit"]{
     width: 0.28rem;
     height: 0.31rem;
     margin: -0.5rem 0 -0.45rem 4.51rem;
