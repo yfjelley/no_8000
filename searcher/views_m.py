@@ -660,6 +660,44 @@ def bid_detail(request, objectid):
                               {'bid': b, 'json_money': json_money, 'json_mount': json_mount, 'json_day': json_day},
                               context_instance=RequestContext(request))
 
+def bid_detail_m(request, objectid):
+    try:
+        b = Bid.objects.get(id=objectid)
+    except ObjectDoesNotExist:
+        b = BidHis.objects.get(id=objectid)
+    now_date = datetime.datetime.now()
+    yes_time_1 = now_date + datetime.timedelta(days=-1)
+    connection = MySQLdb.connect(host="ddbid2015.mysql.rds.aliyuncs.com", user="django", passwd="ddbid_django1243", db="ddbid_db")
+    cursor = connection.cursor()
+    arr_money = []
+    arr_mount = []
+    arr_day = []
+    if b.platform.id != 13:
+        sql = "select day_id,amount,inv_quantity from t_platform_info_daily where platform_id=%d order by day_id" %(b.platform.id)
+    else:
+        sql = 'select day_id,amount,inv_quantity from t_platform_info_daily where platform_id=10 order by day_id'
+    cursor.execute(sql)
+    cds = cursor.fetchall()
+    i = 0
+    for abc in cds:
+        i += 1
+
+        money = {'money%d' % i: abc[1]}
+        mount = {'amount%d' % i: abc[2]}
+        day = {'day%d' % i: abc[0]}
+        arr_money.append(money)
+        arr_mount.append(mount)
+        arr_day.append(day)
+
+    json_money = json.dumps(arr_money, cls=DjangoJSONEncoder)
+    json_mount = json.dumps(arr_mount, cls=DjangoJSONEncoder)
+    json_day = json.dumps(arr_day, cls=DjangoJSONEncoder)
+    cursor.close()
+    return render_to_response("bid_detail_m.html",
+                              {'bid': b, 'json_money': json_money, 'json_mount': json_mount, 'json_day': json_day},
+                              context_instance=RequestContext(request))
+
+
 
 def comb_detail(request, ids):
     if ids is None:

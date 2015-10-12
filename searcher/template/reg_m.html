@@ -30,21 +30,7 @@
 
 <body>
 <header>
-    <div>
-        <ul>
-            <li class="nav_img">
-                <label><img src="/static/images/logo_red.png"></label>
-            </li>
-            <li class="seacher_inp">
-                <label><input type="text"> </label>
-            </li>
-            <li class="nav_btnimg">
-                <label><img src="/static/images/topseacher.png"></label>
-            </li>
-            <li style="clear: both;">
-            </li>
-        </ul>
-    </div>
+    <div id="head_m"></div>
 </header>
 <article>
     <section>
@@ -57,7 +43,7 @@
                         </li>
                         <li>
                             <div
-                                    style="border-top: 0.02rem solid #b3d4fc;width: 4.5rem;height: 0.02rem;background:#b3d4fc;margin:0.1rem 0 0 -0.8rem"></div>
+                                    style="border-top: 0.02rem solid #000000;width: 4.5rem;height: 0.02rem;background:#000000;margin:0.1rem 0 0 -0.8rem"></div>
                         </li>
                         <li class="call_text">
                             <label>手机:</label>
@@ -103,7 +89,7 @@
                         <li style="clear:both"></li>
                         <li>
                             <div
-                                    style="border-top: 0.02rem solid #b3d4fc;width: 4.5rem;height: 0.02rem;background:#b3d4fc;margin:0.3rem 0 0 -0.8rem"></div>
+                                    style="border-top: 0.02rem solid #000000;width: 4.5rem;height: 0.02rem;background:#000000;margin:0.3rem 0 0 -0.8rem"></div>
                         </li>
                         <li class="agree_text">
                             <label>注册即视为同意天天搜贷<<注册协议>>
@@ -111,7 +97,7 @@
                         </li>
                         <li>
                             <div
-                                    style="border-top: 0.02rem solid #b3d4fc;width: 4.5rem;height: 0.02rem;background:#b3d4fc;margin:0.3rem 0 0 -0.8rem"></div>
+                                    style="border-top: 0.02rem solid #000000;width: 4.5rem;height: 0.02rem;background:#000000;margin:0.3rem 0 0 -0.8rem"></div>
                         </li>
                         <li class="sign_sub">
                             <label><input type="submit" value="注册"> </label>
@@ -196,6 +182,11 @@
                                     }
                                 ]);
                             });
+</script>
+<script type="text/javascript">
+    $(function(){
+        $.get("/m/search/",function(data){ $('#head_m').html(data.content_html);});
+    });
 </script>
 </body>
 </html>

@@ -66,4 +66,5 @@ urlpatterns += patterns('searcher.views_m',
     url(r'^m/logout/$',  'logout', name='logout_m'),
     url(r'^m/register/$',  'register', name='register_m'),
     url(r'^m/forgetpw/$',  'forgetpw', name='forgetpw_m'),
+    url(r'^m/bid_detail_m/(?P<objectid>\d+)/$',  'bid_detail_m', name='bid_detail_m'),
 )

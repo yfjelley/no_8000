@@ -12,8 +12,10 @@
     <script type="text/javascript" src="/static/js/public.js"></script>
 </head>
 <body>
-<div class="log_conten">
-<div id="head_m"></div>
+<div id="container">
+<div class="zynr">
+    <div id="head_m"></div>
+
 {% if params %}
     <script>
         $(document).ready(function () {
@@ -31,19 +33,31 @@
         });
     </script>
 {% endif %}
-    <div style="width:4.7rem;height:0.4rem; background:#cccccc;"></div>
-	<div class="log_contenttt">
-		<div style="overflow:hidden;width:4.7rem;height:0.6rem;padding-top:0.2rem;padding-left:0.2rem;">
-			<div style="font-size:0.25rem;float:left;">
-			   标的搜索结果
-			</div>
-			<div class="search_reorder">
-					<a href="javascript:void(0)" sorttype="1"><span style="color:#FF0000;">▼ </span>收益<i></i></a>
-					<a href="javascript:void(0)" sorttype="2">&nbsp;&nbsp;▲投资期限<i></i></a>
-			</div>	
-		 </div>
-		{% include "search_result_single_m.html" %}
-	</div>
+
+<div id="middd">
+    <div class="user_con">
+        {% include "little_search.html" %}
+    </div>
+    <div class=" search_content mt10">
+        <div id="search_norm" class="search_result_box">
+        </div>
+     
+         <div class="search_tips mt10" >
+            <div class="search_hd">
+                <h2>标的搜索结果</h2>
+            </div>
+            <div style="padding-bottom: 0px;">
+                    <a href="javascript:void(0)" sorttype="1">收益<i></i></a>
+                    <a href="javascript:void(0)" sorttype="2">投资期限<i></i></a>
+            </div>
+        {% include "search_result_single_m.html" %}
+        </div>
+
+        
+    </div>
+</div>
+
+</div>
 </div>
 </body>
 <script>
