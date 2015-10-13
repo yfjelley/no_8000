@@ -42,7 +42,7 @@ header {
 .log_content{
     width: 5rem;
     height: 8.25rem;
-    background-color:#999999;
+    background-color:#eeeef0;
 	z-index: -1;
 }
 .log_message{
@@ -123,6 +123,9 @@ header {
 	margin:0.5rem 0 0 -0.8rem;
 	font-size: 0.25rem;
     color:#ffffff;
+	-webkit-border-radius: 0.03rem;
+	-moz-border-radius: 0.03rem;
+	border-radius: 0.03rem;
 }
 .footer_text{
 	font-size: 0.21rem;

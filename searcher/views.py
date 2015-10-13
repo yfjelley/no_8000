@@ -658,7 +658,7 @@ def bid_detail(request, objectid):
         try:
             b = BidHis.objects.get(id=objectid)
         except:
-            return HttpResponse(u'1')
+            return HttpResponse()
             #return render_to_response("bid_detail_error.html",
             #                 {"msg":u"该标的被撤销，无法显示，敬请谅解！"},
             #                  context_instance=RequestContext(request))
@@ -693,6 +693,18 @@ def bid_detail(request, objectid):
     return render_to_response("bid_detail.html",
                               {'bid': b, 'json_money': json_money, 'json_mount': json_mount, 'json_day': json_day},
                               context_instance=RequestContext(request))
+
+def bid_detail_p(request):
+    objectid = request.POST.get('object_id')
+
+    try:
+        b = Bid.objects.get(id=objectid)
+    except ObjectDoesNotExist:
+        try:
+            b = BidHis.objects.get(id=objectid)
+        except:
+            return HttpResponse()
+    return HttpResponse(u'1')
 
 
 def comb_detail(request, ids):

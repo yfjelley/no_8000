@@ -10,8 +10,16 @@
  	<link rel="stylesheet" href="/static/css/search_result_m.css">
     <link rel="stylesheet" href="/static/css/login_m.css">
     <script type="text/javascript" src="/static/js/public.js"></script>
+	<script type="text/javascript">
+    $(function(){
+        $.get("/march/",function(data){ $('#head_m').html(data.content_html);});
+    });
+</script>‘
 </head>
 <body>
+<header>
+    <div id="head_m"></div>
+</header>
 <div id="container">
 <div class="zynr">
     <div id="head_m"></div>

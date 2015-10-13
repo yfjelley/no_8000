@@ -2,18 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/static/css/header_m.css">
 
     <form action="{% url 'search_result_m' %}"  id="formPW" method="post">
         {% csrf_token %}
         <ul>
-            <li class="nav_img">
+            <li class="header_img">
                 <label><img src="/static/images/logo_red.png"></label>
             </li>
-            <li class="seacher_inp">
+            <li class="txt_iframe">
                     {{ form.searchWord }}
-
             </li>
-            <li class="nav_btnimg">
+            <li class="hea_search">
                 <label><input id ="submit_searchWord" type="submit" value="搜索" /></label>
             </li>
             <li style="clear: both;">

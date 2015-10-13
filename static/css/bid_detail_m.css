@@ -37,7 +37,7 @@ header {
 /*content style*/
 .detail_content{
     width: 5rem;
-    height: 8.25rem;
+    height: 8.64rem;
     font-size: 0.3rem;
     background-color: #eeeef0;
     position: absolute;
@@ -57,7 +57,7 @@ header {
     padding: 0.17rem 0 0 0.4rem;
 }
 .detail_info{
-    height: 4rem;
+    height: 4.4rem;
     width: 4.5rem;
     margin:0.2rem 0 0 0.3rem;
     background-color:white;
@@ -117,8 +117,10 @@ header {
     color:rgb(240,52,89);
 }
 .detail_list{
-    font-size: 0.1rem;
     margin: 0.2rem 0 0 0.3rem;
+}
+.detail_list label{
+    font-size: 0.2rem;
 }
 .detail_list li{
     padding: 0.05rem 0 0.05rem 0;
@@ -128,32 +130,38 @@ header {
 }
 .detail_rate{
     float:left;
-    margin-left: 2.4rem;
+    position: absolute;
+    left: 3.3rem;
 }
 .detail_canmoney{
     float: left;
 }
 .detail_return{
     float:left;
-    margin-left: 1.4rem;
+    position: absolute;
+    left: 3.15rem;
 }
 .detail_havemoney{
     float: left;
 }
 .detail_avgmoney{
     float: left;
-    margin-left: 1.8rem;
+    position: absolute;
+    left: 3rem;
 }
 .footer_content{
     margin:0.2rem 0 0 0.3rem;
     background-color:white;
-    height: 1.2rem;
+    height: 1.4rem;
     width: 4.5rem;
     -webkit-border-radius: 0.04rem;
     -moz-border-radius: 0.04rem;
     border-radius: 0.04rem;
 }
 
+.invest_a img{
+    margin-left: 1.8rem;
+}
 #detail_a{padding-left:0.2rem;padding-bottom:0.2rem;}
 #detail_a dd{ display:inline-block; float:left; position:relative;padding-top:0.15rem;padding-left:0.15rem;}
 #detail_a dd a {display:block;cursor:pointer;}

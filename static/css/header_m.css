@@ -28,8 +28,10 @@ header {
 }
 
 .hea_search input[type="submit"]{
-    width: 0.4rem;
-    height: 0.31rem;
-    margin: -0.35rem 0 -0.45rem 4.214rem;
+    width: 0.5rem;
+    height: 0.32rem;
+    margin: -0.35rem 0 -0.45rem 4.27rem;
     float: left;
+    color: #000;
+    font-size: 0.2rem;
 }
