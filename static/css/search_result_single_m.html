@@ -23,7 +23,7 @@
 					   </ul>
 					</div>		
 					<div class="neirong1"><div style="width:0.02rem;height:0.5rem; background:#999999"></div></div>	
-					<div class="neirong2">
+					<div class="neirong">
 					   <ul>
 						  <li>期限:<font class="c_red">{{ result.term_name|floatformat:"-2" }}</font>{{ result.term_unit }}</li>
 						  <li>年化收益:<font class="c_red">{{ result.income_rate|floatformat:"-2" }}</font>%</li>
@@ -37,26 +37,17 @@
     {% else %}
         <a>无符合查询条件的纪录</a>
     {% endif %}
-   <div id="divv1">
+   <div style="float:left;padding-left:0.1rem;width:4.7rem; margin-bottom:0.2rem;margin-top:0.3rem; overflow:hidden;">
 
-        {% if results.has_previous and  results.has_next %}
+        {% if results.has_previous %}
             <a href="javascript:void(0)" class="seach_cheek1"
                onclick="takepage({{ results.previous_page_number }})">上一页</a>
-
+        {% endif %}
+        {% if results.has_next %}
             &nbsp;<a href="javascript:void(0)" class="seach_cheekk"
                onclick="takepage({{ results.next_page_number }})">下一页</a>
-         {% endif %}
-
-        {% if results.has_next and not results.has_previous %}
-            &nbsp;<a href="javascript:void(0)" class="seach_cheekk1"
-               onclick="takepage({{ results.next_page_number }})">下一页</a>
         {% endif %}
-
-        {% if not results.has_next and results.has_previous %}
-            &nbsp;<a href="javascript:void(0)" class="seach_cheekk1"
-               onclick="takepage({{ results.next_page_number }})">上一页</a>
-        {% endif %}
-
+    </div>
 </div>
 </body>
 <script>
@@ -87,13 +78,5 @@
        });
     });
 });
-</script>
-<script type="text/javascript">
-    $(function(){
-		$('#divv2').find('a').click(function(){
-			 $('#divv2').hide();
-			 $('#divv1').show()
-		});						
-    });
 </script>
 </html>

@@ -143,3 +143,6 @@ logging.basicConfig(level=logging.INFO,
                 filename='/home/svn/Web/ddbid.log',
                 filemode='w')
 
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 60 * 1 
