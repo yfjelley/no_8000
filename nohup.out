@@ -22626,3 +22626,740 @@ page isxxxxxxxxxxxxx 1
 page isxxxxxxxxxxxxx 1
 page isxxxxxxxxxxxxx 1
 page is 1
+[14/Oct/2015 11:07:35] "GET /login/ HTTP/1.1" 200 10656
+[14/Oct/2015 11:07:36] "GET /getverifycode/ HTTP/1.1" 200 2140
+[14/Oct/2015 11:07:42] "GET /static/images/right.png HTTP/1.1" 200 725
+[14/Oct/2015 11:07:42] "POST /checkuser/ HTTP/1.1" 200 26
+[14/Oct/2015 11:07:42] "POST /checkvcode/ HTTP/1.1" 200 26
+[14/Oct/2015 11:07:43] "POST /login/ HTTP/1.1" 302 0
+[14/Oct/2015 11:07:43] "GET / HTTP/1.1" 200 14740
+[14/Oct/2015 11:07:43] "GET /static/upload/photo1.png HTTP/1.1" 200 24595
+[14/Oct/2015 11:07:43] "GET /static/images/ico.png HTTP/1.1" 200 1568
+[14/Oct/2015 11:08:00] "GET / HTTP/1.1" 200 18266
+[14/Oct/2015 11:08:02] "GET /login/ HTTP/1.1" 200 10656
+[14/Oct/2015 11:08:02] "GET /getverifycode/ HTTP/1.1" 200 2137
+[14/Oct/2015 11:08:06] "POST /checkuser/ HTTP/1.1" 200 26
+[14/Oct/2015 11:08:06] "POST /checkvcode/ HTTP/1.1" 200 26
+[14/Oct/2015 11:08:06] "POST /login/ HTTP/1.1" 302 0
+[14/Oct/2015 11:08:07] "GET / HTTP/1.1" 200 14761
+[14/Oct/2015 11:08:15] "GET / HTTP/1.1" 200 18284
+[14/Oct/2015 11:09:35] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:09:35] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:09:35] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:09:35] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:09:35] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:09:35] "GET /static/images/logo/ax.png HTTP/1.1" 304 0
+[14/Oct/2015 11:09:35] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:09:35] "GET /static/images/logo/yl.jpg HTTP/1.1" 304 0
+[14/Oct/2015 11:09:35] "GET /static/css/header_m.css HTTP/1.1" 200 1024
+[14/Oct/2015 11:09:35] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:11:18] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /static/images/logo/ax.png HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /static/images/logo/yl.jpg HTTP/1.1" 304 0
+[14/Oct/2015 11:11:18] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:11:18] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:11:44] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:11:44] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:11:45] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:11:50] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:11:50] "GET /m/bid_detail/277194 HTTP/1.1" 301 0
+[14/Oct/2015 11:11:50] "GET /m/bid_detail/277194/ HTTP/1.1" 200 24220
+[14/Oct/2015 11:11:51] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:12:17] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:12:17] "GET /m/bid_detail/277536 HTTP/1.1" 301 0
+[14/Oct/2015 11:12:17] "GET /m/bid_detail/277536/ HTTP/1.1" 200 24218
+[14/Oct/2015 11:12:17] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:12:23] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:12:24] "GET /m/bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:12:24] "GET /m/bid_detail/277438/ HTTP/1.1" 200 26602
+[14/Oct/2015 11:12:25] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:12:28] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:12:28] "GET /m/bid_detail/277194/ HTTP/1.1" 200 24220
+[14/Oct/2015 11:12:28] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:12:41] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6344
+[14/Oct/2015 11:12:43] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:12:43] "GET /m/bid_detail/277405 HTTP/1.1" 301 0
+[14/Oct/2015 11:12:44] "GET /m/bid_detail/277405/ HTTP/1.1" 200 26607
+[14/Oct/2015 11:12:44] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:14:59] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:14:59] "GET /static/css/search_result_m.css HTTP/1.1" 200 3358
+[14/Oct/2015 11:14:59] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:14:59] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:14:59] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:14:59] "GET /static/images/logo/ax.png HTTP/1.1" 304 0
+[14/Oct/2015 11:14:59] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:14:59] "GET /static/images/logo/yl.jpg HTTP/1.1" 304 0
+[14/Oct/2015 11:14:59] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:14:59] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[14/Oct/2015 11:17:34] "GET /login/ HTTP/1.1" 200 10656
+[14/Oct/2015 11:17:34] "GET /getverifycode/ HTTP/1.1" 200 2120
+[14/Oct/2015 11:17:39] "POST /checkuser/ HTTP/1.1" 200 26
+[14/Oct/2015 11:17:39] "POST /checkvcode/ HTTP/1.1" 200 26
+[14/Oct/2015 11:17:40] "POST /login/ HTTP/1.1" 302 0
+[14/Oct/2015 11:17:41] "GET / HTTP/1.1" 200 14766
+[14/Oct/2015 11:17:59] "GET / HTTP/1.1" 200 14754
+[14/Oct/2015 11:18:01] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:18:01] "GET /static/css/search_result_m.css HTTP/1.1" 200 3358
+[14/Oct/2015 11:18:01] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:19:17] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:19:17] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:17] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:18] "GET /static/images/logo/ax.png HTTP/1.1" 200 11525
+[14/Oct/2015 11:19:18] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:19:20] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:19:21] "GET /m/bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:19:21] "GET /m/bid_detail/277438/ HTTP/1.1" 200 26602
+[14/Oct/2015 11:19:22] "GET /static/css/bid_detail_m.css HTTP/1.1" 200 4075
+[14/Oct/2015 11:19:22] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:22] "GET /static/js/chart.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:23] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:19:38] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:19:38] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:39] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:39] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:19:46] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:19:46] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:46] "GET /static/css/search_result_m.css HTTP/1.1" 200 3358
+[14/Oct/2015 11:19:46] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:46] "GET /static/images/logo/ax.png HTTP/1.1" 200 11525
+[14/Oct/2015 11:19:46] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:19:46] "GET /static/css/header_m.css HTTP/1.1" 200 1024
+[14/Oct/2015 11:19:48] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:19:48] "GET /m/bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:19:48] "GET /m/bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:19:48] "GET /m/bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:19:49] "GET /m/bid_detail/277438/ HTTP/1.1" 200 26602
+[14/Oct/2015 11:19:49] "GET /static/css/bid_detail_m.css HTTP/1.1" 200 4075
+[14/Oct/2015 11:19:49] "GET /static/js/chart.js HTTP/1.1" 200 4124
+[14/Oct/2015 11:19:49] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:19:49] "GET /m/bid_detail/277438/ HTTP/1.1" 200 26602
+[14/Oct/2015 11:19:49] "GET /static/images/shoucang.png HTTP/1.1" 200 3953
+[14/Oct/2015 11:19:49] "GET /static/images/touzi.png HTTP/1.1" 200 5188
+[14/Oct/2015 11:19:49] "GET /m/bid_detail/277438/ HTTP/1.1" 200 26602
+[14/Oct/2015 11:19:50] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[14/Oct/2015 11:19:50] "GET /static/js/highcharts.js HTTP/1.1" 200 152202
+[14/Oct/2015 11:19:52] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:20:02] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6344
+[14/Oct/2015 11:20:04] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6304
+[14/Oct/2015 11:20:04] "GET /static/images/logo/nwd.jpg HTTP/1.1" 200 18457
+[14/Oct/2015 11:20:06] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:20:06] "GET /m/bid_detail/277829 HTTP/1.1" 301 0
+[14/Oct/2015 11:20:06] "GET /m/bid_detail/277829/ HTTP/1.1" 200 27005
+[14/Oct/2015 11:20:07] "GET /static/js/chart.js HTTP/1.1" 304 0
+[14/Oct/2015 11:20:07] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:20:07] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:20:15] "GET /m/login/?next=/bid_detail/277829 HTTP/1.1" 200 6620
+[14/Oct/2015 11:20:15] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:20:15] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:20:16] "GET /getverifycode/ HTTP/1.1" 200 2074
+[14/Oct/2015 11:21:08] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2015 11:21:08] "GET /login?next=/logout/ HTTP/1.1" 301 0
+[14/Oct/2015 11:21:08] "GET /login/?next=/logout/ HTTP/1.1" 200 10761
+[14/Oct/2015 11:21:08] "GET /getverifycode/ HTTP/1.1" 200 2139
+[14/Oct/2015 11:21:11] "GET / HTTP/1.1" 200 18266
+[14/Oct/2015 11:21:15] "POST / HTTP/1.1" 200 46447
+[14/Oct/2015 11:21:15] "GET /static/css/search_result.css HTTP/1.1" 200 4576
+[14/Oct/2015 11:21:15] "GET /static/images/logo1.png HTTP/1.1" 200 6444
+[14/Oct/2015 11:21:15] "GET /static/images/star_chenck.png HTTP/1.1" 200 3714
+[14/Oct/2015 11:21:15] "GET /static/images/logo/wz.png HTTP/1.1" 200 40326
+[14/Oct/2015 11:21:15] "GET /static/images/logo/ax.png HTTP/1.1" 200 11525
+[14/Oct/2015 11:21:15] "GET /static/images/logo/yl.jpg HTTP/1.1" 200 46945
+[14/Oct/2015 11:21:16] "GET /static/images/advert.png HTTP/1.1" 200 126575
+[14/Oct/2015 11:21:17] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:21:17] "GET /bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:21:17] "GET /bid_detail/277438/ HTTP/1.1" 200 44423
+[14/Oct/2015 11:21:18] "GET /static/css/detail.css HTTP/1.1" 200 3234
+[14/Oct/2015 11:21:18] "GET /static/js/chart.js HTTP/1.1" 200 4124
+[14/Oct/2015 11:21:18] "GET /static/images/shoucang.png HTTP/1.1" 200 3953
+[14/Oct/2015 11:21:18] "GET /static/images/touzi.png HTTP/1.1" 200 5188
+[14/Oct/2015 11:21:19] "GET /static/js/highcharts.js HTTP/1.1" 200 152202
+[14/Oct/2015 11:21:24] "GET /login/?next=/bid_detail/277438 HTTP/1.1" 200 10771
+[14/Oct/2015 11:21:24] "GET /getverifycode/ HTTP/1.1" 200 2117
+[14/Oct/2015 11:21:26] "GET /bid_detail/277438/ HTTP/1.1" 200 44423
+[14/Oct/2015 11:21:56] "GET /bid_detail/277438/ HTTP/1.1" 200 44423
+[14/Oct/2015 11:21:59] "GET / HTTP/1.1" 200 18278
+[14/Oct/2015 11:22:02] "GET / HTTP/1.1" 200 18277
+[14/Oct/2015 11:22:04] "POST / HTTP/1.1" 200 46450
+[14/Oct/2015 11:22:06] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:22:06] "GET /bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:22:07] "GET /bid_detail/277438/ HTTP/1.1" 200 44423
+[14/Oct/2015 11:22:22] "GET /bid_detail/277438/ HTTP/1.1" 200 44423
+[14/Oct/2015 11:22:27] "GET / HTTP/1.1" 200 18277
+[14/Oct/2015 11:22:31] "GET /bbs/ HTTP/1.1" 200 33834
+[14/Oct/2015 11:22:31] "GET /static/css/bbs.css HTTP/1.1" 200 10332
+[14/Oct/2015 11:22:32] "GET /static/upload/default.png HTTP/1.1" 200 6462
+[14/Oct/2015 11:22:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[14/Oct/2015 11:22:32] "GET /static/js/search.js HTTP/1.1" 200 324
+[14/Oct/2015 11:22:32] "GET /static/images/qqico.png HTTP/1.1" 200 1570
+[14/Oct/2015 11:22:32] "GET /static/images/u205.png HTTP/1.1" 200 10647
+[14/Oct/2015 11:22:32] "GET /static/images/u209.png HTTP/1.1" 200 13444
+[14/Oct/2015 11:22:32] "GET /static/images/u207.jpg HTTP/1.1" 200 13761
+[14/Oct/2015 11:22:32] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 200 102198
+[14/Oct/2015 11:22:33] "GET / HTTP/1.1" 200 18284
+[14/Oct/2015 11:22:37] "GET /bbs/ HTTP/1.1" 200 33834
+[14/Oct/2015 11:22:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[14/Oct/2015 11:22:39] "GET / HTTP/1.1" 200 18278
+[14/Oct/2015 11:22:40] "GET /register/ HTTP/1.1" 200 12965
+[14/Oct/2015 11:22:40] "GET /static/js/sendtime.js HTTP/1.1" 200 1721
+[14/Oct/2015 11:22:41] "GET /static/images/zhuce.png HTTP/1.1" 200 24265
+[14/Oct/2015 11:22:41] "GET /getverifycode/ HTTP/1.1" 200 2117
+[14/Oct/2015 11:22:44] "GET /bbs/ HTTP/1.1" 200 33834
+[14/Oct/2015 11:22:45] "GET / HTTP/1.1" 200 18269
+[14/Oct/2015 11:22:45] "GET /bbs/ HTTP/1.1" 200 33834
+[14/Oct/2015 11:22:50] "POST / HTTP/1.1" 200 42515
+[14/Oct/2015 11:22:51] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:22:52] "GET /bid_detail/277438 HTTP/1.1" 301 0
+[14/Oct/2015 11:22:52] "GET /bid_detail/277438/ HTTP/1.1" 200 44423
+[14/Oct/2015 11:23:43] "GET /m/search_result HTTP/1.1" 301 0
+[14/Oct/2015 11:23:43] "GET /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:23:48] "GET /m/register HTTP/1.1" 301 0
+[14/Oct/2015 11:23:48] "GET /m/register/ HTTP/1.1" 200 7788
+[14/Oct/2015 11:23:49] "GET /m/register/ HTTP/1.1" 200 7788
+[14/Oct/2015 11:23:49] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[14/Oct/2015 11:23:49] "GET /static/js/public.js HTTP/1.1" 200 670
+[14/Oct/2015 11:23:49] "GET /static/js/sendtime.js HTTP/1.1" 200 1721
+[14/Oct/2015 11:23:49] "GET /static/css/mreg.css HTTP/1.1" 200 4046
+[14/Oct/2015 11:23:50] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[14/Oct/2015 11:23:51] "GET /getverifycode/ HTTP/1.1" 200 2144
+[14/Oct/2015 11:23:51] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:23:52] "GET /static/css/header_m.css HTTP/1.1" 200 1024
+[14/Oct/2015 11:23:52] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[14/Oct/2015 11:24:06] "POST /m/search_result/ HTTP/1.1" 200 9717
+[14/Oct/2015 11:24:06] "GET /static/css/search_result_m.css HTTP/1.1" 200 3358
+[14/Oct/2015 11:24:07] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[14/Oct/2015 11:24:08] "GET /static/images/logo/wz.png HTTP/1.1" 200 40326
+[14/Oct/2015 11:24:08] "GET /static/images/logo/ax.png HTTP/1.1" 200 11525
+[14/Oct/2015 11:24:08] "GET /static/images/logo/yl.jpg HTTP/1.1" 200 46945
+[14/Oct/2015 11:24:08] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:25:52] "GET /static/js/public.js HTTP/1.1" 200 670
+[14/Oct/2015 11:25:52] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[14/Oct/2015 11:26:40] "GET /bid_detail/277438/ HTTP/1.1" 200 0
+[14/Oct/2015 11:26:48] "GET / HTTP/1.1" 200 18278
+[14/Oct/2015 11:26:53] "POST / HTTP/1.1" 200 46567
+[14/Oct/2015 11:26:54] "GET /static/images/logo/ljs.png HTTP/1.1" 200 7798
+[14/Oct/2015 11:26:54] "GET /static/images/logo/hlct.png HTTP/1.1" 200 47806
+[14/Oct/2015 11:26:55] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:26:56] "GET /bid_detail/278632 HTTP/1.1" 301 0
+[14/Oct/2015 11:26:56] "GET /bid_detail/278632/ HTTP/1.1" 200 44216
+[14/Oct/2015 11:26:59] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6387
+[14/Oct/2015 11:27:06] "GET /bid_detail/278632/ HTTP/1.1" 200 44216
+[14/Oct/2015 11:29:35] "GET /m/search_result/ HTTP/1.1" 200 9810
+[14/Oct/2015 11:29:35] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:29:35] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:29:35] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:50] "GET /m/search_result/ HTTP/1.1" 200 9810
+[14/Oct/2015 11:29:50] "GET /static/css/search_result_m.css HTTP/1.1" 200 3258
+[14/Oct/2015 11:29:50] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:29:50] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:29:50] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:50] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:50] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[14/Oct/2015 11:29:50] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:30:31] "GET /m/search_result/ HTTP/1.1" 200 9810
+[14/Oct/2015 11:30:32] "GET /static/css/search_result_m.css HTTP/1.1" 200 3258
+[14/Oct/2015 11:30:32] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:30:32] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:30:32] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 11:30:32] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:30:32] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[14/Oct/2015 11:30:32] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:33:05] "GET /m/search_result/ HTTP/1.1" 200 9810
+[14/Oct/2015 11:33:05] "GET /static/css/search_result_m.css HTTP/1.1" 200 3195
+[14/Oct/2015 11:33:05] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:33:05] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:33:05] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 11:33:05] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 11:33:05] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[14/Oct/2015 11:33:05] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:33:05] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:37:15] "GET /m/register/ HTTP/1.1" 200 7788
+[14/Oct/2015 11:40:17] "GET /login/?next=/bid_detail/278632 HTTP/1.1" 200 10771
+[14/Oct/2015 11:40:17] "GET /getverifycode/ HTTP/1.1" 200 2135
+[14/Oct/2015 11:40:22] "GET /bid_detail/278632/ HTTP/1.1" 200 0
+[14/Oct/2015 11:40:29] "POST /bid_detail_p/ HTTP/1.1" 200 0
+[14/Oct/2015 11:40:32] "POST /bid_detail_p/ HTTP/1.1" 200 0
+[14/Oct/2015 11:40:35] "GET / HTTP/1.1" 200 18285
+[14/Oct/2015 11:40:38] "POST / HTTP/1.1" 200 46493
+[14/Oct/2015 11:40:39] "GET /static/images/logo/ppd.jpg HTTP/1.1" 200 9445
+[14/Oct/2015 11:40:39] "GET /static/images/logo/nwd.jpg HTTP/1.1" 200 18457
+[14/Oct/2015 11:40:40] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:40:40] "GET /bid_detail/279618 HTTP/1.1" 301 0
+[14/Oct/2015 11:40:41] "GET /bid_detail/279618/ HTTP/1.1" 200 44776
+[14/Oct/2015 11:40:54] "GET /login/?next=/bid_detail/279618 HTTP/1.1" 200 10771
+[14/Oct/2015 11:40:54] "GET /getverifycode/ HTTP/1.1" 200 2129
+[14/Oct/2015 11:40:59] "GET /m/login HTTP/1.1" 301 0
+[14/Oct/2015 11:40:59] "GET /static/js/sendtime.js HTTP/1.1" 200 1721
+[14/Oct/2015 11:40:59] "GET /static/js/public.js HTTP/1.1" 200 670
+[14/Oct/2015 11:40:59] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[14/Oct/2015 11:40:59] "GET /m/register/js/placeholder.min.js HTTP/1.1" 404 13282
+[14/Oct/2015 11:40:59] "GET /m/login/ HTTP/1.1" 200 6499
+[14/Oct/2015 11:40:59] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[14/Oct/2015 11:43:44] "GET /m/search_result/ HTTP/1.1" 200 9745
+[14/Oct/2015 11:43:44] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 11:43:44] "GET /static/css/search_result_m.css HTTP/1.1" 200 3247
+[14/Oct/2015 11:43:44] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 11:43:44] "GET /static/images/logo/ppd.jpg HTTP/1.1" 304 0
+[14/Oct/2015 11:43:44] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:43:44] "GET /static/images/logo/nwd.jpg HTTP/1.1" 304 0
+[14/Oct/2015 11:43:44] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:43:44] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[14/Oct/2015 11:43:49] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6400
+[14/Oct/2015 11:43:51] "GET / HTTP/1.1" 200 18284
+[14/Oct/2015 11:43:56] "POST / HTTP/1.1" 200 46489
+[14/Oct/2015 11:43:59] "POST / HTTP/1.1" 200 46479
+[14/Oct/2015 11:44:00] "GET /static/images/logo/nwd.jpg HTTP/1.1" 200 18457
+[14/Oct/2015 11:44:00] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6444
+[14/Oct/2015 11:44:01] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:44:01] "GET /bid_detail/279618 HTTP/1.1" 301 0
+[14/Oct/2015 11:44:03] "GET /bid_detail/279618/ HTTP/1.1" 500 275275
+[14/Oct/2015 11:44:54] "GET /bid_detail/279618/ HTTP/1.1" 200 45001
+[14/Oct/2015 11:46:26] "GET /bid_detail/279618/ HTTP/1.1" 200 44941
+[14/Oct/2015 11:46:55] "GET /bid_detail/279618/ HTTP/1.1" 200 45001
+[14/Oct/2015 11:46:59] "GET /login/?next=/bid_detail/279618 HTTP/1.1" 200 10771
+[14/Oct/2015 11:46:59] "GET /getverifycode/ HTTP/1.1" 200 2141
+[14/Oct/2015 11:47:08] "GET /bid_detail/279618/ HTTP/1.1" 200 45001
+[14/Oct/2015 11:47:11] "GET /login/?next=/bid_detail/279618 HTTP/1.1" 200 10771
+[14/Oct/2015 11:47:11] "GET /getverifycode/ HTTP/1.1" 200 2110
+[14/Oct/2015 11:47:15] "POST /checkuser/ HTTP/1.1" 200 26
+[14/Oct/2015 11:47:15] "POST /checkvcode/ HTTP/1.1" 200 26
+[14/Oct/2015 11:47:16] "POST /login/ HTTP/1.1" 302 0
+[14/Oct/2015 11:47:16] "GET /bid_detail/279618 HTTP/1.1" 301 0
+[14/Oct/2015 11:47:17] "GET /bid_detail/279618/ HTTP/1.1" 200 41639
+[14/Oct/2015 11:49:47] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=4&sorttype=0&sortorder=0 HTTP/1.1" 200 6400
+[14/Oct/2015 11:49:51] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6444
+[14/Oct/2015 11:49:54] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6400
+[14/Oct/2015 11:50:03] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6444
+[14/Oct/2015 11:51:14] "GET / HTTP/1.1" 200 18260
+[14/Oct/2015 11:51:14] "GET / HTTP/1.1" 200 18284
+[14/Oct/2015 11:51:21] "POST / HTTP/1.1" 200 45176
+[14/Oct/2015 11:51:25] "POST /bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:51:25] "GET /bid_detail/279618 HTTP/1.1" 301 0
+[14/Oct/2015 11:51:26] "GET /bid_detail/279618/ HTTP/1.1" 200 44999
+[14/Oct/2015 11:51:30] "GET /login/?next=/bid_detail/279618 HTTP/1.1" 200 10771
+[14/Oct/2015 11:51:30] "GET /getverifycode/ HTTP/1.1" 200 2130
+[14/Oct/2015 11:51:40] "GET /bid_detail/279618/ HTTP/1.1" 200 44999
+[14/Oct/2015 11:51:57] "GET /m/login HTTP/1.1" 301 0
+[14/Oct/2015 11:51:57] "GET /m/login/ HTTP/1.1" 200 6499
+[14/Oct/2015 11:51:57] "GET /static/js/public.js HTTP/1.1" 200 670
+[14/Oct/2015 11:51:57] "GET /static/css/mlogin.css HTTP/1.1" 200 3167
+[14/Oct/2015 11:51:57] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:51:58] "GET /getverifycode/ HTTP/1.1" 200 2125
+[14/Oct/2015 11:51:58] "GET /static/css/header_m.css HTTP/1.1" 200 1024
+[14/Oct/2015 11:52:00] "POST /m/search_result/ HTTP/1.1" 200 9745
+[14/Oct/2015 11:52:00] "GET /static/css/search_result_m.css HTTP/1.1" 200 3247
+[14/Oct/2015 11:52:00] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[14/Oct/2015 11:52:01] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:52:02] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:52:02] "GET /m/bid_detail/279618 HTTP/1.1" 301 0
+[14/Oct/2015 11:52:03] "GET /m/bid_detail/279618/ HTTP/1.1" 200 27166
+[14/Oct/2015 11:52:03] "GET /static/css/bid_detail_m.css HTTP/1.1" 200 4075
+[14/Oct/2015 11:52:03] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:52:11] "GET /m/login/?next=/bid_detail/279618 HTTP/1.1" 200 6620
+[14/Oct/2015 11:52:11] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:52:11] "GET /getverifycode/ HTTP/1.1" 200 2127
+[14/Oct/2015 11:53:25] "POST /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 11:53:26] "GET /static/css/search_result_m.css HTTP/1.1" 200 3247
+[14/Oct/2015 11:53:27] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:53:30] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6359
+[14/Oct/2015 11:53:36] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6352
+[14/Oct/2015 11:54:12] "GET /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 11:56:07] "GET /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 11:56:07] "GET /static/images/logo/hlct.png HTTP/1.1" 200 47806
+[14/Oct/2015 11:56:07] "GET /static/images/logo/wz.png HTTP/1.1" 200 40326
+[14/Oct/2015 11:56:07] "GET /static/css/search_result_m.css HTTP/1.1" 200 3247
+[14/Oct/2015 11:56:08] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[14/Oct/2015 11:56:09] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:56:09] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[14/Oct/2015 11:56:09] "GET /static/css/header_m.css HTTP/1.1" 200 1024
+[14/Oct/2015 11:56:33] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6359
+[14/Oct/2015 11:56:33] "GET /static/images/logo/yl.jpg HTTP/1.1" 200 46945
+[14/Oct/2015 11:56:33] "GET /static/images/logo/ljs.png HTTP/1.1" 200 7798
+[14/Oct/2015 11:56:38] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6352
+[14/Oct/2015 11:56:38] "GET /static/images/logo/nwd.jpg HTTP/1.1" 200 18457
+[14/Oct/2015 11:56:43] "GET /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 11:56:43] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:56:43] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:56:44] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 11:56:45] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=4&sorttype=0&sortorder=0 HTTP/1.1" 200 6412
+[14/Oct/2015 11:56:45] "GET /static/images/logo/yrd.png HTTP/1.1" 200 6194
+[14/Oct/2015 11:56:47] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[14/Oct/2015 11:56:47] "GET /m/bid_detail/280582 HTTP/1.1" 301 0
+[14/Oct/2015 11:56:48] "GET /m/bid_detail/280582/ HTTP/1.1" 200 23865
+[14/Oct/2015 11:56:48] "GET /static/css/bid_detail_m.css HTTP/1.1" 200 4075
+[14/Oct/2015 11:56:48] "GET /static/js/chart.js HTTP/1.1" 200 4124
+[14/Oct/2015 11:56:49] "GET /static/images/shoucang.png HTTP/1.1" 200 3953
+[14/Oct/2015 11:56:49] "GET /static/images/touzi.png HTTP/1.1" 200 5188
+[14/Oct/2015 11:56:49] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[14/Oct/2015 11:56:50] "GET /static/js/highcharts.js HTTP/1.1" 200 152202
+[14/Oct/2015 11:56:52] "GET /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 11:56:53] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 11:57:44] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6359
+[14/Oct/2015 11:58:32] "GET /static/js/public.js HTTP/1.1" 200 670
+[14/Oct/2015 11:58:32] "GET /static/js/yz.js HTTP/1.1" 200 41458
+[14/Oct/2015 11:58:32] "GET /m/login/js/placeholder.min.js HTTP/1.1" 404 13273
+[14/Oct/2015 11:58:32] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[14/Oct/2015 11:58:59] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=1&sorttype=0&sortorder=0 HTTP/1.1" 200 6201
+[14/Oct/2015 11:59:24] "GET /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 12:00:01] "GET /m/search_result/ HTTP/1.1" 200 9739
+[14/Oct/2015 12:00:02] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 12:00:02] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 12:22:16] "GET / HTTP/1.0" 200 18284
+[14/Oct/2015 12:22:22] "HEAD / HTTP/1.0" 200 0
+[14/Oct/2015 12:22:27] "TRACE HTTP://localhost HTTP/1.0" 404 1643
+[14/Oct/2015 12:22:33] "TRACE / HTTP/1.0" 200 18245
+[14/Oct/2015 12:22:40] code 400, message Bad HTTP/0.9 request type ('\x80\x80\x01\x03\x01\x00W\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 1: invalid start byte
+[14/Oct/2015 12:22:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xe0 in position 6: invalid continuation byte
+[14/Oct/2015 12:23:02] code 400, message Bad HTTP/0.9 request type ('y\x08\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00')
+[14/Oct/2015 12:23:02] "y          CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  ! " 400 -
+[14/Oct/2015 12:23:11] code 400, message Bad request version ('EBENEBFACACACACACACACACACACACACA\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 253, in parse_request
+    self.send_error(400, "Bad request version (%r)" % version)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x81 in position 1: invalid start byte
+[14/Oct/2015 12:23:20] code 400, message Bad request syntax ('\x00\x00\x00\x85\xffSMBr\x00\x00\x00\x00\x18S\xc8\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xfe\x00\x00\x00\x00\x00b\x00\x02PC NETWORK PROGRAM 1.0\x00\x02LANMAN1.0\x00\x02Windows for Workgroups 3.1a\x00\x02LM1.2X002\x00\x02LANMAN2.1\x00\x02NT LM 0.12\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x85 in position 4: invalid start byte
+[14/Oct/2015 12:23:25] code 400, message Bad HTTP/0.9 request type ('HELO')
+[14/Oct/2015 12:23:25] "HELO AMAP" 400 -
+[14/Oct/2015 12:23:31] code 400, message Bad HTTP/0.9 request type ('USER')
+[14/Oct/2015 12:23:31] "USER AMAP" 400 -
+[14/Oct/2015 12:23:43] code 400, message Bad request syntax ('\x80\x00\x00(\x18r\xdbZ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86\xa0\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 1: invalid start byte
+[14/Oct/2015 12:23:52] code 400, message Bad HTTP/0.9 request type ('\x00')
+[14/Oct/2015 12:23:52] "            " 400 -
+[14/Oct/2015 12:24:01] code 400, message Bad HTTP/0.9 request type ('0')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 13: invalid start byte
+[14/Oct/2015 12:24:11] code 400, message Bad request syntax ('\x00\xa6\x00\x00\x01\x00\x00\x00\x014\x01,\x00\x00\x08\x00\x7f\xffO\x98\x00\x00\x00\x01\x00\x84\x00"\x00\x00\x00\x00\x01\x01(DESCRIPTION=(CONNECT_DATA=(SID=test)(CID=(PROGRAM=)(HOST=__jdbc__)(USER=)))(ADDRESS=(PROTOCOL=tcp)(HOST=162.27.59.135)(PORT=1521)))')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xa6 in position 2: invalid start byte
+[14/Oct/2015 12:24:20] code 400, message Bad HTTP/0.9 request type ('l\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc6 in position 33: invalid continuation byte
+[14/Oct/2015 12:24:25] code 400, message Bad request syntax ('\x00\x00\x01\x06\xff\xff\xff\xff')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 5: invalid start byte
+[14/Oct/2015 12:24:36] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 29: invalid start byte
+[14/Oct/2015 12:24:46] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[14/Oct/2015 12:24:46] "JRMI K" 400 -
+[14/Oct/2015 12:24:52] code 400, message Bad request version ('>')
+[14/Oct/2015 12:24:52] "< NTP/1.2 >" 400 -
+[14/Oct/2015 12:25:04] code 400, message Bad request syntax ('\x005\x00\x00\x01\x00\x00\x00)\x00\x00\x00SQLDB2RA\x01\x00\x00\x00\x00\x00\x07\x00\x01\x00\x02\x00\x01\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x01\x00\x00\x80\x01')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 40: invalid start byte
+[14/Oct/2015 12:25:14] code 400, message Bad request syntax (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[14/Oct/2015 12:25:14] ":   /     @  =            /         @                 " 400 -
+[14/Oct/2015 12:46:12] "GET /bid_detail/279618/ HTTP/1.1" 200 0
+[14/Oct/2015 12:46:50] "GET /m/search_result/ HTTP/1.1" 200 9768
+[14/Oct/2015 12:46:50] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 12:46:51] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 12:46:51] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 12:47:32] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6352
+[14/Oct/2015 12:49:43] "GET /m/search_result/ HTTP/1.1" 200 9768
+[14/Oct/2015 12:49:43] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 12:49:43] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 12:49:43] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 12:49:43] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[14/Oct/2015 12:49:43] "GET /static/images/logo/yl.jpg HTTP/1.1" 304 0
+[14/Oct/2015 12:49:43] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 12:49:43] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 12:54:31] "GET /m/search_result/ HTTP/1.1" 200 9766
+[14/Oct/2015 12:54:31] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 12:54:31] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 12:54:31] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 12:54:31] "GET /static/images/logo/ppd.jpg HTTP/1.1" 304 0
+[14/Oct/2015 12:54:31] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 12:54:31] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /m/search_result/ HTTP/1.1" 200 9766
+[14/Oct/2015 13:00:40] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /static/images/logo/ppd.jpg HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 13:00:40] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 13:00:40] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[14/Oct/2015 13:08:10] "GET /m/search_result/ HTTP/1.1" 200 9688
+[14/Oct/2015 13:08:10] "GET /static/css/search_result_m.css HTTP/1.1" 200 3303
+[14/Oct/2015 13:08:10] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 13:08:10] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 13:08:10] "GET /static/images/logo/ppd.jpg HTTP/1.1" 304 0
+[14/Oct/2015 13:08:10] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 13:08:10] "GET /static/images/logo/ljs.png HTTP/1.1" 304 0
+[14/Oct/2015 13:08:43] "POST /m/search_result/ HTTP/1.1" 200 9670
+[14/Oct/2015 13:08:44] "GET /static/css/search_result_m.css HTTP/1.1" 200 3303
+[14/Oct/2015 13:08:45] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 13:08:46] "GET /static/css/header_m.css HTTP/1.1" 200 1024
+[14/Oct/2015 13:09:01] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6290
+[14/Oct/2015 13:09:05] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6324
+[14/Oct/2015 13:09:21] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6290
+[14/Oct/2015 13:09:56] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6290
+[14/Oct/2015 13:14:08] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=1&sorttype=0&sortorder=0 HTTP/1.1" 200 6132
+[14/Oct/2015 13:14:59] "GET /m/search_result/ HTTP/1.1" 200 9670
+[14/Oct/2015 13:15:00] "GET /static/css/search_result_m.css HTTP/1.1" 200 3303
+[14/Oct/2015 13:15:00] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[14/Oct/2015 13:15:00] "GET /static/js/public.js HTTP/1.1" 304 0
+[14/Oct/2015 13:15:00] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[14/Oct/2015 13:15:00] "GET /static/images/logo/ppd.jpg HTTP/1.1" 304 0
+[14/Oct/2015 13:15:00] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[14/Oct/2015 13:15:00] "GET /m/search/ HTTP/1.1" 200 1717
+[14/Oct/2015 13:15:00] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[14/Oct/2015 13:15:04] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 6290
+[14/Oct/2015 13:15:06] "GET /m/search_result/?params%5B%5D=1&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=36&page=3&sorttype=0&sortorder=0 HTTP/1.1" 200 6324

@@ -131,7 +131,11 @@
                         <li><a href="javascript:void(0)" style="font-size: 0.2rem;" class="addfavorite" ftype="platform">收藏该平台</a></li>
                     </ul>
                 </dd>
+                {% if user.id %}
                 <dd><a class="invest_a" href="{{ bid.link }}"><img src="/static/images/touzi.png" alt=""/></a></dd>
+                {% else %}
+                 <dd><a class="invest_a" href="#" onclick="alert_login()"><img src="/static/images/touzi.png" alt=""/></a></dd>
+                {% endif %}
             </dl>
 
 
@@ -203,6 +207,12 @@
                     $.get("/m/search/",function(data){ $('#head_m').html(data.content_html);});
                 });
             </script>
+ <script type="application/javascript">
+    function alert_login(){
+        alert("请先登录");
+        location.href = "/m/login/?next=/bid_detail/{{ bid.id }}";
+    }
+</script>
         </div>
         </div>
     </section>
