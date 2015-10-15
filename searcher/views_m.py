@@ -994,6 +994,6 @@ def search(request):
     return HttpResponse(json.dumps(payload), content_type="application/json")
 
 def result(request):
-    return render_to_response('searchResult_m.html',{}, context_instance=RequestContext(request))
+    return render_to_response('search_listresult_m.html',{}, context_instance=RequestContext(request))
 
 

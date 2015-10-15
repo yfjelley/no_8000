@@ -145,4 +145,4 @@ logging.basicConfig(level=logging.INFO,
 
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
-SESSION_COOKIE_AGE = 60 * 1 
+#SESSION_COOKIE_AGE = 60 * 1 

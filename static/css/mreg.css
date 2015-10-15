@@ -56,10 +56,12 @@ header {
 .sign_content input[type="text"]{
     width: 1.94rem;
     height: 0.3rem;
+    font-size:0.2rem;
 }
 .sign_content input[type="password"]{
     width: 1.94rem;
     height: 0.3rem;
+    font-size:0.2rem;
 }
 .call_text{
     float:left;

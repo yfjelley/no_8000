@@ -69,6 +69,7 @@ header {
 .call_inp input[type="text"]{
 	float:left;
 	margin:0.22rem 0 0 0.3rem;
+	font-size: 0.2rem;
 }
 .call_inp span{
 	position:absolute;
@@ -85,6 +86,7 @@ header {
 .pwd_inp input[type="password"]{
 	float:left;
 	margin:0.22rem 0 0 0.3rem;
+	font-size: 0.2rem;
 }
 .pwd_inp span{
 	position:absolute;
@@ -102,6 +104,7 @@ header {
 	width:1rem;
 	float:left;
 	margin:0.22rem 0 0 0.3rem;
+	font-size: 0.2rem;
 }
 .pic_inp span{
 	position:absolute;

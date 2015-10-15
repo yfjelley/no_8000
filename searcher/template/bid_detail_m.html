@@ -172,7 +172,7 @@
             );
         {% else %}
             alert('请先登录');
-            location.href = "/m/login/?next=/bid_detail/{{ bid.id }}";
+            location.href = "/m/login/?next=/m/bid_detail/{{ bid.id }}";
         {% endif %}
 
 
@@ -197,7 +197,7 @@
             }
         {% else %}
             alert('请先登录');
-            location.href = "/m/login/?next=/bid_detail/{{ bid.id }}";
+            location.href = "/m/login/?next=/m/bid_detail/{{ bid.id }}";
         {% endif %}
     });
 
@@ -210,7 +210,7 @@
  <script type="application/javascript">
     function alert_login(){
         alert("请先登录");
-        location.href = "/m/login/?next=/bid_detail/{{ bid.id }}";
+        location.href = "/m/login/?next=/m/bid_detail/{{ bid.id }}";
     }
 </script>
         </div>

@@ -2,14 +2,14 @@
 
 
 
-.user_left{ width:150px;}
+.user_left{ width:130px;}
 .user_box{ border:2px solid #ddd; border-radius:5px;}
 .user_list{ padding:20px 0;}
 .user_list li{ height:30px; line-height:30px;}
 .user_list li a{ font-size:14px; font-weight:bold; padding-left:20px; height:30px; line-height:30px; display:block;}
 .user_list li a.active,.user_list li a:hover{ background:#ffb2b2; color:#c95124;}
-.user_right{ width:846px;height:100%;margin-bottom:35px;}
-.user_message{ padding:20px 40px;}
+.user_right{height:100%;margin-bottom:35px;width:590px;}
+.user_message{ padding-top:10px;}
 .user_title{ font-size:18px; font-weight:bold; margin-bottom:20px;}
 .user_detail dt{ float:left;}
 .user_detail dt{ width:150px; }
