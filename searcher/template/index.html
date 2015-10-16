@@ -10,9 +10,18 @@
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
+	<script language=javascript>
+function hero()
+{
+var herowidth=600;//改为你要的网页宽度
+var heroheight=300;//改为你要的网页高度
+window.resizeTo(herowidth,heroheight);
+}
+hero();
+</script>
 </head>
 
-<body>
+<body onresize=hero();>
 {% include "header.html" %}
 <div id="content">
     <div class="middle">

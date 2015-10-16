@@ -21,7 +21,7 @@ table {border-collapse:collapse;border-spacing:0;}
 b,i{ font-style:normal; font-weight:normal;}
 /*头部*/
 #header,#footer{ width:100%;margin:0px;padding:0px;background:#372c3A;}
-#header{height:60px; line-height:60px;}
+#header{height:60px; line-height:60px;min-width: 600px;}
 .top{ padding:0px;width: 95%;}
 
 .nav{padding-left:10%;}
