@@ -54,12 +54,12 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .top_name li img{ margin-top:20px; float:left; margin-right:10px; width:24px; height:24px;}
 .mun{ background:#ff0000; width:10px; display:inline-block; height:10px; text-align:center; line-height:10px; position:absolute; color:#fff; top:2px; left:18px; font-size:10px; border-radius:5px;} 
 .top_name ul{ background:rgba(0,0,0,0.6)!important; width:100px!important; right:-30px!important;}
-.user_con{ width:1024px; margin:0 auto;}
+.user_con{ width:768px; margin:0 auto;}
 
-#container {min-height:65%;height: 100%; position: relative;background:#EEEEF0;}
+#container {min-height:65%;height:80%; position: relative;background:#EEEEF0;}
 #container_detail {min-height:72%;height: 55%; position: relative;background:#EEEEF0;}
 /*底部*/
-#footer{ width:100%; clear:both;text-algin:center;}
+#footer{ width:100%; clear:both;text-algin:center;position: absolute;}
 .footer {width:100%; color:#333; text-align:center;font-size:14px;}
 .footer a.ico,.footer a.ico1{ margin-top:5px; display:inline-block; width:32px; height:32px;}
 .footer a:hover{ color:#ff0000;}
@@ -157,4 +157,4 @@ placeholder{
 .Validform_wrong{color: red;padding-left: 20px;white-space: nowrap; background:url(../images/error.png) no-repeat 0 center;}
 .Validform_right{color: #71b83d;padding-left: 20px; background:url(../images/right.png) no-repeat 0 center;}
 #Validform_msg{ display:none;}
-.user_conter{height:100%;width:750px;margin-left:5px;}
+.user_conter{height:100%;width:745px;margin-left:5px;margin:0px auto;}

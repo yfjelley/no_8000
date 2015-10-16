@@ -168,6 +168,12 @@ header {
     font-size: 0.2rem;
     margin:0.25rem 0 0 -0.2rem;
 }
+.agree_text a{
+    text-decoration: none;
+    color:rgb(240,52,89);
+}
+
+
 .sign_sub input[type="submit"]{
     width:4.5rem;
     height:0.6rem;
@@ -183,7 +189,4 @@ header {
 .footer_text a{
     text-decoration: none;
     color:rgb(240,52,89);
-}
-.footer_text b{
-
 }

@@ -3,8 +3,8 @@
 .search_content{width: 100%;margin:0px auto;}
 .search_result_box{border-radius:5px;background:#FFFFFF;margin: 0px auto;width: 740px;}
 .search_list{ padding: 5px 10px;line-height:30px;}
-.search_list h3{ width:50px; text-align:left; font-size:14px;}
-.search_term{ font-size:14px; width:650px;}
+.search_list h3{text-align:left; font-size:14px;width: 60px;}
+.search_term{ font-size:14px;width: 515px;}
 .search_term .search_txt{ width:80px; padding:0 5px; height:20px; line-height:20px; color:#999; margin-right:5px;}
 .search_term  span{ display:block; float:left; margin-right:10px; height:30px; line-height:30px;}
 .search_term  .search_checkbox{ margin-right:5px;}
@@ -88,5 +88,5 @@ a.btn_blue_ {
 }
 
 .choices a {
-    margin-right: 15px;
+    margin-right: 10px;
 }

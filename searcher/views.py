@@ -949,3 +949,5 @@ def change_phone_number(request):
                 'success': True,
             }
         return HttpResponse(json.dumps(payload), content_type="application/json")
+def agreement(request):
+    return render_to_response('agreement.html',{}, context_instance=RequestContext(request))

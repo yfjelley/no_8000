@@ -2,21 +2,21 @@
 
 
 
-.user_left{ width:130px;}
+.user_left{ width:100px;}
 .user_box{ border:2px solid #ddd; border-radius:5px;}
 .user_list{ padding:20px 0;}
 .user_list li{ height:30px; line-height:30px;}
-.user_list li a{ font-size:14px; font-weight:bold; padding-left:20px; height:30px; line-height:30px; display:block;}
+.user_list li a{ font-size:14px; font-weight:bold;text-align: center;height:30px; line-height:30px; display:block;}
 .user_list li a.active,.user_list li a:hover{ background:#ffb2b2; color:#c95124;}
-.user_right{height:100%;margin-bottom:35px;width:590px;}
-.user_message{ padding-top:10px;}
-.user_title{ font-size:18px; font-weight:bold; margin-bottom:20px;}
+.user_right{height:100%;margin-bottom:35px;width: 639px;}
+.user_message{ padding-top:10px;width: 520px;}
+.user_title{ font-size:18px; font-weight:bold; margin-bottom:20px;margin-left: 25px;}
 .user_detail dt{ float:left;}
 .user_detail dt{ width:150px; }
 .user_detail dt p,.user_detail dt p img{ width:80px; height:80px;}
 .user_detail dt p{ margin-left:30px;}
 .user_detail dt input{ margin:10px 0 0 5px; }
-.user_detail dd{ width:550px; float:right; height:100%;}
+.user_detail dd{width: 450px; height:100%;}
 .user_detail dd p{ padding-bottom:20px; height:30px; line-height:30px;}
 .user_detail dd p label{ font-size:14px; font-weight:bold; display:inline-block; width:100px; text-align:left; float:left;}
 .user_text{ width:200px; border:1px solid #ddd; padding:5px; height:18px; line-height:18px; color:#666; float:left;}
@@ -54,7 +54,7 @@ input[type="checkbox"], input[type="radio"]{box-sizing:border-box; padding:0;}
 
 /*shortut.html*/
 .search_list,.search_head,.search_body{ overflow:hidden;}
-.user_shortcut{ padding:10px;}
+.user_shortcut{ padding-top:10px;}
 .search_list{ padding:5px 0; line-height:30px;}
 .search_list h3{ width:100px; text-align:left; font-size:14px;}
 .search_term{ font-size:14px; width:700px;}

@@ -1,0 +1,181 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input,button{ margin:0; padding:0; -webkit-tap-highlight-color:rgba(255,255,255,0); }
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 100px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#fff;}
+/*nav style                   */
+ul {
+    list-style-type: none;
+}
+/*article style*/
+#container{
+    position: relative;
+    width: 5rem;
+    height: 9.9rem;
+    font-size: 0.2rem;
+    background-color:#eeeef0;
+}
+.con_unify{
+    position:absolute;
+    margin:0.6rem 0 0 1.8rem;
+}
+
+/*内容的样式*/
+.shou_text{
+    float: left;
+    margin:-0.2rem 0 0 -0.8rem;
+}
+.get-shouyitxt{
+    height: 0.3rem;
+    width: 2rem;
+    float: left;
+    padding-left: 0.8rem;
+    margin:-0.2rem 0 0 0.6rem;
+    background-color:#ffffff;
+    font-size: 0.1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.shou_more{
+    float:left;
+    font-size: 0.1rem;
+    margin:-0.2rem 0 0 2.2rem;
+}
+.shou_more a{
+    text-decoration: none;
+    color:rgb(240,52,89);
+}
+.qixian_text{
+    float: left;
+    margin:0.02rem 0 0 -0.6rem;
+}
+.get-qixiantxt{
+    padding-left: 0.8rem;
+    height: 0.3rem;
+    width: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    float: left;
+    font-size: 0.1rem;
+    border: 1px solid black;
+    background-color:#ffffff;
+    margin:-0.02rem 0 0 0.6rem;
+}
+
+.showDetailInfo{
+    position: absolute;
+    left: 1rem;
+    top: 1.6rem;
+}
+.search_outside{
+    display: none;
+}
+.kefou_text{
+    float: left;
+    margin:0.06rem 0 0 -1rem;
+}
+
+.get-kefoutxt{
+    padding-left: 0.8rem;
+    height: 0.3rem;
+    width: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    float: left;
+    font-size: 0.1rem;
+    border: 1px solid black;
+    background-color:#ffffff;
+    margin:0.02rem 0 0 0.6rem;
+}
+.sign_text{
+    float: left;
+    margin:0.06rem 0 0 -1.4rem;
+}
+.get-signtxt{
+    padding-left: 0.8rem;
+    height: 0.3rem;
+    width:2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    float: left;
+    border: 1px solid black;
+    background-color:#ffffff;
+    font-size: 0.1rem;
+    margin:-0.01rem 0 0 0.6rem;
+}
+.sxtime_text{
+    float: left;
+    margin:0.05rem 0 0 -1.4rem;
+}
+
+.get-sxtimetxt{
+    padding-left: 0.8rem;
+    height: 0.3rem;
+    width: 2rem;
+    font-size: 0.1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    float: left;
+    border: 1px solid black;
+    background-color:#ffffff;
+    margin:-0.01rem 0 0 0.6rem;
+}
+.type_text{
+    float: left;
+    margin:0.05rem 0 0 -1.05rem;
+}
+.get-typetxt{
+    padding-left: 0.8rem;
+    height: 0.3rem;
+    width: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    float: left;
+    font-size: 0.1rem;
+    border: 1px solid black;
+    background-color:#ffffff;
+    margin:-0.01rem 0 0 0.6rem;
+}
+.comptype_text{
+    float: left;
+    margin:0.05rem 0 0 -1.1rem;
+}
+.get-comptxt{
+    padding-left: 0.8rem;
+    height: 0.3rem;
+    width: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    float: left;
+    font-size: 0.1rem;
+    border: 1px solid black;
+    background-color:#ffffff;
+    margin:-0.01rem 0 0 0.6rem;
+}
+
+.confirm_inp input[type="submit"]{
+    width:4.5rem;
+    height:0.6rem;
+    background-color:rgb(240,52,89);
+    font-size: 0.25rem;
+    color:#ffffff;
+    position: absolute;
+    left: -1.6rem;
+    top: 8rem;
+}
+.btn_blue {
+    background: #C50512 none repeat scroll 0% 0%;
+    border-radius: 1rem;
+    color: #FFFFF0;
+    text-decoration: none;
+}
+/* CSS Media Queries */
+/*-----------------------------------------------------------------------------------*/
+
+

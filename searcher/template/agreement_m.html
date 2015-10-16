@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/public.js"></script>
+	<link rel="stylesheet" href="/static/css/agreement.css">
+</head>
+<body>
+<header>
+	<div id="head_m"></div>
+</header>
+<div class="agree-all">
+	<div class="agree-main">
+		<div class="agree-title">
+			<label>注册协议</label>
+		</div>
+		<div style="width: 4rem;height: 0.02rem;background:#999999;margin:0.2rem 0 0 0.3rem"></div>
+		<div class="agree-content">
+			<label>
+				1.政策风险：股权众筹项目是依照当前的法律法规、相关监管规定和政策设计的。如国家宏观政策以及市场法律法规、相关监管规定发生变化，可能影响被投项目的受理、投资运作、清算等业务的正常进行，并导致项目收益降低甚至本金损失，也可能导致项目违反国家法律、法规或者其他合同的有关规定，进而导致项目被宣告无效、撤销、解除或提前终止等。
+
+				2.信用风险：不排除在被投项目的经营过程中，被投项目的经营管理人存在信用风险或道德风险的可能性，或所投资的其它资产未达到预期收益，则投资人可能面临收益损失、本金部分损失、甚至本金全部损失的风险。
+
+				3.流动性风险：除另有约定外，投资者无提前终止权或提前赎回股权的权利，可能导致投资者需要资金时不能随时变现，并可能使投资者丧失其他投资机会导致实际收益率为负的风险。
+
+				4.市场风险：由于我国及周边国家、地区宏观经济环境和周边市场的变化，使任何市场主体的经营均处于剧烈波动中，从而导致被投企业的价值不同程度的贬损。
+
+				5.管理风险：受被投企业管理人经验、技能、判断力、执行力等方面的限制，可能对项目的运作及管理造成一定影响，并因此影响投资人收益，甚至造成本金损失。
+
+				6.信息传递风险：被投项目管理人应按照《融资人信息披露规则》中有关“信息披露”的约定，履行信息披露的义务。投资人应根据“信息披露”的约定及时进行查询。如果投资人未及时查询，或由于通讯故障、系统故障以及其他不可抗力等因素的影响使得投资人无法及时了解项目信息，并由此影响投资人的投资决策，因此而产生的责任和风险由投资人自行承担。另外，投资人预留在平台有效联系方式发生变更，应及时通知平台，若被投项目管理人无法及时联系到投资人，并可能会由此影响投资人的投资决策，由此而产生的责任和风险由投资人自行承担。
+
+				7.认购风险：如出现市场剧烈波动、相关法规政策变化或其他可能影响项目正常运作的情况，项目发起人有权终止项目并退回投资款，投资人将无法在约定募集期内认购该项目股权。因此造成的任何损失由投资人自行承担。
+			</label>
+		</div>
+		<div style="width: 4rem;height: 0.02rem;background:#999999;margin:0.3rem 0 0 0.3rem"></div>
+		<div class="agree-return">
+			<input id="return_to_register" type="button" value="返回">
+		</div>
+	</div>
+</div>
+<script>
+	$(function(){
+		$("#return_to_register").click(function(){
+			window.location.replace("/register/");
+		})
+	})
+</script>
+<script type="text/javascript">
+	$(function(){
+		$.get("/m/search/",function(data){ $('#head_m').html(data.content_html);});
+	});
+</script>
+</body>
+</html>
