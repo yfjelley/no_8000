@@ -22,24 +22,7 @@
 </head>
 
 <body>
-<div id="header">
-    <div class="top">
-        <ul class="nav">
-        	<li style="margin-top:10px;"><img src="/static/images/logo_red.png" width="250" height="50"/></li>
-            <li><a href="{% url 'searchindex' %}">首页</a></li>
-           
-            <li><a href="{% url 'myfavorite' 4 %}">收藏</a></li>
-            <li><a href="{% url 'bbsindex' %}">社区</a></li>
-        </ul>
-      
-        <ul id="login_header">
-        	<li><a class="#" href="{% url 'login' %}">登录</a>
-		    <li>/</li>
-            <li><a class="register_li" href="{% url 'register' %}">注册</a>
-        </ul>
-      
-    </div>
-</div>
+{% include "header.html" %}
 <div style="height:50px; background:#EEEEF0;"></div>
 <div id="login_content">
     <div class="login_mid">  
@@ -96,9 +79,9 @@
                     </li>
                     <li>
                     	<div style="font-size:12px;margin-top:8px;margin-left:25px;"><a href="{% url 'forgetpw' %}">忘记密码?</a></div>
-                        <div style="margin-top:-12px; margin-left:360px;font-size:12px;">没有天天搜贷账号,<a href="{% url 'register' %}">注册</a></div>
+                        <div style="margin-top:-18px; margin-left:360px;font-size:12px;">没有天天搜贷账号,<a href="{% url 'register' %}">注册</a></div>
                     </li>
-                    <li style="position:absolute; top:400px; left:377px;">
+                    <li style="position:absolute; top: 519px;left: 788px;">
                         <img src="/static/images/smalllogo.png" />
                     </li>
 				</ul>

@@ -76,7 +76,7 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .bbs_hunt{ float:left; padding:15px 0 0 20px; display:none;}
 .bbs_hunt input{ width:440px; height:20px; line-height:20px; font-size:16px; color:#666; padding:10px 5px; float:left; border:1px solid #ddd;}
 .logo{width:700px;height:200px;margin:0px auto;}
-.logo img{width:700px; height:150px}
+.logo img{width:800px; height:145px;margin-left: -50px;}
 
 .footer_top{width:100%;background-color:#372C3A;height:180px;clear:both;overflow:hidden;}
 .footer_top ul{ text-align:center;}

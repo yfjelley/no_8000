@@ -20,6 +20,7 @@ def user_auth(request, username, password, code):
     user = auth.authenticate(username=username, password=password)
     _code = code
     print "_code",type(_code),_code
+    print user.is_active
     ca = Captcha(request)
     if user is None:
         a = 2
@@ -30,6 +31,7 @@ def user_auth(request, username, password, code):
     else:
         auth.login(request, user)
         a = 1
+    print "a is:",a
     return a
 
 

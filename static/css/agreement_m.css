@@ -13,28 +13,32 @@ body {  width:100%;height: 100%; margin: 0; -webkit-user-select: none; position:
 	margin:0.5rem 0 0 0.3rem;
 	background-color:white;
 	width: 4.5rem;
-	height: 6rem;
+	height: 7rem;
 }
 .agree-title{
 	font-size: 0.4rem;
 	text-align: center;
-	margin-top: 0.5rem;
+	margin-top: 0.2rem;
 }
 
 .agree-content{
-	width: 3.5rem;
-	height: 3.2rem;
-	margin:0.4rem 0 0 0.5rem;
+	width: 3.8rem;
+	height: 4rem;
+	margin:0.4rem 0 0 0.38rem;
 
 	overflow-y:scroll;
 	font-size: 0.2rem;
 }
+.agree-content label{
+	font-weight:bold;
+	font-size:0.25rem;
+}
 .agree-return {
-	margin: -0.5rem 0 0 2rem;
+	margin: -0.4rem 0 0 2rem;
 }
 .agree-return input[type="button"]{
-	width: 0.7rem;
-	height: 0.35rem;
+	width: 0.8rem;
+	height: 0.4rem;
 	background-color:rgb(240,52,89);
 	font-size: 0.25rem;
 	color: #ffffff;

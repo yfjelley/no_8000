@@ -92,7 +92,7 @@ input.login_butt{display:inline-block;border:0}
 #forger_conent{width:100%;height:620px;background:#EEEEF0;}
 .login_retrieve{ padding:5px 10px; border:1px solid #ddd; border-radius:5px;}
 .login_retrieve:hover{ background:#f2f2f2; color:#4c4c4c;}
-.get_pwd{ padding:10px 0;height:440px; background-color:#FFF;width:600px; z-index:999;position:relative;left:450px;top:50px;}
+.get_pwd{ padding:10px 0;height:440px; background-color:#FFF;width:600px; z-index:999;margin: 0px auto;}
 .get_all{margin-top:40px;}
 #ul3{margin:30px 0;font-size:12px;}
 #ul3{line-height:45px;}
