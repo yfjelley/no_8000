@@ -1,6 +1,6 @@
-﻿.bbs{ width: 750px; margin:0 auto;}
+﻿.bbs{ width: 1025px; margin:0 auto;}
 .bbs_left,.bbs_title,.bbs_note,.bbs_box,.bbs_hd,.bbs_bd,.bbs_hot_news,.bbs_href_list,.bbs_ideas,.bbs_article,.bbs_con_box,.bbs_reply_list{ overflow:hidden;}
-.bbs_left{width: 520px;margin-bottom: 30px;margin-left: 5px;}
+.bbs_left{width: 760px;margin-bottom: 30px;margin-left: 5px;}
 .bbs_con{ border:2px solid #ddd;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px; background:#fff;}
 .bbs_title{ height:60px; position:relative;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px;background:#fff;}
 .bbs_posting{ position:absolute; right:20px; width:60px; height:30px; display:block; line-height:30px; text-align:center; background:#c50512; color:#fff; font-size:14px; font-weight:bold; z-index:99;}
@@ -47,7 +47,7 @@
 .bbs_hot_news dd{ margin-left:10px; width:150px; height:32px;  line-height:16px; overflow:hidden; }
 .bbs_hot_news dd a{display:block; overflow:hidden; }
 .bbs_state .bbs_bd{ padding-top:10px;}
-
+.badge{float:right;margin-right:5%;}
 .bbs_state .bbs_bd p{ height:24px; line-height:24px; font-weight:bold;}
 .bbs_state .bbs_bd p label{ text-align:right; width:60px; display:inline-block; float:left; font-weight:normal;}
 .bbs_state_list{ margin-top:10px; border-top:1px solid #ddd; overflow:hidden;}
@@ -68,7 +68,7 @@
 .bbs_ideas_left p{ color:#999; font-size:12px; height:24px; line-height:24px;}
 .bbs_ideas_right,.bbs_ideas_right a,.bbs_ideas_right a img{ width:48px; height:48px; display:inline-block;}
 .bbs_ideas_right{ margin-right:20px;}
-.bbs_article { padding: 20px 10px 0px;line-height: 24px;margin-bottom: 20px;font-size: 16px;color: #000;width: 500px;background: #FFF;}
+.bbs_article { padding: 20px 10px 0px;line-height: 24px;margin-bottom: 20px;font-size: 16px;color: #000;width: 750px;background: #FFF;}
 .bbs_article p{ line-height:24px; margin-bottom:20px; font-size:16px;color:#000;}
 .bbs_bottom{ background:#f2f2f2; height:30px;border-radius:5px; -moz-border-radius: 5px;-webkit-border-radius:5px;  padding:0 10px; line-height:30px;}
 .jiathis_style{ padding-top:7px;}
@@ -143,7 +143,7 @@ bbs_navigation_bar a{background:#715C83;width:110px;height:30px;}
 .seach_cheek{ display:block; background:#715C83;color:#fff;text-align:center; line-height:30px; height:30px; 
 padding-right:10px;float: right;font-size:14px; width:110px;}
 .seach_cheek:hover{ background:#666699; color:#fff;}
-.bbs_contenttt{border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; background:#FFFFFF;width: 510px; height:780px;}
+.bbs_contenttt{border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; background:#FFFFFF;height:780px;}
 .yzm input{width:110px; height:30px;}
 .yzm {height:30px;}
  .bsearch{ display:block; background:#c50512; color:#fff; text-align:center; height:18px; width:40px;}

@@ -30,10 +30,13 @@ header {
 
 .hea_search input[type="submit"]{
     width: 0.75rem;
-    height: 0.35rem;
-    margin: -0.35rem 0 -0.45rem 3.96rem;
+    height: 0.32rem;
+    margin: -0.35rem 0 -0.45rem 3.99rem;
     float: left;
     color: #000;
     font-size: 0.2rem;
     text-align: center;
+    -webkit-border-radius: 0.03rem;
+    -moz-border-radius: 0.03rem;
+    border-radius: 0.03rem;
 }

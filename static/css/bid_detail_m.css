@@ -70,7 +70,8 @@ header {
 .detail_date{
     font-size: 0.25rem;
     font-weight: bold;
-    padding: 0.3rem 0 0 0.3rem;
+    padding: 0.1rem 0 0 0.3rem;
+    min-height: 0.6rem;
 }
 .detail_line{
     margin-top: -0.1rem;
@@ -101,9 +102,9 @@ header {
     float: left;
     padding: 0.1rem 0 0.01rem 1rem;
     color: rgb(240, 52, 89);
-    position: absolute;
-    top: 2.8rem;
-    left: -0.4rem;
+    position:absolute;
+    left: -0.45rem;
+    top: 3.13rem;
 }
 .detail_col label{
     font-size: 0.2rem;
@@ -111,7 +112,7 @@ header {
     padding:0.1rem 0 0.01rem 1rem;
     position: absolute;
     left: 1.4rem;
-    top: 2.8rem;
+    top: 3.13rem;
     color:rgb(240,52,89);
 }
 
@@ -162,18 +163,18 @@ header {
 .footer_content{
     margin:0.2rem 0 0 0.3rem;
     background-color:white;
-    height: 1.4rem;
+    height: 1.2rem;
     width: 4.5rem;
     -webkit-border-radius: 0.04rem;
     -moz-border-radius: 0.04rem;
     border-radius: 0.04rem;
 }
 .collect_a img{
-    margin-left:0.25rem;
+    margin-left:0.4rem;
 }
 
 .invest_a img{
-    margin-left: 1.4rem;
+    margin-left: 1.6rem;
 }
 #detail_a{padding-left:0.2rem;padding-bottom:0.2rem;}
 #detail_a dd{ display:inline-block; float:left; position:relative;padding-top:0.15rem;padding-left:0.15rem;}
