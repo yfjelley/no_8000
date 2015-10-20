@@ -104,7 +104,7 @@ header {
     color: rgb(240, 52, 89);
     position:absolute;
     left: -0.45rem;
-    top: 3.13rem;
+    top: 2.93rem;
 }
 .detail_col label{
     font-size: 0.2rem;
@@ -112,7 +112,7 @@ header {
     padding:0.1rem 0 0.01rem 1rem;
     position: absolute;
     left: 1.4rem;
-    top: 3.13rem;
+    top: 2.93rem;
     color:rgb(240,52,89);
 }
 

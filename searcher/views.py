@@ -728,16 +728,11 @@ def user_updatepwd(request):
     form = ModfiyPWForm()
     return render_to_response('user_updatepwd.html',{'form':form}, context_instance=RequestContext(request))
 
-import urllib2, urllib, hashlib, random,re
+import urllib2, urllib, hashlib, random
 def send_smscode(request):
     phoneNum = request.POST.get('phoneNum', '')
     p=re.compile('^1200[0-9]{7}$')
-    a= p.match(phoneNum)
-    print a
-    if a:
-        print "xxx"
-        return HttpResponse()
-    else:
+    if not p.match(phoneNum):
         m = hashlib.md5()
         m.update('shcdjr2')
         random_code = random.randint(1000, 9999)
@@ -766,14 +761,13 @@ def send_smscode(request):
                                   )
         print opener.open(request).read()
         return HttpResponse()
+    else:
+        return HttpResponse()
 
 def send_smscode_modify(request):
     phoneNum = request.POST.get('phoneNum', '')
     p=re.compile('^1200[0-9]{7}$')
-    a=p.match(phoneNum)
-    if a:
-        return HttpResponse()
-    else:
+    if not p.match(phoneNum):
         user = User.objects.filter(username=int(phoneNum))
         print user
         if not len(user):
@@ -809,7 +803,7 @@ def send_smscode_modify(request):
             return HttpResponse()
         else:
             return HttpResponse()
-    
+    else:
         return HttpResponse()
 
 def safecenter(request):

@@ -12,7 +12,7 @@
     <script src="/static/js/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="/static/js/public.js"></script>
     <link rel="stylesheet" href="/static/css/search_listresult_m.css"/>
-    
+
     <link href="{% static 'css/base.css' %}" rel="stylesheet" type="text/css"/>
     <link href="{% static 'css/search_result.css' %}" rel="stylesheet" type="text/css"/>
 
@@ -111,6 +111,57 @@
 			 $('#divv1').show()
 		});
     });
+</script>
+
+
+<script type="text/javascript">
+
+        function takepage(n) {
+            alert({{results.next_page_number}});
+            checkparam(n);
+        }
+
+        function getElementsByClassName(n,m) {
+        var el = [],
+                _el = document.getElementsByTagName('*');
+        for (var i = 0; i < _el.length; i++) {
+            if (_el[i].className == n) {
+                el[el.length] = _el[i].getAttribute(m);
+            }
+        }
+        return el;
+        }
+
+        function checkparam(page,a) {
+
+            var amount = $(".lastinput").children("#id_searchWord").val();
+            var sortorder = 0;
+            var sorttype = 0;
+
+            var aaa = getElementsByClassName('order_sx','sorttype');
+            var bbb = getElementsByClassName('order_jx','sorttype');
+            if(aaa != ''){
+                sortorder = 1;
+                sorttype = aaa[0];
+            }
+            else if(bbb != ''){
+                sortorder = 2;
+                sorttype = bbb[0];
+            }
+        $.get("{% url 'search_listresult_m' %}",
+                {
+                    params: a,
+                    amount: amount,
+                    page: page,
+                    sorttype: sorttype,
+                    sortorder: sortorder
+                },
+                function (data) {
+                    $('#result_form').html(data.content_html);
+                }
+        );
+
+        }
 </script>
 
 </html>

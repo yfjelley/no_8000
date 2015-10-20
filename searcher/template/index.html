@@ -2,32 +2,30 @@
 {% load settingsvalue %}
 {% load url from future %}
 {% load i18n %}
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
     <title>天天搜贷</title>
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <link href="{% static 'css/base.css' %}" rel="stylesheet">
     <link href="{% static 'css/main.css' %}" rel="stylesheet">
-	<script language=javascript>
-function hero()
-{
-var herowidth=600;//改为你要的网页宽度
-var heroheight=300;//改为你要的网页高度
-window.resizeTo(herowidth,heroheight);
-}
-hero();
-</script>
+    <link rel="stylesheet" type="text/css"
+    　　　　media="screen and (min-width: 0px) and (max-device-width: 600px)"
+    　　　　href="smallScreen.css" />
+
 </head>
 
-<body onresize=hero();>
+<body>
 {% include "header.html" %}
 <div id="content">
     <div class="middle">
         <div class="middle_search">
             <div class="logo">
-                <img src="/static/images/logo.png" /></div>
+                <img src="/static/images/logo.png" />
+		    </div>
             <div class="search textbox">
                 <form action="" method="post">
                     {% csrf_token %}

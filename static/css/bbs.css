@@ -1,6 +1,6 @@
 ﻿.bbs{ width: 1025px; margin:0 auto;}
 .bbs_left,.bbs_title,.bbs_note,.bbs_box,.bbs_hd,.bbs_bd,.bbs_hot_news,.bbs_href_list,.bbs_ideas,.bbs_article,.bbs_con_box,.bbs_reply_list{ overflow:hidden;}
-.bbs_left{width: 760px;margin-bottom: 30px;margin-left: 5px;}
+.bbs_left{width: 700px;margin-bottom: 30px;margin-left: 5px;}
 .bbs_con{ border:2px solid #ddd;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px; background:#fff;}
 .bbs_title{ height:60px; position:relative;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px;background:#fff;}
 .bbs_posting{ position:absolute; right:20px; width:60px; height:30px; display:block; line-height:30px; text-align:center; background:#c50512; color:#fff; font-size:14px; font-weight:bold; z-index:99;}
@@ -17,7 +17,7 @@
 .bbs_note{ border-bottom:1px solid #ddd; padding:10px 0;}
 .bbs_note dt,bbs_note dt a,.bbs_note dt img{ display:inline-block; width:48px; height:48px; float:left;}
 .bbs_note dd{ margin-left:10px;width: 400px; height:48px; float:left; position:relative;}
-.bbs_note dd h3{ height:24px; line-height:24px; width:100%;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px; font-weight:bold;}
+.bbs_note dd h3{ height:24px; line-height:24px; width:100%;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px; font-weight:bold;padding-left:20px;}
 .bbs_note dd h3 a{ color:#636a86;}
 .bbs_note dd p{ font-size:12px; height:24px; line-height:24px; color:#999;}
 .bbs_bk{ padding:2px 3px; background:#f5f5f5; color:#999; font-weight:bold;}
@@ -34,7 +34,7 @@
 .mt10{margin-top:10ox;}
 
 /*分页结束*/
-.bbs_right{ width:220px; overflow:hidden; padding-top:30px;}
+.bbs_right{ width:220px; overflow:hidden; padding-top:30px;padding-right:70px;}
 .bbs_gg,.bbs_gg a,.bbs_gg a img{ display:inline-block; width:220px; height:160px;}
 
 .bbs_hd{ height:30px; line-height:30px; border-bottom:1px solid #ddd;}
@@ -68,7 +68,7 @@
 .bbs_ideas_left p{ color:#999; font-size:12px; height:24px; line-height:24px;}
 .bbs_ideas_right,.bbs_ideas_right a,.bbs_ideas_right a img{ width:48px; height:48px; display:inline-block;}
 .bbs_ideas_right{ margin-right:20px;}
-.bbs_article { padding: 20px 10px 0px;line-height: 24px;margin-bottom: 20px;font-size: 16px;color: #000;width: 750px;background: #FFF;}
+.bbs_article { padding: 20px 10px 0px;line-height: 24px;margin-bottom: 20px;font-size: 16px;color: #000;width: 690px;background: #FFF;}
 .bbs_article p{ line-height:24px; margin-bottom:20px; font-size:16px;color:#000;}
 .bbs_bottom{ background:#f2f2f2; height:30px;border-radius:5px; -moz-border-radius: 5px;-webkit-border-radius:5px;  padding:0 10px; line-height:30px;}
 .jiathis_style{ padding-top:7px;}
@@ -82,7 +82,7 @@
 .bbs_username{ margin-right:20px;font-weight:bold; color:gray;}
 .bbs_username:hover{color:#385f8a;}
 .bbs_hunt input.bbs_search_btn{ width:47px; height:42px; background:url(../images/search.png) no-repeat 0 0; border:none; cursor:pointer;}
-.bbs_reply_number{ display:block;border-radius:15px;-moz-border-radius: 15px;-webkit-border-radius:15px;   background:#999; color:#fff; text-align:center; padding:0 8px;}
+.bbs_reply_number{ display:block;border-radius:15px;-moz-border-radius: 15px;-webkit-border-radius:15px;   background:#999; color:#fff; text-align:center; padding:0 9px;margin-right:20px;}
 .bbs_reply_con{ font-size:14px; line-height:24px; color:#000; }
 .emoji_img{width:30px;height: 30px; padding: 3px;} /*meoji表情的样式*/
 .bbs_backtop{ background:url(../images/back_top.png) no-repeat right center; padding-right:20px;}

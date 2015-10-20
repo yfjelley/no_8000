@@ -48,7 +48,7 @@ def index(request):
     conf.user_count = profile.objects.count()
     conf.topic_count = topic.objects.count()
     conf.post_count = post.objects.count()
-    topics = topic.objects.all().filter(deleted=False).order_by('-last_replied')
+    topics = topic.objects.all().filter(deleted=False).order_by('-essence_flag','-last_replied')
     hot_topics = topic.objects.all().filter(hot_flag=True, deleted=False).order_by('-time_created')[0:4]
     essence_topic = topic.objects.all().filter(essence_flag=True, deleted=False).order_by('-time_created')[0:4]
     post_list_title = _('latest topics')
@@ -322,7 +322,7 @@ def create_topic(request, node_id):
                                   context_instance=RequestContext(request))
     elif request.method == 'POST':
             if not request.user.is_authenticated():
-                        return error(request, '请登录123', reverse('signin'))
+                        return error(request, '请登陆123', reverse('signin'))
             t = topic()
             t.content = request.POST.get('content') or ''
             t.content = t.content.replace("<img>", "<img class = 'bbs_topic_img' src='")

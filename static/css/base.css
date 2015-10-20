@@ -3,7 +3,7 @@
 body { margin:0 auto; font-size:12px; font-family:"Microsoft YaHei","simsun","Helvetica Neue","Arial", "Helvetica", "sans-serif"; }
 ul,dl,dt,dd,h1,h2,h3,h4,h5,h6,form { padding:0; margin:0;}
 ul { list-style:none;}
-img { border:0px;}
+img {border:0px; -ms-interpolation-mode: bicubic; }
 a { color:#4c4c4c; text-decoration:none;}
 a:hover { color:#ff0000;}
 .hdzq{display:block;color:#666666;}
@@ -20,8 +20,8 @@ table {border-collapse:collapse;border-spacing:0;}
 .clearfix:after{ clear:both; content:" "; display:block; font-size:0; height:0; visibility:hidden;}
 b,i{ font-style:normal; font-weight:normal;}
 /*头部*/
-#header,#footer{ width:100%;margin:0px;padding:0px;background:#372c3A;}
-#header{height:60px; line-height:60px;min-width: 600px;}
+#header,#footer{margin:0px;padding:0px;background:#372c3A;}
+#header{height:60px; line-height:60px;min-width: 1300px;}
 .top{ padding:0px;width: 95%;}
 
 .nav{padding-left:10%;}
@@ -56,10 +56,10 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .top_name ul{ background:rgba(0,0,0,0.6)!important; width:100px!important; right:-30px!important;}
 .user_con{ width:768px; margin:0 auto;}
 
-#container {min-height:65%;height:80%; position: relative;background:#EEEEF0;}
-#container_detail {min-height:72%;height: 55%; position: relative;background:#EEEEF0;}
+#container {min-height:65%;height:80%; position: relative;background:#EEEEF0;min-width: 1300px;}
+#container_detail {min-height:72%;height: 55%; position: relative;background:#EEEEF0;min-width: 1300px;}
 /*底部*/
-#footer{ width:100%; clear:both;text-algin:center;position: absolute;}
+#footer{ width:100%; clear:both;text-algin:center;position: absolute;min-width: 1300px;}
 .footer {width:100%; color:#333; text-align:center;font-size:14px;}
 .footer a.ico,.footer a.ico1{ margin-top:5px; display:inline-block; width:32px; height:32px;}
 .footer a:hover{ color:#ff0000;}
@@ -69,7 +69,7 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .footer a.ico1:hover{ background:url(../images/wx_1.png) no-repeat 0 0;}
 #code{ position:absolute; top:-168px; right:-50px;}
 #mid{ width:100%; overflow:hidden; padding-bottom:70px; background:#EEEEF0; margin:0;padding:0; position:absolute;} /*margin-bottom:70px; */
-#middd{ width:100%; overflow:hidden; padding-bottom:70px; background:#EEEEF0; margin:0;padding:0;} /*margin-bottom:70px; */
+#middd{ width:100%; overflow:hidden; padding-bottom:70px; background:#EEEEF0; margin:0;padding:0;min-width: 1300px;} /*margin-bottom:70px; */
 #midddt{width:100%; overflow:hidden; padding-bottom:70px; background:#EEEEF0; margin:0;padding:0;margin-bottom:-130px;}
 .bbs_search{ padding:10px 0; overflow:hidden;}
 .bbs_logo{ width:226px; height:71px; float:left; display:none;}
