@@ -160,8 +160,7 @@
     $(function(){
         $.get("/m/search/",function(data){ $('#head_m').html(data.content_html);});
     });
-    {% if msg %}
-        alert('{{msg}}');
-    {% endif %}
 </script>
+
+
 </html>

@@ -40024,3 +40024,802 @@ safecenter
 [20/Oct/2015 11:50:02] "GET /static/images/u207.jpg HTTP/1.1" 200 13761
 [20/Oct/2015 11:50:49] "GET /bbs/ HTTP/1.1" 200 34032
 [20/Oct/2015 11:50:55] "GET /bbs/ HTTP/1.1" 200 34032
+[20/Oct/2015 17:46:33] "GET / HTTP/1.1" 200 17076
+[20/Oct/2015 17:46:33] "GET /static/css/main.css HTTP/1.1" 200 1621
+[20/Oct/2015 17:46:33] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[20/Oct/2015 17:46:33] "GET /static/css/base.css HTTP/1.1" 200 8604
+[20/Oct/2015 17:46:33] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[20/Oct/2015 17:46:34] "GET /static/images/logo.png HTTP/1.1" 200 13223
+[20/Oct/2015 17:46:34] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[20/Oct/2015 17:46:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[20/Oct/2015 17:46:35] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[20/Oct/2015 17:59:34] "GET / HTTP/1.1" 200 17116
+[20/Oct/2015 17:59:35] "GET /static/css/main.css HTTP/1.1" 200 1621
+[20/Oct/2015 17:59:35] "GET /static/css/base.css HTTP/1.1" 200 8604
+[20/Oct/2015 17:59:35] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[20/Oct/2015 17:59:35] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[20/Oct/2015 17:59:36] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[20/Oct/2015 17:59:36] "GET /static/images/logo.png HTTP/1.1" 200 13223
+[20/Oct/2015 17:59:36] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[20/Oct/2015 17:59:36] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[20/Oct/2015 17:59:41] "GET / HTTP/1.1" 200 17077
+[20/Oct/2015 17:59:41] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/css/base.css HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/css/main.css HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/js/yz.js HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/images/logo.png HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[20/Oct/2015 17:59:41] "GET /static/images/search.png HTTP/1.1" 304 0
+[20/Oct/2015 18:01:28] "GET / HTTP/1.1" 200 17093
+[20/Oct/2015 18:05:31] "GET / HTTP/1.1" 200 17119
+[20/Oct/2015 18:05:37] "GET /m/login HTTP/1.1" 301 0
+[20/Oct/2015 18:05:37] "GET /m/login/ HTTP/1.1" 200 6499
+[20/Oct/2015 18:05:37] "GET /m/search/ HTTP/1.1" 200 1717
+[20/Oct/2015 18:05:37] "GET /getverifycode/ HTTP/1.1" 200 2067
+[20/Oct/2015 18:05:41] "POST /m/search_result/ HTTP/1.1" 200 6007
+[20/Oct/2015 18:05:44] "GET /m/search/ HTTP/1.1" 200 1717
+[20/Oct/2015 18:05:47] "POST /m/search_result/ HTTP/1.1" 200 6007
+[20/Oct/2015 18:05:49] "GET /m/search/ HTTP/1.1" 200 1717
+[20/Oct/2015 19:13:48] "GET / HTTP/1.0" 200 17086
+[20/Oct/2015 19:13:52] "HEAD / HTTP/1.0" 200 0
+[20/Oct/2015 19:13:56] "TRACE HTTP://localhost HTTP/1.0" 404 1643
+[20/Oct/2015 19:14:00] "TRACE / HTTP/1.0" 200 17100
+[20/Oct/2015 19:14:04] code 400, message Bad HTTP/0.9 request type ('\x80\x80\x01\x03\x01\x00W\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 1: invalid start byte
+[20/Oct/2015 19:14:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xe0 in position 6: invalid continuation byte
+[20/Oct/2015 19:14:20] code 400, message Bad HTTP/0.9 request type ('y\x08\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00')
+[20/Oct/2015 19:14:20] "y          CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  ! " 400 -
+[20/Oct/2015 19:14:27] code 400, message Bad request version ('EBENEBFACACACACACACACACACACACACA\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 253, in parse_request
+    self.send_error(400, "Bad request version (%r)" % version)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x81 in position 1: invalid start byte
+[20/Oct/2015 19:14:33] code 400, message Bad request syntax ('\x00\x00\x00\x85\xffSMBr\x00\x00\x00\x00\x18S\xc8\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xfe\x00\x00\x00\x00\x00b\x00\x02PC NETWORK PROGRAM 1.0\x00\x02LANMAN1.0\x00\x02Windows for Workgroups 3.1a\x00\x02LM1.2X002\x00\x02LANMAN2.1\x00\x02NT LM 0.12\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x85 in position 4: invalid start byte
+[20/Oct/2015 19:14:34] code 400, message Bad HTTP/0.9 request type ('HELO')
+[20/Oct/2015 19:14:34] "HELO AMAP" 400 -
+[20/Oct/2015 19:14:39] code 400, message Bad HTTP/0.9 request type ('USER')
+[20/Oct/2015 19:14:39] "USER AMAP" 400 -
+[20/Oct/2015 19:14:48] code 400, message Bad request syntax ('\x80\x00\x00(\x18r\xdbZ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86\xa0\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 1: invalid start byte
+[20/Oct/2015 19:14:55] code 400, message Bad HTTP/0.9 request type ('\x00')
+[20/Oct/2015 19:14:55] "            " 400 -
+[20/Oct/2015 19:15:02] code 400, message Bad HTTP/0.9 request type ('0')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 13: invalid start byte
+[20/Oct/2015 19:15:08] code 400, message Bad request syntax ('\x00\xa6\x00\x00\x01\x00\x00\x00\x014\x01,\x00\x00\x08\x00\x7f\xffO\x98\x00\x00\x00\x01\x00\x84\x00"\x00\x00\x00\x00\x01\x01(DESCRIPTION=(CONNECT_DATA=(SID=test)(CID=(PROGRAM=)(HOST=__jdbc__)(USER=)))(ADDRESS=(PROTOCOL=tcp)(HOST=162.27.59.135)(PORT=1521)))')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xa6 in position 2: invalid start byte
+[20/Oct/2015 19:15:14] code 400, message Bad HTTP/0.9 request type ('l\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc6 in position 33: invalid continuation byte
+[20/Oct/2015 19:15:16] code 400, message Bad request syntax ('\x00\x00\x01\x06\xff\xff\xff\xff')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 5: invalid start byte
+[20/Oct/2015 19:15:25] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 29: invalid start byte
+[20/Oct/2015 19:15:32] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[20/Oct/2015 19:15:32] "JRMI K" 400 -
+[20/Oct/2015 19:15:36] code 400, message Bad request version ('>')
+[20/Oct/2015 19:15:36] "< NTP/1.2 >" 400 -
+[20/Oct/2015 19:15:45] code 400, message Bad request syntax ('\x005\x00\x00\x01\x00\x00\x00)\x00\x00\x00SQLDB2RA\x01\x00\x00\x00\x00\x00\x07\x00\x01\x00\x02\x00\x01\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x01\x00\x00\x80\x01')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 40: invalid start byte
+[20/Oct/2015 19:15:50] code 400, message Bad request syntax (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[20/Oct/2015 19:15:50] ":   /     @  =            /         @                 " 400 -
+[20/Oct/2015 20:28:00] "GET / HTTP/1.1" 200 17088
+[20/Oct/2015 20:28:00] "GET /static/css/base.css HTTP/1.1" 200 8604
+[20/Oct/2015 20:28:00] "GET /static/css/main.css HTTP/1.1" 200 1621
+[20/Oct/2015 20:28:00] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[20/Oct/2015 20:28:00] "GET /static/images/logo.png HTTP/1.1" 200 13223
+[20/Oct/2015 20:28:00] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[20/Oct/2015 20:28:01] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[20/Oct/2015 20:28:01] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[20/Oct/2015 20:28:01] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[20/Oct/2015 20:28:03] "GET /static/images/activepic.jpg HTTP/1.1" 200 59833
+[20/Oct/2015 20:28:03] "GET /static/images/search.png HTTP/1.1" 200 1821
+[20/Oct/2015 20:28:35] "GET /bbs/ HTTP/1.1" 200 33832
+[20/Oct/2015 20:28:35] "GET /static/upload/default.png HTTP/1.1" 200 6462
+[20/Oct/2015 20:28:35] "GET /static/css/bbs.css HTTP/1.1" 200 10430
+[20/Oct/2015 20:28:35] "GET /static/images/logo1.png HTTP/1.1" 200 6444
+[20/Oct/2015 20:28:35] "GET /static/images/u207.jpg HTTP/1.1" 200 13761
+[20/Oct/2015 20:28:35] "GET /static/images/qqico.png HTTP/1.1" 200 1570
+[20/Oct/2015 20:28:35] "GET /static/images/u205.png HTTP/1.1" 200 10647
+[20/Oct/2015 20:28:35] "GET /static/images/u209.png HTTP/1.1" 200 13444
+[20/Oct/2015 20:28:36] "GET /static/images/advert.png HTTP/1.1" 200 126575
+[20/Oct/2015 20:28:37] "GET /static/js/search.js HTTP/1.1" 200 324
+[20/Oct/2015 20:28:37] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[20/Oct/2015 20:28:37] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 200 102198
+[20/Oct/2015 20:28:54] "GET / HTTP/1.1" 200 17090
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[21/Oct/2015 00:18:54] "GET /manager/html HTTP/1.1" 404 13794
+[21/Oct/2015 08:31:44] "GET / HTTP/1.1" 200 17093
+[21/Oct/2015 09:23:17] "GET /m/search_result/ HTTP/1.1" 200 9463
+[21/Oct/2015 09:23:17] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 09:23:17] "GET /static/js/public.js HTTP/1.1" 304 0
+[21/Oct/2015 09:23:17] "GET /static/css/login_m.css HTTP/1.1" 200 2330
+[21/Oct/2015 09:23:17] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[21/Oct/2015 09:23:18] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:23:18] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[21/Oct/2015 09:23:18] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[21/Oct/2015 09:23:23] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 09:23:26] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:23:34] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 09:23:40] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:23:53] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 09:23:58] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:24:02] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 09:24:04] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:33:03] "GET /m/login/ HTTP/1.1" 200 6499
+[21/Oct/2015 09:33:03] "GET /static/css/mlogin.css HTTP/1.1" 200 3227
+[21/Oct/2015 09:33:03] "GET /static/js/public.js HTTP/1.1" 200 670
+[21/Oct/2015 09:33:03] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[21/Oct/2015 09:33:04] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[21/Oct/2015 09:33:05] "GET /getverifycode/ HTTP/1.1" 200 2073
+[21/Oct/2015 09:33:05] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:33:05] "GET /static/css/header_m.css HTTP/1.1" 200 1147
+[21/Oct/2015 09:33:05] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[21/Oct/2015 09:33:07] "POST /m/search_result/ HTTP/1.1" 200 9431
+[21/Oct/2015 09:33:07] "GET /static/css/search_result_m.css HTTP/1.1" 200 3294
+[21/Oct/2015 09:33:07] "GET /static/css/login_m.css HTTP/1.1" 200 2330
+[21/Oct/2015 09:33:07] "GET /static/images/logo/yl.jpg HTTP/1.1" 200 46945
+[21/Oct/2015 09:33:07] "GET /static/images/logo/wz.png HTTP/1.1" 200 40326
+[21/Oct/2015 09:33:07] "GET /static/images/logo/hlct.png HTTP/1.1" 200 47806
+[21/Oct/2015 09:33:07] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:33:13] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 09:33:17] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:33:25] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 09:33:25] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 09:33:25] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 09:33:25] "GET /static/js/public.js HTTP/1.1" 304 0
+[21/Oct/2015 09:33:25] "GET /static/css/login_m.css HTTP/1.1" 304 0
+[21/Oct/2015 09:33:27] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:33:39] "POST /m/search_result/ HTTP/1.1" 200 9431
+[21/Oct/2015 09:33:40] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:33:43] "POST /m/search_result/ HTTP/1.1" 200 9431
+[21/Oct/2015 09:33:43] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /static/js/public.js HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /static/css/login_m.css HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /static/images/logo/wz.png HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /static/images/logo/yl.jpg HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /static/images/logo/hlct.png HTTP/1.1" 304 0
+[21/Oct/2015 09:33:43] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 09:40:38] "GET / HTTP/1.1" 200 17109
+[21/Oct/2015 09:40:38] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 09:40:38] "GET /static/css/main.css HTTP/1.1" 304 0
+[21/Oct/2015 09:40:38] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 09:40:43] "GET /about_us/ HTTP/1.1" 200 21388
+[21/Oct/2015 09:40:45] "GET /activearea/ HTTP/1.1" 200 19558
+[21/Oct/2015 09:40:45] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[21/Oct/2015 09:48:33] "GET / HTTP/1.1" 200 17063
+[21/Oct/2015 09:48:33] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 09:48:33] "GET /static/css/main.css HTTP/1.1" 304 0
+[21/Oct/2015 09:48:33] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 09:48:39] "GET / HTTP/1.1" 200 17109
+[21/Oct/2015 09:48:42] "GET /myfavorite/4/ HTTP/1.1" 302 0
+[21/Oct/2015 09:48:42] "GET /login?next=/myfavorite/4/ HTTP/1.1" 301 0
+[21/Oct/2015 09:48:42] "GET /login/?next=/myfavorite/4/ HTTP/1.1" 200 20414
+[21/Oct/2015 09:48:42] "GET /static/css/login.css HTTP/1.1" 200 5279
+[21/Oct/2015 09:48:42] "GET /static/images/smalllogo.png HTTP/1.1" 200 3318
+[21/Oct/2015 09:48:42] "GET /static/images/open.png HTTP/1.1" 200 23738
+[21/Oct/2015 09:48:42] "GET /getverifycode/ HTTP/1.1" 200 2121
+[21/Oct/2015 09:48:44] "GET /bbs/ HTTP/1.1" 200 33837
+[21/Oct/2015 09:48:44] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[21/Oct/2015 10:00:25] "GET / HTTP/1.1" 200 17086
+[21/Oct/2015 10:00:36] "GET /m/login HTTP/1.1" 301 0
+[21/Oct/2015 10:00:36] "GET /m/login/ HTTP/1.1" 200 6499
+[21/Oct/2015 10:00:36] "GET /static/css/mlogin.css HTTP/1.1" 304 0
+[21/Oct/2015 10:00:36] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:00:36] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:00:36] "GET /getverifycode/ HTTP/1.1" 200 2125
+[21/Oct/2015 10:00:42] "POST /m/search_result/ HTTP/1.1" 200 9440
+[21/Oct/2015 10:00:42] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:00:42] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:01:13] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:01:13] "GET /static/images/logo/ax.png HTTP/1.1" 200 11525
+[21/Oct/2015 10:01:13] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:01:16] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:01:20] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:01:38] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:02:02] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:02:08] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:02:20] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:02:37] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:02:58] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:03:05] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:05:17] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:05:21] "GET /static/css/login_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:05:30] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:05:42] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:06:35] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:06:35] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:06:40] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:06:55] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:14:54] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:14:54] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:14:58] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:14:58] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:15:06] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[21/Oct/2015 10:15:06] "GET /m/bid_detail/580883 HTTP/1.1" 301 0
+[21/Oct/2015 10:15:06] "GET /m/bid_detail/580883/ HTTP/1.1" 200 28347
+[21/Oct/2015 10:15:07] "GET /static/css/bid_detail_m.css HTTP/1.1" 200 4137
+[21/Oct/2015 10:15:07] "GET /static/js/chart.js HTTP/1.1" 200 4124
+[21/Oct/2015 10:15:07] "GET /static/images/shoucang.png HTTP/1.1" 200 3953
+[21/Oct/2015 10:15:07] "GET /static/images/touzi.png HTTP/1.1" 200 5188
+[21/Oct/2015 10:15:07] "GET /static/js/highcharts.js HTTP/1.1" 200 152202
+[21/Oct/2015 10:15:08] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:15:14] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:15:18] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:15:28] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:15:28] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:15:33] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:15:33] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:19:34] "POST /m/bid_detail_p/ HTTP/1.1" 200 1
+[21/Oct/2015 10:19:35] "GET /m/bid_detail/580883/ HTTP/1.1" 200 28347
+[21/Oct/2015 10:19:35] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:24:53] "POST /m/search_result/ HTTP/1.1" 200 9430
+[21/Oct/2015 10:24:53] "GET /static/css/login_m.css HTTP/1.1" 200 2330
+[21/Oct/2015 10:24:53] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:24:53] "GET /static/js/public.js HTTP/1.1" 304 0
+[21/Oct/2015 10:24:54] "GET /static/images/logo/hlct.png HTTP/1.1" 200 47806
+[21/Oct/2015 10:24:54] "GET /static/images/logo/wz.png HTTP/1.1" 200 40326
+[21/Oct/2015 10:24:56] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:24:57] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[21/Oct/2015 10:24:57] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:30:45] "GET /bbs/topic/21/ HTTP/1.1" 200 29171
+[21/Oct/2015 10:30:45] "GET /static/js/mention.js HTTP/1.1" 200 222
+[21/Oct/2015 10:30:45] "GET /static/js/previewer.js HTTP/1.1" 200 1593
+[21/Oct/2015 10:30:45] "GET /static/upload/photo2.png HTTP/1.1" 200 31029
+[21/Oct/2015 10:30:45] "GET /static/emoji/img/grin.png HTTP/1.1" 200 5721
+[21/Oct/2015 10:30:45] "GET /static/emoji/img/heart_eyes.png HTTP/1.1" 200 5758
+[21/Oct/2015 10:30:45] "GET /static/upload/photo1.png HTTP/1.1" 200 24595
+[21/Oct/2015 10:30:45] "GET /static/emoji/img/%2B1.png HTTP/1.1" 200 5135
+[21/Oct/2015 10:30:49] "GET /bbs/ HTTP/1.1" 200 33837
+[21/Oct/2015 10:35:27] "GET / HTTP/1.1" 200 13820
+[21/Oct/2015 10:35:27] "GET /static/css/main.css HTTP/1.1" 200 1621
+[21/Oct/2015 10:35:27] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[21/Oct/2015 10:35:27] "GET /static/css/base.css HTTP/1.1" 200 8604
+[21/Oct/2015 10:35:27] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[21/Oct/2015 10:35:28] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[21/Oct/2015 10:35:28] "GET /static/upload/photo2.png HTTP/1.1" 200 31029
+[21/Oct/2015 10:35:29] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[21/Oct/2015 10:35:29] "GET /static/images/logo.png HTTP/1.1" 200 13223
+[21/Oct/2015 10:35:29] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[21/Oct/2015 10:35:29] "GET /static/images/ico.png HTTP/1.1" 304 0
+[21/Oct/2015 10:35:29] "GET /static/images/activepic.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:35:29] "GET /static/images/search.png HTTP/1.1" 304 0
+[21/Oct/2015 10:35:40] "GET /bbs/ HTTP/1.1" 200 31039
+[21/Oct/2015 10:35:40] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[21/Oct/2015 10:35:48] "GET /bbs/topic/21/ HTTP/1.1" 200 43750
+[21/Oct/2015 10:35:48] "GET /getverifycode/ HTTP/1.1" 200 1942
+[21/Oct/2015 10:36:12] "GET /bbs/topic/21/edit/ HTTP/1.1" 200 34082
+[21/Oct/2015 10:36:12] "GET /bbs/topic/21/edit/js/previewer.js HTTP/1.1" 404 16905
+[21/Oct/2015 10:37:38] "POST /bbs/topic/21/edit/ HTTP/1.1" 302 0
+[21/Oct/2015 10:37:39] "GET /bbs/topic/21/ HTTP/1.1" 200 43772
+[21/Oct/2015 10:37:40] "GET /getverifycode/ HTTP/1.1" 200 2122
+[21/Oct/2015 10:37:44] "GET /login/ HTTP/1.1" 200 16362
+[21/Oct/2015 10:37:44] "GET /static/css/login.css HTTP/1.1" 304 0
+[21/Oct/2015 10:37:44] "GET /getverifycode/ HTTP/1.1" 200 2137
+[21/Oct/2015 10:37:51] "GET /bbs/topic/21/ HTTP/1.1" 200 43772
+[21/Oct/2015 10:37:57] "GET /logout/ HTTP/1.1" 302 0
+[21/Oct/2015 10:37:57] "GET / HTTP/1.1" 200 17093
+[21/Oct/2015 10:38:02] "GET /bbs/ HTTP/1.1" 200 33837
+[21/Oct/2015 10:38:05] "GET /bbs/topic/21/ HTTP/1.1" 200 29193
+[21/Oct/2015 10:38:20] "GET /login/ HTTP/1.1" 200 20303
+[21/Oct/2015 10:38:20] "GET /getverifycode/ HTTP/1.1" 200 2135
+[21/Oct/2015 10:38:25] "GET /bbs/topic/21/ HTTP/1.1" 200 29193
+[21/Oct/2015 10:38:43] "GET /login/ HTTP/1.1" 200 20303
+[21/Oct/2015 10:38:44] "GET /getverifycode/ HTTP/1.1" 200 2116
+[21/Oct/2015 10:38:46] "POST /checkuser/ HTTP/1.1" 200 26
+[21/Oct/2015 10:38:46] "GET /static/images/right.png HTTP/1.1" 200 725
+[21/Oct/2015 10:38:49] "POST /checkvcode/ HTTP/1.1" 200 26
+[21/Oct/2015 10:38:50] "POST /login/ HTTP/1.1" 302 0
+[21/Oct/2015 10:38:50] "GET / HTTP/1.1" 200 13824
+[21/Oct/2015 10:38:54] "GET /login/ HTTP/1.1" 200 16362
+[21/Oct/2015 10:38:54] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/css/login.css HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/upload/photo2.png HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/images/smalllogo.png HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/images/open.png HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:38:54] "GET /getverifycode/ HTTP/1.1" 200 2134
+[21/Oct/2015 10:38:58] "GET /bbs/ HTTP/1.1" 200 31039
+[21/Oct/2015 10:39:01] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:39:01] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 10:39:01] "GET /static/css/login_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:39:01] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:39:01] "GET /static/js/public.js HTTP/1.1" 304 0
+[21/Oct/2015 10:39:03] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:39:06] "GET /bbs/topic/21/ HTTP/1.1" 200 43772
+[21/Oct/2015 10:39:06] "GET /getverifycode/ HTTP/1.1" 200 2040
+[21/Oct/2015 10:39:06] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 10:39:06] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 10:39:06] "GET /static/css/login_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:39:06] "GET /static/js/public.js HTTP/1.1" 304 0
+[21/Oct/2015 10:39:06] "GET /static/css/search_result_m.css HTTP/1.1" 304 0
+[21/Oct/2015 10:39:09] "GET /m/search/ HTTP/1.1" 200 1717
+[21/Oct/2015 10:39:10] "GET /bbs/topic/21/edit/ HTTP/1.1" 200 34126
+[21/Oct/2015 10:39:10] "GET /bbs/topic/21/edit/js/previewer.js HTTP/1.1" 404 16905
+[21/Oct/2015 10:39:18] "POST /bbs/topic/21/edit/ HTTP/1.1" 302 0
+[21/Oct/2015 10:39:20] "GET /bbs/topic/21/ HTTP/1.1" 200 43778
+[21/Oct/2015 10:39:20] "GET /getverifycode/ HTTP/1.1" 200 2129
+[21/Oct/2015 10:44:11] "GET /bbs/topic/21/ HTTP/1.1" 200 43778
+[21/Oct/2015 10:44:11] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:11] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[21/Oct/2015 10:44:11] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/js/emoji.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/js/search.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/js/previewer.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/js/mention.js HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/upload/photo2.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/advert.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/upload/default.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/grin.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/%2B1.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/upload/photo1.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/heart_eyes.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/grinning.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/u209.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/cat.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/u205.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/-1.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/8ball.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/100.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/airplane.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/ambulance.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_down.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_left.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_lower_left.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_lower_right.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_right.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_up.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_upper_left.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/arrow_upper_right.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/alien.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/angel.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/anger.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/angry.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/anguished.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/astonished.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/baby.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/blush.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/bowtie.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/cold_sweat.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/confounded.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/confused.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/cry.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/disappointed.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/disappointed_relieved.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/dizzy_face.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/expressionless.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/fearful.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/flushed.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/frowning.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/full_moon_with_face.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/grimacing.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/hushed.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/innocent.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/imp.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/joy.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/kissing.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/kissing_closed_eyes.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/kissing_heart.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/laughing.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/mask.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/no_mouth.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/open_mouth.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/pensive.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/persevere.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/relaxed.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/relieved.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/scream.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/sleeping.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/sleepy.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/smirk.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/sob.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/sunglasses.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/stuck_out_tongue_closed_eyes.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/tired_face.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/yum.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:12] "GET /static/emoji/img/triumph.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/worried.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/bear.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/dog.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/hear_no_evil.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/monkey_face.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/monkey.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/see_no_evil.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/speak_no_evil.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/beer.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/bento.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/bullettrain_side.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/clap.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/congratulations.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/dancers.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/fist.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/heart.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/icecream.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/key.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/kiss.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/metal.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/microphone.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/muscle.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/musical_note.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/new.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/no_good.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/ok_hand.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/open_hands.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/pig.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/point_down.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/point_left.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/point_right.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/point_up.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/point_up_2.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/pray.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/raising_hand.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/rocket.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/smoking.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/snowman.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/emoji/img/sos.png HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[21/Oct/2015 10:44:13] "GET /getverifycode/ HTTP/1.1" 200 2123
+[21/Oct/2015 10:47:01] "GET / HTTP/1.1" 200 17116
+[21/Oct/2015 11:05:29] "GET /bbs/ HTTP/1.1" 200 33837
+[21/Oct/2015 11:05:34] "GET /bbs/ HTTP/1.1" 200 33837
+[21/Oct/2015 11:05:34] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/js/search.js HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/advert.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/upload/default.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/u205.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/u209.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[21/Oct/2015 11:05:34] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[21/Oct/2015 11:05:36] "GET / HTTP/1.1" 200 17125
+[21/Oct/2015 11:05:39] "GET /m/login HTTP/1.1" 301 0
+[21/Oct/2015 11:05:39] "GET /m/login/ HTTP/1.1" 200 6499
+[21/Oct/2015 11:05:39] "GET /m/search/ HTTP/1.1" 200 1724
+[21/Oct/2015 11:05:39] "GET /getverifycode/ HTTP/1.1" 200 1845
+[21/Oct/2015 11:05:49] "POST /m/search_result/ HTTP/1.1" 200 6007
+[21/Oct/2015 11:05:53] "GET /m/search/ HTTP/1.1" 200 1724
+[21/Oct/2015 11:06:00] "POST /m/search_result/ HTTP/1.1" 200 9441
+[21/Oct/2015 11:06:00] "GET /m/search/ HTTP/1.1" 200 1724
