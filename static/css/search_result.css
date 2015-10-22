@@ -1,10 +1,10 @@
 ﻿.mt3{ margin-top:3px;}
 .search_content,.search_list,.search_term,.search_term div,.search_outside{ overflow:hidden;}
-.search_content{width: 100%;margin:0px auto;}
-.search_result_box{border-radius:5px;background:#FFFFFF;margin: 0px auto;width: 740px;}
-.search_list{ padding: 5px 10px;line-height:30px;}
-.search_list h3{text-align:left; font-size:14px;width: 60px;}
-.search_term{ font-size:14px;width: 515px;}
+.search_content{ width:800px;margin:0px auto;}
+.search_result_box{padding:0 20px; border-radius:5px;background:#FFFFFF;}
+.search_list{ padding:5px 0; line-height:30px;}
+.search_list h3{text-align:left; font-size:14px;}
+.search_term{ font-size:14px;width: 545px;float:right;}
 .search_term .search_txt{ width:80px; padding:0 5px; height:20px; line-height:20px; color:#999; margin-right:5px;}
 .search_term  span{ display:block; float:left; margin-right:10px; height:30px; line-height:30px;}
 .search_term  .search_checkbox{ margin-right:5px;}
@@ -32,11 +32,11 @@
 .search_hd h2{ font-size:16px;}
 .search_bd{background:#FFFFFF;}
 .search_Tab{margin-bottom:10px;}
-.search_Tab tr td{ padding:10px 0px; text-align:center; color:#868686;}
-.search_Tab tr td.search_tl{ text-align:left;width: 240px;}
+.search_Tab tr td{ padding:10px 5px; text-align:center; color:#868686;}
+.search_Tab tr td.search_tl{ text-align:left;}
 .search_Tab tr td.search_title{ font-size:14px; color:#333; font-weight:bold;}
 .search_Tab tr td img{ width:110px; height:30px;}
-.seach_cheek{ display:block; background:#c50512; color:#fff; text-align:center; line-height:30px; height:30px; font-size:14px; width:75px;}
+.seach_cheek{ display:block; background:#c50512; color:#fff; text-align:center; line-height:30px; height:30px; font-size:14px; width:80px;}
 .seach_cheek:hover{ background:#d23c46; color:#fff;}
 .c_red{ font-size:14px; color:#ff0000; font-weight:bold;}
 .search_bd_no{ border:none; background:#FFFFFF;margin-bottom:30px;}
@@ -51,7 +51,7 @@
 
 .bbs_advert,.bbs_advert a,.bbs_advert a img{ display:inline-block; width:800px; height:100px; display:none;}
 
-.search_tips{width: 740px;margin:0px auto;}
+
 
 .pagination {
     display: inline-block;
@@ -88,5 +88,5 @@ a.btn_blue_ {
 }
 
 .choices a {
-    margin-right: 10px;
+    margin-right: 15px;
 }

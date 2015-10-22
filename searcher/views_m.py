@@ -918,16 +918,11 @@ def search_result(request):
         if form.is_valid():
             cd = form.cleaned_data
             amount = cd['searchWord']
-            if amount is not None and not str(amount).isdigit():
-                return render_to_response('search_result_m.html',{'msg':u'请输入投资金额'}, context_instance=RequestContext(request))
-
             try:
                 page = int(request.GET.get('page', '1'))
             except ValueError:
                 page = 1
-            print 'page is',page
             index_parts = index_loading_m(amount, None, page)
-            print  "index",index_parts.get('results'),index_parts.get('last_page'),index_parts.get('page_set')
             return render_to_response('search_result_m.html',
                                       {'results': index_parts.get('results'), 'dimensions': index_parts.get('dimensions'),
                                        'c_results': index_parts.get('c_result'), 'last_page': index_parts.get('last_page'),
@@ -1011,7 +1006,7 @@ def search_listresult(request):
         last_page = ppp.page_range[len(ppp.page_range) - 1]
         page_set = get_pageset(last_page, page)
         print "results is :",results, last_page,  page_set
-        return render_to_response('listresult_m.html',{'results': results, 'last_page': last_page, 'page_set': page_set},
+        return render_to_response('listresult_m.html',{'params':request.POST.get('params'),'results': results, 'last_page': last_page, 'page_set': page_set},
                           context_instance=RequestContext(request))
 
     else:

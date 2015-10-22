@@ -9,7 +9,7 @@
 .user_list li a{ font-size:14px; font-weight:bold;text-align: center;height:30px; line-height:30px; display:block;}
 .user_list li a.active,.user_list li a:hover{ background:#ffb2b2; color:#c95124;}
 .user_right{height:100%;margin-bottom:35px;width: 639px;}
-.user_message{ padding-top:10px;width: 520px;}
+.user_message{ padding-top:10px;margin: 0px auto;width: 500px;}
 .user_title{ font-size:18px; font-weight:bold; margin-bottom:20px;margin-left: 25px;}
 .user_detail dt{ float:left;}
 .user_detail dt{ width:150px; }
@@ -56,7 +56,6 @@ input[type="checkbox"], input[type="radio"]{box-sizing:border-box; padding:0;}
 .search_list,.search_head,.search_body{ overflow:hidden;}
 .user_shortcut{ padding-top:10px;}
 .search_list{ padding:5px 0; line-height:30px;}
-.search_list h3{ width:100px; text-align:left; font-size:14px;}
 .search_term{ font-size:14px; width:700px;}
 .search_term .search_txt{ width:80px; padding:0 5px; height:20px; line-height:20px; color:#999; margin-right:5px;}
 .search_term  span{ display:block; float:left; margin-right:10px; height:30px; line-height:30px;}

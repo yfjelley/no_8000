@@ -1,4 +1,4 @@
-﻿.bbs{ width: 1025px; margin:0 auto;}
+﻿.bbs{width: 950px; margin:0 auto;}
 .bbs_left,.bbs_title,.bbs_note,.bbs_box,.bbs_hd,.bbs_bd,.bbs_hot_news,.bbs_href_list,.bbs_ideas,.bbs_article,.bbs_con_box,.bbs_reply_list{ overflow:hidden;}
 .bbs_left{width: 700px;margin-bottom: 30px;margin-left: 5px;}
 .bbs_con{ border:2px solid #ddd;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px; padding:10px; background:#fff;}
@@ -34,7 +34,7 @@
 .mt10{margin-top:10ox;}
 
 /*分页结束*/
-.bbs_right{ width:220px; overflow:hidden; padding-top:30px;padding-right:70px;}
+.bbs_right{ width:220px; overflow:hidden; padding-top:30px;}
 .bbs_gg,.bbs_gg a,.bbs_gg a img{ display:inline-block; width:220px; height:160px;}
 
 .bbs_hd{ height:30px; line-height:30px; border-bottom:1px solid #ddd;}
@@ -148,3 +148,9 @@ padding-right:10px;float: right;font-size:14px; width:110px;}
 .yzm {height:30px;}
  .bsearch{ display:block; background:#c50512; color:#fff; text-align:center; height:18px; width:40px;}
 .bsearch:hover{ background:#d23c46; color:#fff;}
+@media (min-width: 768px) and (max-width:1200px) {
+.bbs {width: 900px;margin: 0px auto;}
+.bbs_left {width: 650px;margin-bottom: 30px;margin-left: 5px;}
+.bbs_right {width: 220px;overflow: hidden;padding-top: 30px;margin-left: 1px;}
+.bbs_article {padding: 20px 10px 0px;line-height: 24px;margin-bottom: 20px;font-size: 16px;color: #000;width: 635px;background: #FFF none repeat scroll 0% 0%;
+}}

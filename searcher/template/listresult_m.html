@@ -118,6 +118,7 @@
 
         function takepage(n) {
             alert({{results.next_page_number}});
+            alert([{{params}}]);
             checkparam(n);
         }
 
@@ -132,7 +133,7 @@
         return el;
         }
 
-        function checkparam(page,a) {
+        function checkparam(page) {
 
             var amount = $(".lastinput").children("#id_searchWord").val();
             var sortorder = 0;
@@ -150,7 +151,7 @@
             }
         $.get("{% url 'search_listresult_m' %}",
                 {
-                    params: a,
+                    params: [{{params}}],
                     amount: amount,
                     page: page,
                     sorttype: sorttype,

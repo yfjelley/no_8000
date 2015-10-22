@@ -5,6 +5,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
     <title>搜索结果</title>
     <script src="/static/js/jquery.min.js"></script>
  	<link rel="stylesheet" href="/static/css/search_result_m.css">
@@ -13,7 +17,9 @@
 </head>
 <body>
 <div class="log_conten">
+<header>
 <div id="head_m"></div>
+</header>
 {% if params %}
     <script>
         $(document).ready(function () {

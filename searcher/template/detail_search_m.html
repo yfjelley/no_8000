@@ -158,7 +158,7 @@
                             style="width: 4.5rem;height: 0.02rem;background:#999999;margin: 0.4rem 0 0.4rem -1.6rem;"></div>
                     </li>
                     <li class="confirm_inp">
-                        <label><input type="button" id="button1" value="确认"> </label>
+                        <label><input type="button" onclick="detail_search()" value="确认"> </label>
                     </li>
 
                 </ul>
@@ -200,17 +200,15 @@
 </script>
 <script type="text/javascript">
 
-        $("#button1").click(alert("ggggg"));
+        function detail_search(){
+           checkparam(1);
+        }
 
-        function get_a(){
-             alert("xxxx");
-            $("#container").find('select').on('change', function () {
-                var $ids="1";
-                $("#container option:selected").attr('id','1').siblings('option').removeAttr('id','1');
-                var a = getElementsByClassName($ids,'choiceid');
-                return a;
-            });
-
+        function get_option() {
+            var $ids="1";
+            $("#container option:selected").attr('id','1').siblings('option').removeAttr('id','1');
+            var a = getElementsByClassName($ids,'choiceid');
+            return a;
         }
 
         function getElementsByClassName(n,m) {
@@ -228,7 +226,7 @@
             checkparam(n);
         }
 
-        function checkparam(page,a) {
+        function checkparam(page) {
 
             var amount = $(".lastinput").children("#id_searchWord").val();
             var sortorder = 0;
@@ -245,7 +243,7 @@
                 sorttype = bbb[0];
             }
 
-           document.getElementById("params").value= a;
+           document.getElementById("params").value= get_option();
            document.getElementById("amount").value= "";
            document.getElementById("page").value= page;
            document.getElementById("sorttype").value= sorttype;

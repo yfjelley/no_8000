@@ -59,7 +59,7 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 #container {min-height:65%;height:80%; position: relative;background:#EEEEF0;min-width: 1300px;}
 #container_detail {min-height:72%;height: 55%; position: relative;background:#EEEEF0;min-width: 1300px;}
 /*底部*/
-#footer{ width:100%; clear:both;text-algin:center;position: absolute;min-width: 1300px;}
+#footer{ width:100%; clear:both;text-algin:center;position:absolute;min-width:1300px;}
 .footer {width:100%; color:#333; text-align:center;font-size:14px;}
 .footer a.ico,.footer a.ico1{ margin-top:5px; display:inline-block; width:32px; height:32px;}
 .footer a:hover{ color:#ff0000;}
@@ -88,6 +88,9 @@ background: none repeat scroll 0% 0% #FFF; z-index:999; position:absolute; right
 .ful{margin-top:15px; margin-left:-50px;}
 .ful1,.ful2,.ful3,.ful4,.ful5,.ful6,.ful7,.ful8,.ful9,.ful10,.ful11,.ful12,.ful13{font-size:0.8em;}
 .ful1 label{color:#e1604d;}
+.ful2 label .lab1{border-top:1px solid #e1604d;height:1px;width:180px;margin-top:50px;margin-left:55px;}
+.ful2 label .lab2{border-top:1px solid #e1604d;height:1px;width:180px;margin-left:270px;}
+.ful2 label .lab3{border-top:1px solid #e1604d;height:1px;width:300px;margin-left:480px;}
 .ful2 hr{color:#e1604d;}
 .ful1{font-size:16px;margin-left:5%;}
 .ful1 li{position:absolute;margin-top:20px;}
@@ -158,3 +161,12 @@ placeholder{
 .Validform_right{color: #71b83d;padding-left: 20px; background:url(../images/right.png) no-repeat 0 center;}
 #Validform_msg{ display:none;}
 .user_conter{height:100%;width:745px;margin-left:5px;margin:0px auto;}
+.xqtz{float:left;margin:0px auto;}
+@media (min-width: 768px) and (max-width:1200px) {
+#footer{ width:100%; clear:both;text-algin:center;position:absolute;min-width: 0px;}
+#header{height:60px; line-height:60px;min-width: 0px;}
+#container {min-height:65%;height:80%; position: relative;background:#EEEEF0;min-width: 0px;}
+#middd {width: 100%;overflow: hidden;background: #EEEEF0 none repeat scroll 0% 0%;margin: 0px;padding: 0px;min-width: 0px;}
+#container_detail {position: relative;background: #EEEEF0 none repeat scroll 0% 0%;min-width: 0px;min-height: 110%;height: 60%;}
+.detail_border {width: 400px;height: 300px;background: #FFF none repeat scroll 0% 0%;margin: 30px 10% 20px 0px;}
+.xqtz{width:400px;margin:0px auto;}}

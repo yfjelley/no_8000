@@ -40823,3 +40823,1123 @@ error: [Errno 104] Connection reset by peer
 [21/Oct/2015 11:05:53] "GET /m/search/ HTTP/1.1" 200 1724
 [21/Oct/2015 11:06:00] "POST /m/search_result/ HTTP/1.1" 200 9441
 [21/Oct/2015 11:06:00] "GET /m/search/ HTTP/1.1" 200 1724
+Error: That port is already in use.
+[21/Oct/2015 17:43:06] "GET /m/search_result/ HTTP/1.1" 200 9757
+[21/Oct/2015 17:43:06] "GET /m/search/ HTTP/1.1" 200 1523
+[21/Oct/2015 17:46:16] "GET /about_us/ HTTP/1.1" 200 17209
+[21/Oct/2015 17:46:16] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 17:46:24] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[21/Oct/2015 17:47:12] "GET / HTTP/1.1" 200 13333
+[21/Oct/2015 17:47:14] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[21/Oct/2015 17:47:46] "GET /save_filter/ HTTP/1.1" 200 29264
+[21/Oct/2015 17:48:05] "GET /userinformation/ HTTP/1.1" 200 17310
+[21/Oct/2015 19:06:56] "GET /manager/html HTTP/1.1" 404 13794
+[21/Oct/2015 19:14:27] "GET / HTTP/1.0" 200 16853
+[21/Oct/2015 19:14:34] "HEAD / HTTP/1.0" 200 0
+[21/Oct/2015 19:14:39] "TRACE HTTP://localhost HTTP/1.0" 404 1643
+[21/Oct/2015 19:14:45] "TRACE / HTTP/1.0" 200 16835
+[21/Oct/2015 19:14:50] code 400, message Bad HTTP/0.9 request type ('\x80\x80\x01\x03\x01\x00W\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 1: invalid start byte
+[21/Oct/2015 19:14:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xe0 in position 6: invalid continuation byte
+[21/Oct/2015 19:15:08] code 400, message Bad HTTP/0.9 request type ('y\x08\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00')
+[21/Oct/2015 19:15:08] "y          CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  ! " 400 -
+[21/Oct/2015 19:15:17] code 400, message Bad request version ('EBENEBFACACACACACACACACACACACACA\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 253, in parse_request
+    self.send_error(400, "Bad request version (%r)" % version)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x81 in position 1: invalid start byte
+[21/Oct/2015 19:15:26] code 400, message Bad request syntax ('\x00\x00\x00\x85\xffSMBr\x00\x00\x00\x00\x18S\xc8\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xfe\x00\x00\x00\x00\x00b\x00\x02PC NETWORK PROGRAM 1.0\x00\x02LANMAN1.0\x00\x02Windows for Workgroups 3.1a\x00\x02LM1.2X002\x00\x02LANMAN2.1\x00\x02NT LM 0.12\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x85 in position 4: invalid start byte
+[21/Oct/2015 19:15:32] code 400, message Bad HTTP/0.9 request type ('HELO')
+[21/Oct/2015 19:15:32] "HELO AMAP" 400 -
+[21/Oct/2015 19:15:38] code 400, message Bad HTTP/0.9 request type ('USER')
+[21/Oct/2015 19:15:38] "USER AMAP" 400 -
+[21/Oct/2015 19:15:47] code 400, message Bad request syntax ('\x80\x00\x00(\x18r\xdbZ\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86\xa0\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 1: invalid start byte
+[21/Oct/2015 19:15:56] code 400, message Bad HTTP/0.9 request type ('\x00')
+[21/Oct/2015 19:15:56] "            " 400 -
+[21/Oct/2015 19:16:06] code 400, message Bad HTTP/0.9 request type ('0')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 13: invalid start byte
+[21/Oct/2015 19:16:15] code 400, message Bad request syntax ('\x00\xa6\x00\x00\x01\x00\x00\x00\x014\x01,\x00\x00\x08\x00\x7f\xffO\x98\x00\x00\x00\x01\x00\x84\x00"\x00\x00\x00\x00\x01\x01(DESCRIPTION=(CONNECT_DATA=(SID=test)(CID=(PROGRAM=)(HOST=__jdbc__)(USER=)))(ADDRESS=(PROTOCOL=tcp)(HOST=162.27.59.135)(PORT=1521)))')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xa6 in position 2: invalid start byte
+[21/Oct/2015 19:16:24] code 400, message Bad HTTP/0.9 request type ('l\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc6 in position 33: invalid continuation byte
+[21/Oct/2015 19:16:30] code 400, message Bad request syntax ('\x00\x00\x01\x06\xff\xff\xff\xff')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 5: invalid start byte
+[21/Oct/2015 19:16:38] code 400, message Bad HTTP/0.9 request type ('\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 281, in parse_request
+    "Bad HTTP/0.9 request type (%r)" % command)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 29: invalid start byte
+[21/Oct/2015 19:16:47] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[21/Oct/2015 19:16:47] "JRMI K" 400 -
+[21/Oct/2015 19:16:54] code 400, message Bad request version ('>')
+[21/Oct/2015 19:16:54] "< NTP/1.2 >" 400 -
+[21/Oct/2015 19:17:05] code 400, message Bad request syntax ('\x005\x00\x00\x01\x00\x00\x00)\x00\x00\x00SQLDB2RA\x01\x00\x00\x00\x00\x00\x07\x00\x01\x00\x02\x00\x01\x00\x00\x00\x01\x00\x00\x80\x00\x00\x00\x01\x04\x00\x00\x00\x01\x00\x00\x80\x01')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x80 in position 40: invalid start byte
+[21/Oct/2015 19:17:14] code 400, message Bad request syntax (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[21/Oct/2015 19:17:14] ":   /     @  =            /         @                 " 400 -
+[21/Oct/2015 20:26:25] "GET /bbs/ HTTP/1.1" 200 30798
+[21/Oct/2015 20:26:26] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 20:26:26] "GET /static/css/base.css HTTP/1.1" 200 9622
+[21/Oct/2015 20:26:26] "GET /static/css/bbs.css HTTP/1.1" 200 10430
+[21/Oct/2015 20:26:52] "GET /about_us/ HTTP/1.1" 200 17209
+[21/Oct/2015 20:26:52] "GET /static/css/main.css HTTP/1.1" 200 1823
+[21/Oct/2015 20:26:59] "GET /activearea/ HTTP/1.1" 200 15379
+[21/Oct/2015 20:26:59] "GET /static/images/activeimg.jpg HTTP/1.1" 200 194242
+[21/Oct/2015 20:27:08] "GET /activearea/ HTTP/1.1" 200 15379
+[21/Oct/2015 20:27:08] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/css/main.css HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/css/base.css HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/js/yz.js HTTP/1.1" 304 0
+[21/Oct/2015 20:27:08] "GET /static/upload/default.png HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[21/Oct/2015 20:27:09] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[21/Oct/2015 22:52:01] code 400, message Bad request syntax ('\x00')
+[21/Oct/2015 22:52:01] " " 400 -
+[21/Oct/2015 22:52:03] "GET http://httpheader.net HTTP/1.1" 404 1653
+[21/Oct/2015 22:52:27] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc0 in position 5: invalid start byte
+[21/Oct/2015 22:52:46] code 400, message Bad request syntax ('\x05\x01\x00')
+[21/Oct/2015 22:52:46] " " 400 -
+[22/Oct/2015 09:32:01] "GET / HTTP/1.1" 200 16861
+[22/Oct/2015 09:32:02] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:32:02] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:32:02] "GET /static/css/main.css HTTP/1.1" 200 1823
+[22/Oct/2015 09:32:02] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 09:32:02] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[22/Oct/2015 09:32:02] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[22/Oct/2015 09:32:02] "GET /static/images/logo.png HTTP/1.1" 200 13223
+[22/Oct/2015 09:32:02] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[22/Oct/2015 09:32:03] "GET /static/images/search.png HTTP/1.1" 200 1821
+[22/Oct/2015 09:32:03] "GET /static/images/activepic.jpg HTTP/1.1" 200 59833
+[22/Oct/2015 09:32:08] "GET / HTTP/1.1" 200 16848
+[22/Oct/2015 09:32:12] "GET /bbs/ HTTP/1.1" 200 33596
+[22/Oct/2015 09:32:12] "GET /static/css/bbs.css HTTP/1.1" 200 10430
+[22/Oct/2015 09:32:12] "GET /static/images/logo1.png HTTP/1.1" 200 6444
+[22/Oct/2015 09:32:12] "GET /static/upload/default.png HTTP/1.1" 200 6462
+[22/Oct/2015 09:32:13] "GET /static/images/advert.png HTTP/1.1" 200 126575
+[22/Oct/2015 09:32:13] "GET /static/images/u205.png HTTP/1.1" 200 10647
+[22/Oct/2015 09:32:13] "GET /static/images/u207.jpg HTTP/1.1" 200 13761
+[22/Oct/2015 09:32:13] "GET /static/js/search.js HTTP/1.1" 200 324
+[22/Oct/2015 09:32:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[22/Oct/2015 09:32:13] "GET /static/images/u209.png HTTP/1.1" 200 13444
+[22/Oct/2015 09:32:13] "GET /static/images/qqico.png HTTP/1.1" 200 1570
+[22/Oct/2015 09:32:14] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 200 102198
+[22/Oct/2015 09:32:24] "GET /bbs/topic/21/ HTTP/1.1" 200 30509
+[22/Oct/2015 09:32:24] "GET /static/upload/photo2.png HTTP/1.1" 200 31029
+[22/Oct/2015 09:32:24] "GET /static/upload/photo1.png HTTP/1.1" 200 24595
+[22/Oct/2015 09:32:24] "GET /static/emoji/img/%2B1.png HTTP/1.1" 200 5135
+[22/Oct/2015 09:32:24] "GET /static/emoji/img/grin.png HTTP/1.1" 200 5721
+[22/Oct/2015 09:32:24] "GET /static/emoji/img/heart_eyes.png HTTP/1.1" 200 5758
+[22/Oct/2015 09:32:24] "GET /static/js/mention.js HTTP/1.1" 200 222
+[22/Oct/2015 09:32:24] "GET /static/js/previewer.js HTTP/1.1" 200 1593
+[22/Oct/2015 09:32:35] "GET /contact_us/ HTTP/1.1" 200 20577
+[22/Oct/2015 09:32:35] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 200 82
+[22/Oct/2015 09:32:35] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 200 2706
+[22/Oct/2015 09:32:35] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 200 288
+[22/Oct/2015 09:32:36] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 200 44
+[22/Oct/2015 09:32:36] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 200 157
+[22/Oct/2015 09:32:36] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 200 65
+[22/Oct/2015 09:32:36] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 200 46
+[22/Oct/2015 09:32:37] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:32:38] "GET /static/images/activeimg.jpg HTTP/1.1" 200 194242
+[22/Oct/2015 09:33:31] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:33:31] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:33:31] "GET /static/images/search.png HTTP/1.1" 304 0
+[22/Oct/2015 09:34:12] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:34:13] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[22/Oct/2015 09:34:14] "GET /static/css/main.css HTTP/1.1" 200 1823
+[22/Oct/2015 09:34:14] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:34:14] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[22/Oct/2015 09:34:14] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[22/Oct/2015 09:34:14] "GET /static/images/logo1.png HTTP/1.1" 200 6444
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 200 2706
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 200 44
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 200 288
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 200 46
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 200 65
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 200 157
+[22/Oct/2015 09:34:14] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 200 82
+[22/Oct/2015 09:34:14] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[22/Oct/2015 09:34:14] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[22/Oct/2015 09:34:14] "GET /static/images/search.png HTTP/1.1" 200 1821
+[22/Oct/2015 09:34:15] "GET /static/images/activeimg.jpg HTTP/1.1" 200 194242
+[22/Oct/2015 09:34:39] "GET / HTTP/1.1" 200 16835
+[22/Oct/2015 09:34:44] "GET /contact_us/ HTTP/1.1" 200 20577
+[22/Oct/2015 09:34:44] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:44] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:44] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:44] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:44] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:46] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:34:46] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:46] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:46] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:46] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:34:46] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:46] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:36:47] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/search.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:36:47] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:36:48] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/search.png HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:36:48] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:37:01] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:37:01] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 200 2706
+[22/Oct/2015 09:37:01] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 200 288
+[22/Oct/2015 09:37:01] "GET /static/css/main.css HTTP/1.1" 200 1823
+[22/Oct/2015 09:37:01] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:37:01] "GET /static/images/logo1.png HTTP/1.1" 200 6444
+[22/Oct/2015 09:37:01] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[22/Oct/2015 09:37:01] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[22/Oct/2015 09:37:01] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 200 82
+[22/Oct/2015 09:37:02] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[22/Oct/2015 09:37:02] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[22/Oct/2015 09:37:03] "GET /static/images/activeimg.jpg HTTP/1.1" 200 194242
+[22/Oct/2015 09:37:03] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[22/Oct/2015 09:37:04] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:37:04] "GET /static/css/main.css HTTP/1.1" 200 1823
+[22/Oct/2015 09:37:05] "GET /static/images/logo1.png HTTP/1.1" 200 6444
+[22/Oct/2015 09:37:05] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:37:05] "GET /static/images/logo_red.png HTTP/1.1" 200 18868
+[22/Oct/2015 09:37:05] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[22/Oct/2015 09:37:05] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 200 2706
+[22/Oct/2015 09:37:05] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 200 82
+[22/Oct/2015 09:37:05] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 200 288
+[22/Oct/2015 09:37:05] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 200 26162
+[22/Oct/2015 09:37:05] "GET /static/images/qrcode_2.jpg HTTP/1.1" 200 17493
+[22/Oct/2015 09:37:06] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[22/Oct/2015 09:37:06] "GET /static/images/activeimg.jpg HTTP/1.1" 200 194242
+[22/Oct/2015 09:37:08] "GET /static/images/search.png HTTP/1.1" 200 1821
+[22/Oct/2015 09:37:08] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 200 46
+[22/Oct/2015 09:37:08] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 200 157
+[22/Oct/2015 09:37:08] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 200 44
+[22/Oct/2015 09:37:08] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 200 65
+[22/Oct/2015 09:37:17] "GET / HTTP/1.1" 200 16857
+[22/Oct/2015 09:39:15] "GET /about_us/ HTTP/1.1" 200 21143
+[22/Oct/2015 09:39:15] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:15] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:15] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:15] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:15] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:15] "GET /static/images/contact_about/nr_04.gif HTTP/1.1" 200 477
+[22/Oct/2015 09:39:16] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 09:39:17] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:17] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:17] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:17] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:39:17] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 09:42:49] "GET /bbs/topic/21/ HTTP/1.1" 200 30509
+[22/Oct/2015 09:43:24] "GET /bbs/topic/21/ HTTP/1.1" 200 30509
+[22/Oct/2015 09:43:25] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:43:25] "GET /static/css/bbs.css HTTP/1.1" 200 10430
+[22/Oct/2015 09:43:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[22/Oct/2015 09:43:25] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[22/Oct/2015 09:43:25] "GET /static/js/search.js HTTP/1.1" 200 324
+[22/Oct/2015 09:43:25] "GET /static/js/previewer.js HTTP/1.1" 200 1593
+[22/Oct/2015 09:43:25] "GET /static/js/mention.js HTTP/1.1" 200 222
+[22/Oct/2015 09:43:25] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[22/Oct/2015 09:43:54] "GET /bbs/topic/21 HTTP/1.1" 301 0
+[22/Oct/2015 09:43:56] "GET /bbs/topic/21/ HTTP/1.1" 200 30509
+[22/Oct/2015 09:43:56] "GET /static/css/bbs.css HTTP/1.1" 200 10430
+[22/Oct/2015 09:43:56] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:43:56] "GET /static/js/yz.js HTTP/1.1" 200 41485
+[22/Oct/2015 09:43:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 29110
+[22/Oct/2015 09:43:56] "GET /static/js/search.js HTTP/1.1" 200 324
+[22/Oct/2015 09:43:56] "GET /static/js/jquery.min.js HTTP/1.1" 200 135982
+[22/Oct/2015 09:43:57] "GET /static/js/previewer.js HTTP/1.1" 200 1593
+[22/Oct/2015 09:43:57] "GET /static/js/mention.js HTTP/1.1" 200 222
+[22/Oct/2015 09:48:00] "GET / HTTP/1.1" 200 16842
+[22/Oct/2015 09:48:00] "GET /static/css/base.css HTTP/1.1" 200 9622
+[22/Oct/2015 09:48:00] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 09:48:00] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:48:06] "GET /m/login HTTP/1.1" 301 0
+[22/Oct/2015 09:48:06] "GET /m/login/ HTTP/1.1" 200 6499
+[22/Oct/2015 09:48:07] "GET /static/css/mlogin.css HTTP/1.1" 304 0
+[22/Oct/2015 09:48:07] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:48:07] "GET /getverifycode/ HTTP/1.1" 200 2128
+[22/Oct/2015 09:48:07] "GET /static/css/header_m.css HTTP/1.1" 304 0
+[22/Oct/2015 09:48:14] "GET /m/login HTTP/1.1" 301 0
+[22/Oct/2015 09:48:14] "GET /m/login/ HTTP/1.1" 200 6499
+[22/Oct/2015 09:48:14] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:48:14] "GET /getverifycode/ HTTP/1.1" 200 2150
+[22/Oct/2015 09:48:18] "GET /m/detail_search/ HTTP/1.1" 200 11130
+[22/Oct/2015 09:48:18] "GET /static/css/search_listresult_m.css HTTP/1.1" 304 0
+[22/Oct/2015 09:48:23] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:48:28] "GET / HTTP/1.1" 200 16850
+[22/Oct/2015 09:48:28] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 09:48:28] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 09:48:28] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:49:06] "GET /about_us/ HTTP/1.1" 200 21143
+[22/Oct/2015 09:49:18] "GET /myfavorite/4/ HTTP/1.1" 302 0
+[22/Oct/2015 09:49:18] "GET /login?next=/myfavorite/4/ HTTP/1.1" 301 0
+[22/Oct/2015 09:49:18] "GET /login/?next=/myfavorite/4/ HTTP/1.1" 200 20169
+[22/Oct/2015 09:49:18] "GET /static/css/login.css HTTP/1.1" 304 0
+[22/Oct/2015 09:49:19] "GET /getverifycode/ HTTP/1.1" 200 2127
+[22/Oct/2015 09:49:26] "POST /checkvcode/ HTTP/1.1" 200 26
+[22/Oct/2015 09:49:26] "POST /checkuser/ HTTP/1.1" 200 26
+[22/Oct/2015 09:49:27] "POST /login/ HTTP/1.1" 302 0
+[22/Oct/2015 09:49:27] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[22/Oct/2015 09:49:31] "GET /login/?next=/myfavorite/4/ HTTP/1.1" 200 16235
+[22/Oct/2015 09:49:31] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/css/login.css HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/images/smalllogo.png HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:49:31] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:49:32] "GET /static/images/open.png HTTP/1.1" 304 0
+[22/Oct/2015 09:49:32] "GET /getverifycode/ HTTP/1.1" 200 2144
+[22/Oct/2015 09:49:36] "GET / HTTP/1.1" 200 13349
+[22/Oct/2015 09:49:40] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[22/Oct/2015 09:49:40] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 09:50:04] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 09:50:10] "GET /myfavorite/5/ HTTP/1.1" 200 13439
+[22/Oct/2015 09:50:13] "GET /save_filter/ HTTP/1.1" 200 29264
+[22/Oct/2015 09:50:13] "GET /static/css/search_result.css HTTP/1.1" 304 0
+[22/Oct/2015 09:50:16] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[22/Oct/2015 09:50:50] "GET /save_filter/ HTTP/1.1" 200 29264
+[22/Oct/2015 09:50:58] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 09:52:11] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 09:52:11] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/css/jquery-ui.css HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:52:11] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 09:54:35] "GET /m/detail_search/ HTTP/1.1" 200 11130
+[22/Oct/2015 09:54:39] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:54:42] "GET /m/detail_search/ HTTP/1.1" 200 11130
+[22/Oct/2015 09:54:44] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:57:28] "GET /m/detail_search/ HTTP/1.1" 200 11182
+[22/Oct/2015 09:57:28] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:57:30] "GET /m/detail_search/ HTTP/1.1" 200 11182
+[22/Oct/2015 09:57:30] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:58:43] "GET /m/detail_search/ HTTP/1.1" 200 11169
+[22/Oct/2015 09:58:43] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:58:49] "GET /m/detail_search/ HTTP/1.1" 200 11169
+[22/Oct/2015 09:58:49] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 09:59:33] "GET /m/detail_search/ HTTP/1.1" 200 11168
+[22/Oct/2015 09:59:33] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:00:18] "GET /m/detail_search/ HTTP/1.1" 200 11195
+[22/Oct/2015 10:00:18] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:00:53] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 10:00:53] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/css/jquery-ui.css HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:00:53] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:01:03] "GET /m/detail_search/ HTTP/1.1" 200 11195
+[22/Oct/2015 10:01:03] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:01:19] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 10:01:19] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:01:19] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 10:01:19] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/search.png HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:01:20] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 10:02:15] "GET /static/css/user.css HTTP/1.1" 200 6975
+[22/Oct/2015 10:02:15] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/css/jquery-ui.css HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:02:15] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 10:02:19] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/css/jquery-ui.css HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:02:19] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 10:04:20] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/css/user.css HTTP/1.1" 200 6988
+[22/Oct/2015 10:04:20] "GET /static/css/jquery-ui.css HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:04:20] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:04:33] "GET /save_filter/ HTTP/1.1" 200 29264
+[22/Oct/2015 10:04:34] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:09:00] "GET / HTTP/1.1" 200 16855
+[22/Oct/2015 10:13:36] "GET /save_filter/ HTTP/1.1" 200 29264
+[22/Oct/2015 10:13:36] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/css/user.css HTTP/1.1" 200 6923
+[22/Oct/2015 10:13:36] "GET /static/css/search_result.css HTTP/1.1" 200 4573
+[22/Oct/2015 10:13:36] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:13:36] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:13:52] "GET /myfavorite/5/ HTTP/1.1" 200 13439
+[22/Oct/2015 10:13:52] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:13:55] "GET /user_updatepwd/ HTTP/1.1" 200 17770
+[22/Oct/2015 10:13:55] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:13:55] "GET /safecenter/ HTTP/1.1" 200 2212
+[22/Oct/2015 10:13:57] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[22/Oct/2015 10:13:59] "GET /myfavorite/5/ HTTP/1.1" 200 13439
+[22/Oct/2015 10:13:59] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:14:01] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 10:14:04] "GET /user_updatepwd/ HTTP/1.1" 200 17770
+[22/Oct/2015 10:14:04] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:14:04] "GET /safecenter/ HTTP/1.1" 200 2212
+[22/Oct/2015 10:14:17] "GET /userinformation/ HTTP/1.1" 200 17310
+[22/Oct/2015 10:14:17] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /activearea/ HTTP/1.1" 200 19313
+[22/Oct/2015 10:19:58] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/css/main.css HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_08.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/activeimg.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_03.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_06.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_02.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_01bai.png HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_07.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/contact_about/nr_05.gif HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/search.png HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:19:58] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:21:27] "GET /m/detail_search/ HTTP/1.1" 200 11223
+[22/Oct/2015 10:21:27] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:22:49] "GET /m/detail_search/ HTTP/1.1" 200 11213
+[22/Oct/2015 10:22:49] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:32:21] "GET /save_filter/ HTTP/1.1" 200 29264
+[22/Oct/2015 10:32:21] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:32:21] "GET /static/css/search_result.css HTTP/1.1" 304 0
+[22/Oct/2015 10:36:21] "GET /myfavorite/4/ HTTP/1.1" 200 13439
+[22/Oct/2015 10:36:21] "GET /static/css/user.css HTTP/1.1" 304 0
+[22/Oct/2015 10:36:32] "GET /myfavorite/5/ HTTP/1.1" 200 13439
+[22/Oct/2015 10:36:34] "GET /user_updatepwd/ HTTP/1.1" 200 17770
+[22/Oct/2015 10:36:34] "GET /safecenter/ HTTP/1.1" 200 2212
+[22/Oct/2015 10:36:51] "GET /m/detail_search/ HTTP/1.1" 200 11213
+[22/Oct/2015 10:36:51] "GET /static/js/public.js HTTP/1.1" 304 0
+[22/Oct/2015 10:36:51] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:36:51] "GET /static/css/search_listresult_m.css HTTP/1.1" 304 0
+[22/Oct/2015 10:36:51] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:37:01] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 10:37:01] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[22/Oct/2015 10:49:51] "GET /m/detail_search/ HTTP/1.1" 200 11076
+[22/Oct/2015 10:49:52] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:50:36] "GET /m/detail_search/ HTTP/1.1" 200 11071
+[22/Oct/2015 10:50:36] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:52:39] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 10:52:39] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/css/bbs.css HTTP/1.1" 200 10631
+[22/Oct/2015 10:52:39] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/js/search.js HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/advert.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/u205.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/u209.png HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:52:39] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:53:09] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 10:53:09] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:53:09] "GET /static/css/bbs.css HTTP/1.1" 200 10670
+[22/Oct/2015 10:53:09] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:53:09] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:53:09] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/js/search.js HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/advert.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/u205.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/u209.png HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:53:10] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:56:06] "GET /m/detail_search/ HTTP/1.1" 200 11058
+[22/Oct/2015 10:56:06] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:56:57] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 10:56:57] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/css/bbs.css HTTP/1.1" 200 10649
+[22/Oct/2015 10:56:57] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/js/search.js HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/advert.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/u205.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/u209.png HTTP/1.1" 304 0
+[22/Oct/2015 10:56:57] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:56:58] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:56:58] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 10:57:01] "GET /m/detail_search/ HTTP/1.1" 200 11052
+[22/Oct/2015 10:57:01] "GET /m/search/ HTTP/1.1" 200 1523
+[22/Oct/2015 10:57:08] "POST /m/search_listresult/ HTTP/1.1" 200 7015
+[22/Oct/2015 10:57:08] "GET /static/css/search_result.css HTTP/1.1" 200 4573
+[22/Oct/2015 10:57:14] "GET /m/search_listresult/?page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7122
+Validating models...
+
+0 errors found
+October 21, 2015 - 17:42:45
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+page isxxxxxxxxxxxxx 1
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 43025)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 47323)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 59196)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 36367)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 49740)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 32792)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 38566)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 44361)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 50116)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 53801)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.24.54.198', 42868)
+----------------------------------------
+0
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.24', 40732)
+----------------------------------------
+0
+this is test
+this is test
+checkuser
+xxxxxxxxxxx
+_code <type 'unicode'> 6146
+True
+a is: 1
+safecenter
+safecenter
+safecenter
+0
+0
+0
+0
+results is : <Page 1 of 11> 11 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 77, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 77>}
+index2 <Page 2 of 77> 77 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 77, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionCho[22/Oct/2015 10:57:19] "GET /m/search_listresult/?page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7122
+[22/Oct/2015 10:57:23] "GET /m/search_listresult/?page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7122
+[22/Oct/2015 10:57:27] "GET /m/search_listresult/?page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7122
+[22/Oct/2015 10:57:30] "GET /m/search_listresult/?page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7122
+[22/Oct/2015 11:00:29] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 11:00:29] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/css/bbs.css HTTP/1.1" 200 10667
+[22/Oct/2015 11:00:29] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/js/search.js HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/advert.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/search.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/u205.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/u209.png HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:00:29] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+ice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 77>}
+index2 <Page 2 of 77> 77 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 77, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 77>}
+index2 <Page 2 of 77> 77 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 77, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 77>}
+index2 <Page 2 of 77> 77 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 77, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 77>}
+index2 <Page 2 of 77> 77 [1, 2, 3, 4, 5]
+0
+[22/Oct/2015 11:05:57] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 11:05:57] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/css/bbs.css HTTP/1.1" 200 10645
+[22/Oct/2015 11:05:57] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/js/search.js HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/advert.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/u205.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/u209.png HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:05:57] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:06:56] "GET /m/search_listresult/ HTTP/1.1" 200 7038
+[22/Oct/2015 11:06:56] "GET /static/css/search_result.css HTTP/1.1" 304 0
+[22/Oct/2015 11:07:14] "POST /m/search_listresult/ HTTP/1.1" 200 7060
+[22/Oct/2015 11:07:16] "GET /bbs/node/2/create/ HTTP/1.1" 200 33583
+[22/Oct/2015 11:07:16] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[22/Oct/2015 11:07:17] "GET /getverifycode/ HTTP/1.1" 200 2103
+[22/Oct/2015 11:07:32] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 11:07:32] "GET /static/css/bbs.css HTTP/1.1" 304 0
+[22/Oct/2015 11:07:37] "GET /bbs/topic/21/ HTTP/1.1" 200 45471
+[22/Oct/2015 11:07:37] "GET /getverifycode/ HTTP/1.1" 200 2137
+[22/Oct/2015 11:09:25] "GET /bbs/topic/21/ HTTP/1.1" 200 45471
+[22/Oct/2015 11:09:25] "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/css/bbs.css HTTP/1.1" 200 10808
+[22/Oct/2015 11:09:25] "GET /static/js/yz.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/css/base.css HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/js/emoji.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/js/search.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/js/previewer.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/js/mention.js HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/images/logo_red.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/upload/default.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/images/logo1.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/images/advert.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/upload/photo2.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/grin.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/heart_eyes.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/%2B1.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/upload/photo1.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/grinning.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/cat.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/-1.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/8ball.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/100.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/airplane.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/ambulance.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_down.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_left.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_lower_left.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_lower_right.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_right.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_up.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_upper_right.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/alien.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/arrow_upper_left.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/angel.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/anger.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/angry.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/anguished.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/astonished.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/baby.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/blush.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/bowtie.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/cold_sweat.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/confounded.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/confused.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/cry.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:25] "GET /static/emoji/img/disappointed.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/disappointed_relieved.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/dizzy_face.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/expressionless.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/fearful.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/flushed.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/frowning.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/full_moon_with_face.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/hushed.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/grimacing.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/joy.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/innocent.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/imp.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/kissing.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/kissing_closed_eyes.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/laughing.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/kissing_heart.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/mask.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/no_mouth.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/open_mouth.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/pensive.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/persevere.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/relaxed.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/relieved.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/scream.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/sleepy.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/sleeping.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/smirk.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/stuck_out_tongue_closed_eyes.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/sunglasses.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/sob.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/tired_face.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/triumph.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/yum.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/hear_no_evil.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/worried.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/dog.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/bear.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/monkey_face.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/monkey.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/see_no_evil.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/bento.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/speak_no_evil.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/beer.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/clap.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/bullettrain_side.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/dancers.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/congratulations.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/fist.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/heart.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/kiss.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/metal.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/icecream.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/key.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/microphone.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/musical_note.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/muscle.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/new.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/ok_hand.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/no_good.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/open_hands.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/pig.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/point_left.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/point_down.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/point_right.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/point_up.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/pray.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/raising_hand.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/point_up_2.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/rocket.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/smoking.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/sos.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/emoji/img/snowman.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/bbsrightpic.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/qqico.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/u205.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/u209.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/ddbid_8cm.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/u207.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/back_top.png HTTP/1.1" 304 0
+[22/Oct/2015 11:09:26] "GET /static/images/qrcode_2.jpg HTTP/1.1" 304 0
+[22/Oct/2015 11:09:27] "GET /getverifycode/ HTTP/1.1" 200 1965
+[22/Oct/2015 11:09:31] "GET /m/search_listresult/ HTTP/1.1" 200 6998
+[22/Oct/2015 11:09:37] "GET /m/search_listresult/?page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7143
+Validating models...
+
+0 errors found
+October 22, 2015 - 11:04:45
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+0
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 77, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 1 of 77>}
+index2 <Page 1 of 77> 77 [1, 2, 3, 4, 5]
+results is : <Page 1 of 11> 11 [1, 2, 3, 4, 5]
+0
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 1 of 79>}
+index2 <Page 1 of 79> 79 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 79>}
+index2 <Page 2 of 79> 79 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <D[22/Oct/2015 11:10:00] "GET /m/search_listresult/ HTTP/1.1" 200 7000
+[22/Oct/2015 11:10:12] "POST /m/search_listresult/ HTTP/1.1" 200 7072
+[22/Oct/2015 11:10:19] "GET /m/search_listresult/?params%5B%5D=3&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=35&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7145
+[22/Oct/2015 11:10:24] "GET /m/search_listresult/?params%5B%5D=3&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=35&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7145
+[22/Oct/2015 11:10:29] "GET /m/search_listresult/?params%5B%5D=3&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=35&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7145
+imensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 1 of 79>}
+index2 <Page 1 of 79> 79 [1, 2, 3, 4, 5]
+results is : <Page 1 of 12> 12 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 79>}
+index2 <Page 2 of 79> 79 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 79>}
+index2 <Page 2 of 79> 79 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, '...(remaining elements truncated)...'], 'results': <Page 2 of 79>}
+index2 <Page 2 of 79> 79 [1, 2, 3, 4, 5]
+page isxxxxxxxxxxxxx {'c_result': [None, None, None], 'last_page': 79, 'page_set': [1, 2, 3, 4, 5], 'dimensions': [<DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice: DimensionChoice object>, <DimensionChoice[22/Oct/2015 11:10:41] "GET /m/search_listresult/?params%5B%5D=3&params%5B%5D=7&params%5B%5D=13&params%5B%5D=16&params%5B%5D=22&params%5B%5D=28&params%5B%5D=35&page=2&sorttype=0&sortorder=0 HTTP/1.1" 200 7145
+[22/Oct/2015 11:10:46] "GET /bbs/ HTTP/1.1" 200 30805
+[22/Oct/2015 11:10:57] "GET /about_us/ HTTP/1.1" 200 17209
