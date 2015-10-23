@@ -4,7 +4,8 @@
 .search_result_box{padding:0 20px; border-radius:5px;background:#FFFFFF;}
 .search_list{ padding:5px 0; line-height:30px;}
 .search_list h3{text-align:left; font-size:14px;}
-.search_term{ font-size:14px;width: 545px;float:right;}
+.search_term{ font-size:14px;width: 545px;padding-left: 20px;}
+.search_term1{ font-size:14px;padding-right: 10px;width:580px;float:right;}
 .search_term .search_txt{ width:80px; padding:0 5px; height:20px; line-height:20px; color:#999; margin-right:5px;}
 .search_term  span{ display:block; float:left; margin-right:10px; height:30px; line-height:30px;}
 .search_term  .search_checkbox{ margin-right:5px;}
@@ -88,5 +89,5 @@ a.btn_blue_ {
 }
 
 .choices a {
-    margin-right: 15px;
+    margin-right:20px;
 }

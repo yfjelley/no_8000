@@ -252,7 +252,6 @@ def checkuser(request):
 
 def checkuser_phone(request):
         response = HttpResponse()
-
         response['Content-Type'] = "text/javascript"
         u_ajax = request.POST.get('name', None)
         if u_ajax:
@@ -284,7 +283,6 @@ def register(request):
                 response.write('{"info": "用户可以使用","status": "y"}')
                 return response
         form = RegisterForm(request.POST)
-
 
         if form.is_valid():
             cd = form.cleaned_data
@@ -986,6 +984,7 @@ def search_listresult(request):
         sorttype = request.POST.get('sorttype', None)
         sortorder = request.POST.get('sortorder', None)
         amount = request.POST.get('amount', None)
+        print a,sortorder,sorttype,amount
         if amount:
             results = Bid.objects.filter(amount__gte=amount).order_by("random_rank")
         else:
@@ -995,8 +994,9 @@ def search_listresult(request):
         if sorttype is not None and sortorder is not None:
             results = result_sort(results, sorttype, sortorder)
         ppp = Paginator(results, 3)
+
         try:
-            page = int(request.GET.get('page', '1'))
+            page = int(request.POST.get('page', '1'))
         except ValueError:
             page = 1
         try:
@@ -1011,7 +1011,7 @@ def search_listresult(request):
 
     else:
         try:
-            page = int(request.GET.get('page', '1'))
+            page = int(request.POST.get('page', '1'))
         except ValueError:
             page = 1
         index_parts = index_loading_m(0, None, page)

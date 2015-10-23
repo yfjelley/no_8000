@@ -56,13 +56,13 @@
                     <li style="clear:both"></li>
                     <li>
                         <div class="showDetailInfo">
-                            <a href="#" onClick="ShowMore()">∨</a>
+                            <a href="javascript:void(0)" onClick="ShowMore()">∨</a>
                         </div>
                         <div class="search_outside">
-                            <a href="#" style="position:absolute;left: 1rem;top: 7.3rem;" onClick="CancelMore()">∧</a>
+                            <a href="javascript:void(0)" style="position:absolute;left: 1rem;top: 7.3rem;" onClick="CancelMore()">∧</a>
                         </div>
                     </li>
-                    <div>
+                    <div id="onlinepic">
                         <li>
                             <div
                                 style="width: 4.5rem;height: 0.02rem;background:#999999;margin: 0.4rem 0 0.4rem -1.6rem;"></div>
@@ -124,13 +124,13 @@
                         <li class="type_div">
                             <select id="typechoose" class="get-typetxt">
                                 <option choiceid="28">不限</option>
-                                <option choiceid="28">车贷</option>
-                                <option choiceid="29">房贷</option>
-                                <option choiceid="30">个人信用贷</option>
-                                <option choiceid="31">企业贷</option>
-                                <option choiceid="32">债券流转</option>
-                                <option choiceid="33">个人资产管理</option>
-                                <option choiceid="34">平台产品</option>
+                                <option choiceid="29">车贷</option>
+                                <option choiceid="30">房贷</option>
+                                <option choiceid="31">个人信用贷</option>
+                                <option choiceid="32">企业贷</option>
+                                <option choiceid="33">债券流转</option>
+                                <option choiceid="34">个人资产管理</option>
+                                <option choiceid="35">平台产品</option>
                             </select>
                         </li>
                         <li style="clear:both"></li>
@@ -143,7 +143,7 @@
                         </li>
                         <li class="comptype_div">
                             <select id="compchoose" class="get-comptxt">
-                                <option choiceid="35">不限</option>
+                                <option choiceid="36">不限</option>
                                 <option choiceid="38">PE/VC系</option>
                                 <option choiceid="39">国资国企系</option>
                                 <option choiceid="40">民营系</option>
@@ -180,6 +180,9 @@
     });
 </script>
 <script>
+    $(function(){
+        $('#onlinepic').hide();
+    })
     function ShowMore() {
 //        var c = $('#check_log').text();
 //
@@ -188,11 +191,13 @@
 //            location.href = "/login/"
 //        }
 //        else {
+        $('#onlinepic').show();
         $('.search_outside').show();
         $('.showDetailInfo').hide();
 //        }
     }
     function CancelMore() {
+        $('#onlinepic').hide();
         $('.search_outside').hide();
         $('.showDetailInfo').show();
     }

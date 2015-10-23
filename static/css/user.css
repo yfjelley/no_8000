@@ -1,15 +1,12 @@
 ﻿.user,.user_conter,.user_box,.user_list,.user_detail,.user_detail dd,.user_detail p{ overflow:hidden;}
-
-
-
-.user_left{ width:100px;}
+.user_left{width: 140px;}
 .user_box{ border:2px solid #ddd; border-radius:5px;}
 .user_list{ padding:20px 0;}
 .user_list li{ height:30px; line-height:30px;}
 .user_list li a{ font-size:14px; font-weight:bold;text-align: center;height:30px; line-height:30px; display:block;}
 .user_list li a.active,.user_list li a:hover{ background:#ffb2b2; color:#c95124;}
-.user_right{height:100%;margin-bottom:35px;width: 639px;}
-.user_message{ padding-top:10px;margin: 0px auto;width: 500px;}
+.user_right{height:100%;margin-bottom:35px;width: 700px;}
+.user_message{ padding-top:10px;margin: 0px auto;width: 550px;}
 .user_title{ font-size:18px; font-weight:bold; margin-bottom:20px;margin-left: 25px;}
 .user_detail dt{ float:left;}
 .user_detail dt{ width:150px; }

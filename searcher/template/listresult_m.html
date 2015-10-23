@@ -70,10 +70,17 @@
 
         {% if not results.has_next and results.has_previous %}
             &nbsp;<a href="javascript:void(0)" class="seach_cheekk1"
-               onclick="takepage({{ results.next_page_number }})">上一页</a>
+               onclick="takepage({{ results.previous_page_number }})">上一页</a>
         {% endif %}
 
 </div>
+<form id="formid" action="/m/search_listresult/" method="post">
+    <input id="params" name="params" value="" type="text"  style="display:none;"/>
+    <input id="amount" name="amount" value="" type="text"  style="display:none;"/>
+    <input id="page"  name="page" value="" type="text"  style="display:none;"/>
+    <input id="sorttype" name="sorttype" value="" type="text"  style="display:none;"/>
+    <input id="sortorder" name="sortorder" value="" type="text"  style="display:none;"/>
+</form>
 </body>
 <script>
     $(".rm a").on("click", function () {
@@ -114,23 +121,21 @@
 </script>
 
 
-<script type="text/javascript">
 
+<script type="text/javascript">
         function takepage(n) {
-            alert({{results.next_page_number}});
-            alert([{{params}}]);
             checkparam(n);
         }
 
         function getElementsByClassName(n,m) {
-        var el = [],
-                _el = document.getElementsByTagName('*');
-        for (var i = 0; i < _el.length; i++) {
-            if (_el[i].className == n) {
-                el[el.length] = _el[i].getAttribute(m);
+            var el = [],
+                _el = document.getElementsByTagName('option');
+            for (var i = 0; i < _el.length; i++) {
+                if(_el[i].id==n){
+                    el[el.length] = _el[i].getAttribute(m);
+                }
             }
-        }
-        return el;
+            return el;
         }
 
         function checkparam(page) {
@@ -149,18 +154,14 @@
                 sortorder = 2;
                 sorttype = bbb[0];
             }
-        $.get("{% url 'search_listresult_m' %}",
-                {
-                    params: [{{params}}],
-                    amount: amount,
-                    page: page,
-                    sorttype: sorttype,
-                    sortorder: sortorder
-                },
-                function (data) {
-                    $('#result_form').html(data.content_html);
-                }
-        );
+
+           document.getElementById("params").value= {{params}};
+           document.getElementById("amount").value= "";
+           document.getElementById("page").value= page;
+           document.getElementById("sorttype").value= sorttype;
+           document.getElementById("sortorder").value= sortorder;
+
+           $("#formid").submit();
 
         }
 </script>

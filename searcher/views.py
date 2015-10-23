@@ -728,7 +728,7 @@ def user_updatepwd(request):
     form = ModfiyPWForm()
     return render_to_response('user_updatepwd.html',{'form':form}, context_instance=RequestContext(request))
 
-import urllib2, urllib, hashlib, random
+import urllib2, urllib, hashlib, random, re
 def send_smscode(request):
     phoneNum = request.POST.get('phoneNum', '')
     p=re.compile('^1200[0-9]{7}$')

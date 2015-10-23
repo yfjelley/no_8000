@@ -22,7 +22,24 @@
 </head>
 
 <body>
-{% include "header.html" %}
+<div id="header">
+    <div class="top">
+        <ul class="nav">
+        	<li style="margin-top:10px;"><img src="/static/images/logo_red.png" width="250" height="50"/></li>
+            <li><a href="{% url 'searchindex' %}">首页</a></li>
+            <!--<li><a href="{% url 'do_reminder' %}">提醒</a></li>-->
+            <li><a href="{% url 'myfavorite' 4 %}">收藏</a></li>
+            <li><a href="{% url 'bbsindex' %}">社区</a></li>
+        </ul>
+      
+        <ul id="login_header">
+        	<li><a class="#" href="{% url 'login' %}">登录</a>
+			<li>/</li>
+            <li><a class="register_li" href="{% url 'register' %}">注册</a>
+        </ul>
+      
+    </div>
+</div>
 <div style="height:50px; background:#EEEEF0;"></div>
 <div id="login_content">
     <div class="login_mid">  
